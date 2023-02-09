@@ -258,7 +258,7 @@
 			tasks: [{
 				id: "1A3AEEE0A82E3188"
 				type: "checkmark"
-				title: "New dimensions!"
+				title: "新維度！"
 			}]
 			rewards: [{
 				id: "59B1B5BF66E28F2F"
@@ -1357,7 +1357,7 @@
 			tasks: [{
 				id: "26DAF84205172A75"
 				type: "checkmark"
-				title: "Fishing"
+				title: "釣魚"
 			}]
 			rewards: [{
 				id: "1C1A31BE2C5DDBD2"
