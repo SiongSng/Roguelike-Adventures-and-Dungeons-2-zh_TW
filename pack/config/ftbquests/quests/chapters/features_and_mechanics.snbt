@@ -3,7 +3,7 @@
 	group: ""
 	order_index: 0
 	filename: "features_and_mechanics"
-	title: "機制與功能"
+	title: "機制與特性"
 	icon: {
 		id: "losttrinkets:book_o_enchanting"
 		Count: 1b
@@ -59,7 +59,7 @@
 			height: 1.0d
 			rotation: 0.0d
 			image: "rad2:textures/misc/qb_dif_mech.png"
-			hover: [ ]
+			hover: ["難度機制"]
 			click: ""
 			dev: false
 			corner: false
@@ -109,7 +109,7 @@
 			tasks: [{
 				id: "6FCE6B669DDF6914"
 				type: "checkmark"
-				title: "新機制與功能"
+				title: "新機制與特性"
 			}]
 			rewards: [{
 				id: "53256419445952A3"
@@ -210,7 +210,7 @@
 			y: -2.0d
 			description: [
 				"血月："
-				"血月是一個月相事件，它提高了怪物的生成的上限，同時也讓你沒辦法睡覺，血月的機制是受到 Terraria 的血月中出現的怪物生成率增加的啟發。"
+				"血月是一個月相事件，它提高了怪物的生成的上限，同時也讓您沒辦法睡覺，血月的機制是受到 Terraria 的血月中出現的怪物生成率增加的啟發。"
 				""
 				"豐收之月:"
 				"The harvest moon is a lunar which cranks up both the crop growth rate and crop drop rate!"
@@ -311,7 +311,7 @@
 			]
 		}
 		{
-			title: "New Enchantment system by Apotheosis"
+			title: "Apotheosis 的新附魔"
 			icon: {
 				id: "minecraft:enchanted_book"
 				Count: 1b
@@ -342,7 +342,7 @@
 			tasks: [{
 				id: "07F42EA7E8CC38A5"
 				type: "checkmark"
-				title: "New Enchanting mechanics"
+				title: "新的附魔機制"
 			}]
 			rewards: [{
 				id: "25FD19220EA221C0"
@@ -363,7 +363,7 @@
 			tasks: [{
 				id: "3E8E9CE8F8302CF2"
 				type: "checkmark"
-				title: "New structures!"
+				title: "新的結構！"
 			}]
 			rewards: [{
 				id: "1387A24745731B2C"
@@ -384,7 +384,7 @@
 			x: 0.0d
 			y: -2.0d
 			description: [
-				"Each animal and human being can now bleed. This is an effect that deals damage similar to poison and can be removed using a new item: Bandages. The chance of bleeding is lower the more pieces of armor you have."
+				"現在每個動物與人都會流血。這是一種類似中毒的藥水效果，可以使用一個新物品：「繃帶」，來解除這種效果。您穿著的裝備越多，流血的機率就越低。"
 				""
 				"Bleeding is caused by many different sources such as receiving sword damage, being bitten by a spider, or by touching a cactus..."
 				""
@@ -395,7 +395,7 @@
 			tasks: [{
 				id: "344ADACFCEB0D8A7"
 				type: "checkmark"
-				title: "Bleeding"
+				title: "流血"
 			}]
 			rewards: [{
 				id: "0721D0DFC9A4BC06"
@@ -472,7 +472,7 @@
 			tasks: [{
 				id: "6C079A785E1D9855"
 				type: "checkmark"
-				title: "Progressive Bosses"
+				title: "漸進式 Boss"
 				icon: "productivebees:upgrade_productivity"
 			}]
 			rewards: [{
@@ -505,7 +505,7 @@
 			tasks: [{
 				id: "654635E50ADA3AD9"
 				type: "checkmark"
-				title: "Progressive Difficulty"
+				title: "漸進式難度"
 			}]
 			rewards: [{
 				id: "203EF8DF6395F7A6"
@@ -520,7 +520,7 @@
 			}]
 		}
 		{
-			title: "Normal mode changes"
+			title: "普通模式改動"
 			icon: "minecraft:skeleton_skull"
 			x: 3.5d
 			y: -1.5d
@@ -582,7 +582,7 @@
 			tasks: [{
 				id: "6331E4029462A823"
 				type: "checkmark"
-				title: "Benefits for eating variety of foods"
+				title: "吃多種食物的好處"
 			}]
 			rewards: [{
 				id: "4A593D39CE5A8B79"
@@ -619,7 +619,7 @@
 			tasks: [{
 				id: "62AD44FDD001C367"
 				type: "checkmark"
-				title: "Improved villagers"
+				title: "改進村民"
 			}]
 			rewards: [{
 				id: "1A3E8B8ABF4D5B26"
@@ -660,7 +660,7 @@
 			tasks: [{
 				id: "0904DC2D17454C24"
 				type: "checkmark"
-				title: "Trinkets and curious"
+				title: "匠魂與奇妙飾品"
 			}]
 			rewards: [{
 				id: "70CB36DD6DEEB01C"
@@ -874,32 +874,32 @@
 			icon: "kubejs:arrow_left"
 			x: -4.5d
 			y: 1.0d
-			subtitle: "Move your mouse to the left side to open quest menu!"
+			subtitle: "移動您的滑鼠到左邊即可展開更多任務選單！"
 			size: 1.5d
 			id: "7FF57EE6F8F6FC1C"
 			tasks: [{
 				id: "1A4B7F6D74AF92E1"
 				type: "checkmark"
-				title: "MORE QUESTS ARE WAITING!"
+				title: "更多任務正在等著您！"
 			}]
 		}
 		{
-			title: "角色進展與技能"
+			title: "漸進式角色與技能"
 			icon: "itemfilters:item_group"
 			x: -0.30000000000000004d
 			y: 7.6d
-			subtitle: "(brief explanation about stats)"
+			subtitle: "（關於統計資料的簡要說明）"
 			description: [
-				"Menu access key: P (for more info and stats)"
+				"選單存取按鍵：P （查看更多資訊與統計資料）"
 				""
-				"Project MMO adds an array of new stats that you level up while doing usual things. Leveling these stats unlocks the ability to use more items in game."
+				"Project MMO 增加了一系列的新的統計資訊，您在做一些稀鬆平常的事情也可提昇這些統計資料的等級。提高這些統計資料的等級可以解鎖在遊戲中使用更多物品的能力。"
 				""
-				"Starting the game you will not be able to use armor, decent tools and specific artifacts/relics/baubles, because this requires a certain level of the player associated with a specific item. In addition to the restrictions - leveling gives a variety of bonuses - passive(like improving your damage) or active(like the ability to salvage item for another one), thereby engaging in certain activities, you will improve your character."
+				"在遊戲剛開始的時候，您不能使用盔甲，合適的工具與特定的文物、遺物、寶物，因為這些需要玩家有一定的等級，與參與特定的活動。除了這些限制外，訓練等級還可以獲得各種獎勵 - 被動（例如提高您的傷害） - 主動 （例如另一個人回收物品的能力），而參與某些活動能提高您的性格。"
 				""
-				"As you level up different abilities you will unlock different bonuses associated with that abilities, some of them are:"
-				"- Mining: increasing mining speed with each level;"
-				"- Excavation: chance to find treasures while digging;"
-				"- Combat: more damage dealt with weapons;"
+				"當年提昇不同的能力時，您將解鎖與該能力相關的獎勵，其中一些獎勵是："
+				"- 採礦：每提昇一個等級採礦的速度都會增加;"
+				"- 挖掘：增加挖到寶物的機會;"
+				"- 戰鬥: 使用武器所造成的傷害更強大;"
 				""
 				"There also different Xp Modifiers for different skill based on your current biome. As an example: you will get less farming experience in desert biome; or more swimming and fishing in ocean biome."
 				""
@@ -936,7 +936,7 @@
 			tasks: [{
 				id: "3FE9F9324A9A75ED"
 				type: "checkmark"
-				title: "Alchemy"
+				title: "煉金術"
 			}]
 			rewards: [{
 				id: "42EF83110DC99AC4"
@@ -1011,7 +1011,7 @@
 			tasks: [{
 				id: "5FFBB579483535DF"
 				type: "checkmark"
-				title: "Swimming"
+				title: "游泳"
 			}]
 			rewards: [{
 				id: "27A876A72644EE4A"
@@ -1049,7 +1049,7 @@
 			tasks: [{
 				id: "6AA18B31884A0323"
 				type: "checkmark"
-				title: "Flying"
+				title: "飛行"
 			}]
 			rewards: [{
 				id: "1F9CC79DD8FA4F59"
@@ -1089,7 +1089,7 @@
 			tasks: [{
 				id: "329A1625CD6214D1"
 				type: "checkmark"
-				title: "Endurance"
+				title: "耐力"
 			}]
 			rewards: [{
 				id: "2042E69D2F7D8D6A"
@@ -1127,7 +1127,7 @@
 			tasks: [{
 				id: "4E7CAB038758BA54"
 				type: "checkmark"
-				title: "Combat"
+				title: "戰鬥"
 			}]
 			rewards: [{
 				id: "7FA838BD50290BEE"
@@ -1166,7 +1166,7 @@
 			tasks: [{
 				id: "5CB7A94DEE4ADAD5"
 				type: "checkmark"
-				title: "Archery"
+				title: "箭術"
 			}]
 			rewards: [{
 				id: "4CF3274B22645B32"
@@ -1204,7 +1204,7 @@
 			tasks: [{
 				id: "1E0BD10C0AEDDA2C"
 				type: "checkmark"
-				title: "Excavation"
+				title: "挖掘"
 			}]
 			rewards: [{
 				id: "747ABF4AEDD1C134"
@@ -1242,7 +1242,7 @@
 			tasks: [{
 				id: "27065C11D7892632"
 				type: "checkmark"
-				title: "Mining"
+				title: "採礦"
 			}]
 			rewards: [{
 				id: "0A6359E4B13C16B9"
@@ -1280,7 +1280,7 @@
 			tasks: [{
 				id: "53F6058FA66F0D87"
 				type: "checkmark"
-				title: "Woodcutting"
+				title: "伐木"
 			}]
 			rewards: [{
 				id: "27B553667632567D"
