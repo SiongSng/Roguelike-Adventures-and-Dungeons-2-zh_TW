@@ -1,0 +1,348 @@
+{
+	id: "23975E9E3CE53B6A"
+	order_index: 50
+	title: "Dungeon's Artifacts Crate"
+	loot_size: 1
+	rewards: [
+		{
+			item: {
+				id: "dungeons_gear:boots_of_swiftness"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 40
+		}
+		{ item: "dungeons_gear:arrow_bundle", weight: 40 }
+		{
+			item: {
+				id: "dungeons_gear:corrupted_beacon"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 40
+		}
+		{
+			item: {
+				id: "dungeons_gear:corrupted_pumpkin"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 40
+		}
+		{
+			item: {
+				id: "dungeons_gear:corrupted_seeds"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 40
+		}
+		{
+			item: {
+				id: "dungeons_gear:death_cap_mushroom"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 40
+		}
+		{
+			item: {
+				id: "dungeons_gear:enchanted_grass"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 40
+		}
+		{
+			item: {
+				id: "dungeons_gear:eye_of_the_guardian"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 40
+		}
+		{
+			item: {
+				id: "dungeons_gear:fireworks_display"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 40
+		}
+		{
+			item: {
+				id: "dungeons_gear:flaming_quiver"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 40
+		}
+		{
+			item: {
+				id: "dungeons_gear:ghost_cloak"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 40
+		}
+		{
+			item: {
+				id: "dungeons_gear:golem_kit"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 40
+		}
+		{
+			item: {
+				id: "dungeons_gear:gong_of_weakening"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 40
+		}
+		{
+			item: {
+				id: "dungeons_gear:harpoon_quiver"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 40
+		}
+		{
+			item: {
+				id: "dungeons_gear:harvester"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 40
+		}
+		{
+			item: {
+				id: "dungeons_gear:iron_hide_amulet"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 40
+		}
+		{
+			item: {
+				id: "dungeons_gear:light_feather"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 40
+		}
+		{
+			item: {
+				id: "dungeons_gear:lightning_rod"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 40
+		}
+		{
+			item: {
+				id: "dungeons_gear:love_medallion"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 40
+		}
+		{
+			item: {
+				id: "dungeons_gear:satchel_of_elements"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 40
+		}
+		{
+			item: {
+				id: "dungeons_gear:satchel_of_elixirs"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 40
+		}
+		{
+			item: {
+				id: "dungeons_gear:satchel_of_snacks"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 40
+		}
+		{
+			item: {
+				id: "dungeons_gear:shock_powder"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 40
+		}
+		{
+			item: {
+				id: "dungeons_gear:soul_healer"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 40
+		}
+		{
+			item: {
+				id: "dungeons_gear:soul_lantern"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 40
+		}
+		{
+			item: {
+				id: "dungeons_gear:tasty_bone"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 40
+		}
+		{
+			item: {
+				id: "dungeons_gear:thundering_quiver"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 40
+		}
+		{
+			item: {
+				id: "dungeons_gear:torment_quiver"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 40
+		}
+		{
+			item: {
+				id: "dungeons_gear:totem_of_regeneration"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 40
+		}
+		{
+			item: {
+				id: "dungeons_gear:totem_of_shielding"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 40
+		}
+		{
+			item: {
+				id: "dungeons_gear:totem_of_soul_protection"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 40
+		}
+		{
+			item: {
+				id: "dungeons_gear:updraft_tome"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 40
+		}
+		{
+			item: {
+				id: "dungeons_gear:wind_horn"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 40
+		}
+		{
+			item: {
+				id: "dungeons_gear:wonderful_wheat"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 40
+		}
+	]
+	loot_crate: {
+		drops: {
+			boss: 0
+			passive: 0
+			monster: 0
+		}
+		color: 14399273
+		string_id: "dungeon_s_artifacts_crate"
+	}
+}

@@ -1,0 +1,9 @@
+{
+	chapter_groups: [
+		{ id: "241F1DC7B6D6E9D6", title: "探索" }
+		{ id: "67B03B24E53297B4", title: "技術" }
+		{ id: "2C344CA71B9F0CFD", title: "巫術" }
+		{ id: "0FF98225FE921275", title: "對抗" }
+		{ id: "6CD0EEB0E5E5955C", title: "雜項" }
+	]
+}

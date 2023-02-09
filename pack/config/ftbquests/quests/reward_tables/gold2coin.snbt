@@ -1,0 +1,43 @@
+{
+	id: "090D90BA8E59C464"
+	order_index: 46
+	title: "Gold2-coin"
+	loot_size: 1
+	rewards: [
+		{
+			item: {
+				id: "kubejs:gold_coin"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			count: 2
+		}
+		{
+			item: {
+				id: "kubejs:iron_coin"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			count: 3
+		}
+		{
+			item: {
+				id: "kubejs:diamond_coin"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+		}
+	]
+}

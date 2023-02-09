@@ -1,0 +1,64 @@
+{
+	id: "6AA6C10E54488EAE"
+	order_index: 54
+	title: "Skill Experience05"
+	loot_size: 1
+	rewards: [
+		{
+			auto: "invisible"
+			skill: "mining"
+			amount: 100.0d
+			ignoreBonuses: false
+			type: "pmmo:xpreward"
+		}
+		{
+			auto: "invisible"
+			skill: "combat"
+			amount: 100.0d
+			ignoreBonuses: false
+			type: "pmmo:xpreward"
+		}
+		{
+			auto: "invisible"
+			skill: "magic"
+			amount: 100.0d
+			ignoreBonuses: false
+			type: "pmmo:xpreward"
+		}
+		{
+			auto: "invisible"
+			skill: "endurance"
+			amount: 100.0d
+			ignoreBonuses: false
+			type: "pmmo:xpreward"
+		}
+		{
+			auto: "invisible"
+			skill: "smithing"
+			amount: 100.0d
+			ignoreBonuses: false
+			type: "pmmo:xpreward"
+		}
+		{
+			auto: "invisible"
+			skill: "farming"
+			amount: 100.0d
+			ignoreBonuses: false
+			type: "pmmo:xpreward"
+		}
+		{
+			auto: "invisible"
+			skill: "flying"
+			amount: 100.0d
+			ignoreBonuses: false
+			type: "pmmo:xpreward"
+		}
+		{
+			auto: "invisible"
+			skill: "archery"
+			amount: 100.0d
+			ignoreBonuses: false
+			type: "pmmo:xpreward"
+		}
+	]
+}

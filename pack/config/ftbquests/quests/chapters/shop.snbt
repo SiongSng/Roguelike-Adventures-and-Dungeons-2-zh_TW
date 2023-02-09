@@ -1,0 +1,2375 @@
+{
+	id: "0000000000000579"
+	group: ""
+	order_index: 1
+	filename: "shop"
+	title: "$ - 硬幣商店 - $"
+	icon: "kubejs:gold_coin"
+	disable_toast: true
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [
+		{
+			x: -8.0d
+			y: -2.0d
+			width: 2.0d
+			height: 2.0d
+			rotation: 0.0d
+			image: "kubejs:textures/item/copper_coin.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 4.0d
+			y: -2.0d
+			width: 2.0d
+			height: 2.0d
+			rotation: 0.0d
+			image: "kubejs:textures/item/diamond_coin.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 0.0d
+			y: -2.0d
+			width: 2.0d
+			height: 2.0d
+			rotation: 0.0d
+			image: "kubejs:textures/item/gold_coin.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -4.0d
+			y: -2.0d
+			width: 2.0d
+			height: 2.0d
+			rotation: 0.0d
+			image: "kubejs:textures/item/iron_coin.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 8.0d
+			y: -2.0d
+			width: 2.0d
+			height: 2.0d
+			rotation: 0.0d
+			image: "kubejs:textures/item/netherite_coin.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 8.0d
+			y: 4.0d
+			width: 2.0d
+			height: 2.0d
+			rotation: 0.0d
+			image: "kubejs:textures/item/nether_coin.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 11.5d
+			y: -2.0d
+			width: 2.0d
+			height: 2.0d
+			rotation: 0.0d
+			image: "kubejs:textures/item/monster_coin.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 12.0d
+			y: -0.5d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "pmmo:textures/gui/star.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 11.0d
+			y: -0.5d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "minecraft:textures/item/experience_bottle.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+	]
+	quests: [
+		{
+			title: "Common loot crate random reward"
+			icon: {
+				id: "ftbquests:lootcrate"
+				Count: 1b
+				tag: {
+					type: "common_loot_crate"
+				}
+			}
+			disable_toast: true
+			x: -8.0d
+			y: 0.0d
+			shape: "octagon"
+			subtitle: "For Copper coin (repeatable)"
+			size: 2.0d
+			id: "64AE92F598464E3E"
+			tasks: [{
+				id: "3BB03FCF02073F96"
+				type: "item"
+				item: "kubejs:copper_coin"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "314181AFAC5E20D3"
+				type: "questsadditions:repeat_random"
+				table_id: 4734148794142699034L
+			}]
+		}
+		{
+			title: "Uncommon loot crate random reward"
+			icon: {
+				id: "ftbquests:lootcrate"
+				Count: 1b
+				tag: {
+					type: "uncommon_loot_crate"
+				}
+			}
+			disable_toast: true
+			x: -4.0d
+			y: 0.0d
+			shape: "octagon"
+			subtitle: "For Iron coin (repeatable)"
+			size: 2.0d
+			id: "071F9F757CCADA93"
+			tasks: [{
+				id: "2262663480ABB5B9"
+				type: "item"
+				item: "kubejs:iron_coin"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "0E5F4DD7AFF34BFD"
+				type: "questsadditions:repeat_random"
+				table_id: 5735513140715080140L
+			}]
+		}
+		{
+			title: "Rare loot crate random reward"
+			icon: {
+				id: "ftbquests:lootcrate"
+				Count: 1b
+				tag: {
+					type: "rare_loot_crate"
+				}
+			}
+			disable_toast: true
+			x: 0.0d
+			y: 0.0d
+			shape: "octagon"
+			subtitle: "For Gold coin (repeatable)"
+			size: 2.0d
+			id: "62356B57A7D667A6"
+			tasks: [{
+				id: "64B6FB6EC391B652"
+				type: "item"
+				item: "kubejs:gold_coin"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "4602EE5ADE50C4EA"
+				type: "questsadditions:repeat_random"
+				table_id: 1428536202741681313L
+			}]
+		}
+		{
+			title: "Epic loot crate random reward"
+			icon: {
+				id: "ftbquests:lootcrate"
+				Count: 1b
+				tag: {
+					type: "epic_loot_crate"
+				}
+			}
+			disable_toast: true
+			x: 4.0d
+			y: 0.0d
+			shape: "octagon"
+			subtitle: "For Diamond coin (repeatable)"
+			size: 2.0d
+			id: "2EB2758D16E8BAE2"
+			tasks: [{
+				id: "6F316CB4B0B62C5B"
+				type: "item"
+				item: "kubejs:diamond_coin"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "3C25C0FEAF1FD585"
+				type: "questsadditions:repeat_random"
+				table_id: 4179527381065745422L
+			}]
+		}
+		{
+			title: "Legendary loot crate random reward"
+			icon: {
+				id: "ftbquests:lootcrate"
+				Count: 1b
+				tag: {
+					type: "legendary_loot_crate"
+				}
+			}
+			disable_toast: true
+			x: 8.0d
+			y: 0.0d
+			shape: "octagon"
+			subtitle: "For Netherite coin (repeatable)"
+			size: 2.0d
+			id: "15645F279C638145"
+			tasks: [{
+				id: "1AA543BE63FB898A"
+				type: "item"
+				item: "kubejs:netherite_coin"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "63435944E644AE08"
+				type: "questsadditions:repeat_random"
+				table_id: 329072492022215216L
+			}]
+		}
+		{
+			title: "Exchange Stone"
+			x: -6.0d
+			y: 0.0d
+			subtitle: "For Granite/Diorite/Andesite (repeatable)"
+			id: "7525A4AAA54D2F0F"
+			tasks: [{
+				id: "6CCAEDACC1C14C99"
+				type: "item"
+				item: "minecraft:stone"
+				count: 64L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "5CB2EDC161160448"
+				type: "questsadditions:repeat_choice"
+				table_id: 8073191519896831574L
+			}]
+		}
+		{
+			disable_toast: true
+			x: -8.0d
+			y: 2.0d
+			shape: "octagon"
+			subtitle: "Choice repeatable reward"
+			size: 2.0d
+			id: "12AA5A2ECF315050"
+			tasks: [{
+				id: "17B7046770CA5003"
+				type: "item"
+				item: "kubejs:copper_coin"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "58EFBCD9109C82B8"
+				type: "questsadditions:repeat_choice"
+				table_id: 6888013663897817331L
+			}]
+		}
+		{
+			x: -4.0d
+			y: 2.0d
+			shape: "octagon"
+			subtitle: "Choice repeatable reward"
+			size: 2.0d
+			id: "4CA69F473539E565"
+			tasks: [{
+				id: "0D11EF81DDA0EF14"
+				type: "item"
+				item: "kubejs:iron_coin"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "049A916DF780D3D5"
+				type: "questsadditions:repeat_choice"
+				table_id: 3673153046364661600L
+			}]
+		}
+		{
+			disable_toast: true
+			x: 0.0d
+			y: 2.0d
+			shape: "octagon"
+			subtitle: "Choice repeatable reward"
+			size: 2.0d
+			id: "2146186B43D64F53"
+			tasks: [{
+				id: "7035844CA6BDC17C"
+				type: "item"
+				item: "kubejs:gold_coin"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "2B307A5F73283760"
+				type: "questsadditions:repeat_choice"
+				table_id: 6733206692322637508L
+			}]
+		}
+		{
+			disable_toast: true
+			x: 4.0d
+			y: 2.0d
+			shape: "octagon"
+			subtitle: "Choice repeatable reward"
+			size: 2.0d
+			id: "0802FC6EE2B78153"
+			tasks: [{
+				id: "266B9F8F0D5CEBDB"
+				type: "item"
+				item: "kubejs:diamond_coin"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "260ADFF3E6B10438"
+				type: "questsadditions:repeat_choice"
+				table_id: 849472112562879498L
+			}]
+		}
+		{
+			disable_toast: true
+			x: 8.0d
+			y: 2.0d
+			shape: "octagon"
+			subtitle: "Choice repeatable reward"
+			size: 2.0d
+			id: "4BD23FFF77631DA0"
+			tasks: [{
+				id: "49D3E72E213678F0"
+				type: "item"
+				item: "kubejs:netherite_coin"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "5E7303190250E9C8"
+				type: "questsadditions:repeat_choice"
+				table_id: 8649845864696576998L
+			}]
+		}
+		{
+			title: "Exchange Charcoal"
+			x: -6.0d
+			y: 1.0d
+			subtitle: "For any type of wood (repeatable)"
+			id: "308D3B4CF9E12F88"
+			tasks: [
+				{
+					id: "637C2DCF5167900B"
+					type: "item"
+					item: "minecraft:charcoal"
+					count: 64L
+					consume_items: true
+				}
+				{
+					id: "02D09D641E22E2FF"
+					type: "xp"
+					value: 1L
+					points: false
+				}
+			]
+			rewards: [{
+				id: "2A0267D3EED36CA8"
+				type: "questsadditions:repeat_choice"
+				table_id: 3101518903568742149L
+			}]
+		}
+		{
+			icon: "minecraft:emerald_block"
+			disable_toast: true
+			x: -1.5d
+			y: 4.0d
+			subtitle: "Exchange resources for coins"
+			id: "43B06F2F3D6CDA23"
+			tasks: [
+				{
+					id: "64ED1C348774A692"
+					type: "item"
+					disable_toast: true
+					item: "minecraft:emerald_block"
+					count: 2L
+					consume_items: true
+				}
+				{
+					id: "75E69DF91972CDE8"
+					type: "xp"
+					value: 10L
+					points: false
+				}
+			]
+			rewards: [{
+				id: "5E8D6B27166D43AB"
+				type: "questsadditions:repeat_choice"
+				table_id: 8328805356612065572L
+			}]
+		}
+		{
+			icon: "minecraft:diamond_block"
+			disable_toast: true
+			x: 1.5d
+			y: 4.0d
+			subtitle: "Exchange resources for coins"
+			id: "71377794D49477FE"
+			tasks: [
+				{
+					id: "6C9A0788313F9468"
+					type: "item"
+					disable_toast: true
+					item: "minecraft:diamond_block"
+					consume_items: true
+				}
+				{
+					id: "54B2A2A686503311"
+					type: "xp"
+					value: 10L
+					points: false
+				}
+			]
+			rewards: [{
+				id: "24FF3CFB9ED90596"
+				type: "questsadditions:repeat_choice"
+				table_id: 4173479592353618945L
+			}]
+		}
+		{
+			icon: "minecraft:gold_block"
+			disable_toast: true
+			x: -2.5d
+			y: 4.0d
+			subtitle: "Exchange resources for coins"
+			id: "7C6A42B20111F81A"
+			tasks: [
+				{
+					id: "51B4D6508AF34018"
+					type: "item"
+					disable_toast: true
+					item: "minecraft:gold_block"
+					count: 5L
+					consume_items: true
+				}
+				{
+					id: "04AEA60A754EC1C3"
+					type: "xp"
+					value: 10L
+					points: false
+				}
+			]
+			rewards: [{
+				id: "25FFA9FDD65048B0"
+				type: "questsadditions:repeat_choice"
+				table_id: 5362484379163422117L
+			}]
+		}
+		{
+			icon: "minecraft:lapis_block"
+			disable_toast: true
+			x: -8.0d
+			y: 5.0d
+			subtitle: "Exchange resources for coins"
+			id: "0B5A2317489F888F"
+			tasks: [
+				{
+					id: "1343A8009F0690C0"
+					type: "item"
+					disable_toast: true
+					item: "minecraft:lapis_block"
+					count: 5L
+					consume_items: true
+				}
+				{
+					id: "57485A426484D5C3"
+					type: "xp"
+					value: 3L
+					points: false
+				}
+			]
+			rewards: [{
+				id: "7D0FEB2D0E2D2C6F"
+				type: "questsadditions:repeat_choice"
+				table_id: 5718826963610781607L
+			}]
+		}
+		{
+			icon: "minecraft:redstone_block"
+			disable_toast: true
+			x: -8.0d
+			y: 4.0d
+			subtitle: "Exchange resources for coins"
+			id: "1079D5E9E631D409"
+			tasks: [
+				{
+					id: "25FFD8D0D64BC518"
+					type: "item"
+					disable_toast: true
+					item: "minecraft:redstone_block"
+					count: 5L
+					consume_items: true
+				}
+				{
+					id: "4AEDA27D6B8428EE"
+					type: "xp"
+					value: 3L
+					points: false
+				}
+			]
+			rewards: [{
+				id: "6AA532EC9744950C"
+				type: "questsadditions:repeat_choice"
+				table_id: 5718826963610781607L
+			}]
+		}
+		{
+			icon: {
+				id: "minecraft:nether_star"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			disable_toast: true
+			x: 4.0d
+			y: 4.0d
+			id: "0DA179A681837DE0"
+			tasks: [
+				{
+					id: "179554568A8F4C77"
+					type: "item"
+					disable_toast: true
+					item: "minecraft:nether_star"
+					consume_items: true
+				}
+				{
+					id: "3422806F3B97EFA0"
+					type: "xp"
+					value: 10L
+					points: false
+				}
+			]
+			rewards: [{
+				id: "61E2186CAE66B8FE"
+				type: "questsadditions:repeat_choice"
+				table_id: 4590487423188971105L
+			}]
+		}
+		{
+			icon: "minecraft:netherite_block"
+			disable_toast: true
+			x: 4.0d
+			y: 5.0d
+			id: "19632673E3DA0019"
+			tasks: [
+				{
+					id: "19355BFFA1C826E5"
+					type: "item"
+					disable_toast: true
+					item: "minecraft:netherite_block"
+					consume_items: true
+				}
+				{
+					id: "0B24FAC7BDD146B5"
+					type: "xp"
+					value: 10L
+					points: false
+				}
+			]
+			rewards: [{
+				id: "1FEABE6F0B3FAC39"
+				type: "questsadditions:repeat_choice"
+				table_id: 4590487423188971105L
+			}]
+		}
+		{
+			icon: "buddycards:buddysteel_block"
+			disable_toast: true
+			x: -2.5d
+			y: 5.0d
+			id: "665A83F8FD6E2A4E"
+			tasks: [
+				{
+					id: "496B91089ED73628"
+					type: "item"
+					disable_toast: true
+					item: "buddycards:buddysteel_block"
+					count: 3L
+					consume_items: true
+				}
+				{
+					id: "34546D65DFF46E3F"
+					type: "xp"
+					value: 10L
+					points: false
+				}
+			]
+			rewards: [{
+				id: "46A0D9F444C5CEE9"
+				type: "questsadditions:repeat_choice"
+				table_id: 5362484379163422117L
+			}]
+		}
+		{
+			icon: "aquaculture:neptunium_block"
+			disable_toast: true
+			x: 2.5d
+			y: 4.0d
+			id: "2C5561209FB23B2D"
+			tasks: [
+				{
+					id: "74B8901259061BAB"
+					type: "item"
+					disable_toast: true
+					item: "aquaculture:neptunium_block"
+					consume_items: true
+				}
+				{
+					id: "3A5F191A454BBEB7"
+					type: "xp"
+					value: 10L
+					points: false
+				}
+			]
+			rewards: [{
+				id: "42DA5BCF2A82F413"
+				type: "questsadditions:repeat_choice"
+				table_id: 4173479592353618945L
+			}]
+		}
+		{
+			disable_toast: true
+			x: 8.0d
+			y: 6.0d
+			shape: "octagon"
+			subtitle: "Choice repeatable reward"
+			size: 2.0d
+			id: "637B4E0CF8EE27A0"
+			tasks: [{
+				id: "415052283BCDC314"
+				type: "item"
+				disable_toast: true
+				item: "kubejs:nether_coin"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "54144210F25142F5"
+				type: "questsadditions:repeat_choice"
+				table_id: 493550106172164909L
+			}]
+		}
+		{
+			disable_toast: true
+			x: 0.0d
+			y: 7.0d
+			id: "3DA852CBB9294515"
+			tasks: [
+				{
+					id: "63354904326B25E3"
+					type: "item"
+					title: "Any #forge:storage_blocks/fire_dragon_scale"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "forge:storage_blocks/fire_dragon_scale"
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "024BC05E81C27C6E"
+					type: "xp"
+					disable_toast: true
+					value: 10L
+					points: false
+				}
+			]
+			rewards: [{
+				id: "4FAD3DD26BF6AA25"
+				type: "questsadditions:repeat_choice"
+				table_id: 8328805356612065572L
+			}]
+		}
+		{
+			disable_toast: true
+			x: 0.0d
+			y: 8.0d
+			id: "3D6CC2442D45C8EA"
+			tasks: [
+				{
+					id: "3ECAC917B23BE9D7"
+					type: "item"
+					title: "Any #forge:storage_blocks/lightning_dragon_scale"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "forge:storage_blocks/lightning_dragon_scale"
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "0C79B590E9AFCF6E"
+					type: "xp"
+					value: 10L
+					points: false
+				}
+			]
+			rewards: [{
+				id: "31A0707D0AD32478"
+				type: "questsadditions:repeat_choice"
+				table_id: 8328805356612065572L
+			}]
+		}
+		{
+			disable_toast: true
+			x: 0.0d
+			y: 9.0d
+			id: "5F69FA7386F4FDE6"
+			tasks: [
+				{
+					id: "75010189665CDA70"
+					type: "item"
+					title: "Any #forge:storage_blocks/ice_dragon_scale"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "forge:storage_blocks/ice_dragon_scale"
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "71F194928ACDE866"
+					type: "xp"
+					value: 10L
+					points: false
+				}
+			]
+			rewards: [{
+				id: "7F501E8C1DDB2788"
+				type: "questsadditions:repeat_choice"
+				table_id: 8328805356612065572L
+			}]
+		}
+		{
+			icon: "tropicraft:azurite_block"
+			disable_toast: true
+			x: -8.0d
+			y: 6.0d
+			id: "71800296DBFE3A6C"
+			tasks: [
+				{
+					id: "4E78213AF871D872"
+					type: "item"
+					item: {
+						id: "tropicraft:azurite_block"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 3L
+					consume_items: true
+				}
+				{
+					id: "419B89AADB467F3F"
+					type: "xp"
+					value: 3L
+					points: false
+				}
+			]
+			rewards: [{
+				id: "4CD868242EEBE6DA"
+				type: "questsadditions:repeat_choice"
+				table_id: 5718826963610781607L
+			}]
+		}
+		{
+			icon: "twilightforest:carminite_block"
+			disable_toast: true
+			x: 0.0d
+			y: 5.0d
+			id: "039DA54BE74CB431"
+			tasks: [
+				{
+					id: "5B08AAA30F69E39A"
+					type: "item"
+					item: {
+						id: "twilightforest:carminite_block"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "2B17F79FFC0258BC"
+					type: "xp"
+					value: 10L
+					points: false
+				}
+			]
+			rewards: [{
+				id: "55C87E47D99F5B69"
+				type: "questsadditions:repeat_choice"
+				table_id: 8328805356612065572L
+			}]
+		}
+		{
+			icon: "twilightforest:knightmetal_block"
+			disable_toast: true
+			x: -1.5d
+			y: 7.0d
+			id: "5BB337B17577E875"
+			tasks: [
+				{
+					id: "5D53C4A521684623"
+					type: "item"
+					item: {
+						id: "twilightforest:knightmetal_block"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "548CC8099AB87F63"
+					type: "xp"
+					value: 10L
+					points: false
+				}
+			]
+			rewards: [{
+				id: "63F18ECDF7A63ABA"
+				type: "questsadditions:repeat_choice"
+				table_id: 5362484379163422117L
+			}]
+		}
+		{
+			icon: "iceandfire:amythest_block"
+			disable_toast: true
+			x: -1.5d
+			y: 5.0d
+			id: "30E490B7F82D7CEB"
+			tasks: [
+				{
+					id: "408C8EB4C3796A14"
+					type: "item"
+					item: {
+						id: "iceandfire:amythest_block"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "33EFFFB6CEF0FA36"
+					type: "xp"
+					value: 10L
+					points: false
+				}
+			]
+			rewards: [{
+				id: "03B26E48BF4DD9BF"
+				type: "questsadditions:repeat_choice"
+				table_id: 5362484379163422117L
+			}]
+		}
+		{
+			icon: "iceandfire:sapphire_block"
+			disable_toast: true
+			x: -1.5d
+			y: 6.0d
+			id: "735BAB1C9E00DD56"
+			tasks: [
+				{
+					id: "1F5AB7D633AECEFE"
+					type: "item"
+					item: {
+						id: "iceandfire:sapphire_block"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "62E269DC8626E06A"
+					type: "xp"
+					value: 10L
+					points: false
+				}
+			]
+			rewards: [{
+				id: "68655C22FB1F6871"
+				type: "questsadditions:repeat_choice"
+				table_id: 5362484379163422117L
+			}]
+		}
+		{
+			icon: "iceandfire:dragonsteel_lightning_block"
+			x: 1.5d
+			y: 5.5d
+			id: "047CDF996476E120"
+			tasks: [
+				{
+					id: "0DC2621091F0A955"
+					type: "item"
+					disable_toast: true
+					item: {
+						id: "iceandfire:dragonsteel_lightning_block"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "5D1AD100204BCA0A"
+					type: "xp"
+					value: 10L
+					points: false
+				}
+			]
+			rewards: [{
+				id: "07517573AE4FE6E8"
+				type: "questsadditions:repeat_choice"
+				table_id: 652336651965154404L
+			}]
+		}
+		{
+			icon: "undergarden:cloggrum_block"
+			disable_toast: true
+			x: -4.0d
+			y: 4.0d
+			id: "48FD0FCFEC7B0209"
+			tasks: [
+				{
+					id: "51ADD5FCD3E61E63"
+					type: "item"
+					item: {
+						id: "undergarden:cloggrum_block"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "4F73141AC47D12DA"
+					type: "xp"
+					value: 5L
+					points: false
+				}
+			]
+			rewards: [{
+				id: "161E65886B9EA50C"
+				type: "questsadditions:repeat_choice"
+				table_id: 1032612325942029560L
+			}]
+		}
+		{
+			icon: "undergarden:froststeel_block"
+			disable_toast: true
+			x: -4.0d
+			y: 5.0d
+			id: "448648936134BDB8"
+			tasks: [
+				{
+					id: "7E1FBB6125C86D99"
+					type: "item"
+					item: {
+						id: "undergarden:froststeel_block"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "5BF0634F849BD128"
+					type: "xp"
+					value: 5L
+					points: false
+				}
+			]
+			rewards: [{
+				id: "229B77AB88F5E2C5"
+				type: "questsadditions:repeat_choice"
+				table_id: 1032612325942029560L
+			}]
+		}
+		{
+			icon: "undergarden:utherium_block"
+			disable_toast: true
+			x: -4.0d
+			y: 6.0d
+			id: "12D3DFA52143C082"
+			tasks: [
+				{
+					id: "71D311291C3B68F7"
+					type: "item"
+					item: {
+						id: "undergarden:utherium_block"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "19E9F49B192D40D3"
+					type: "xp"
+					value: 5L
+					points: false
+				}
+			]
+			rewards: [{
+				id: "31952BE4BCE16890"
+				type: "questsadditions:repeat_choice"
+				table_id: 1032612325942029560L
+			}]
+		}
+		{
+			icon: "undergarden:regalium_block"
+			disable_toast: true
+			x: -4.0d
+			y: 7.0d
+			id: "5D48F30709BC485F"
+			tasks: [
+				{
+					id: "5BD3707CBA5F52BD"
+					type: "item"
+					item: {
+						id: "undergarden:regalium_block"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "25D337AC026EA139"
+					type: "xp"
+					value: 5L
+					points: false
+				}
+			]
+			rewards: [{
+				id: "3ADAD0DCF5F97D83"
+				type: "questsadditions:repeat_choice"
+				table_id: 1032612325942029560L
+			}]
+		}
+		{
+			icon: "undergarden:forgotten_block"
+			disable_toast: true
+			x: 0.0d
+			y: 4.0d
+			id: "406CD5FAB66EF695"
+			tasks: [
+				{
+					id: "65E58DDA765AC295"
+					type: "item"
+					item: {
+						id: "undergarden:forgotten_block"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "394E3C61609D35E9"
+					type: "xp"
+					value: 10L
+					points: false
+				}
+			]
+			rewards: [{
+				id: "50B021EE5B6C926A"
+				type: "questsadditions:repeat_choice"
+				table_id: 8328805356612065572L
+			}]
+		}
+		{
+			icon: "ars_nouveau:mana_gem_block"
+			disable_toast: true
+			x: -8.0d
+			y: 7.0d
+			id: "2230EF3DB7AC7ECA"
+			tasks: [
+				{
+					id: "18B6833E3B353664"
+					type: "item"
+					item: {
+						id: "ars_nouveau:mana_gem_block"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 3L
+					consume_items: true
+				}
+				{
+					id: "37C7DB89ABF33FA6"
+					type: "xp"
+					value: 3L
+					points: false
+				}
+			]
+			rewards: [{
+				id: "0593D5D631990917"
+				type: "questsadditions:repeat_choice"
+				table_id: 5718826963610781607L
+			}]
+		}
+		{
+			icon: "buddycards:buddysteel_block"
+			disable_toast: true
+			x: 0.0d
+			y: 6.0d
+			id: "5828E2CF1BECC740"
+			tasks: [
+				{
+					id: "24D5759A18240C7A"
+					type: "item"
+					item: {
+						id: "buddycards:buddysteel_block"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "6F52F3533FCB9CE7"
+					type: "xp"
+					value: 10L
+					points: false
+				}
+			]
+			rewards: [{
+				id: "3D671AC8AD842939"
+				type: "questsadditions:repeat_choice"
+				table_id: 8328805356612065572L
+			}]
+		}
+		{
+			icon: "buddycards:zylex_block"
+			disable_toast: true
+			x: 2.5d
+			y: 8.0d
+			id: "058E542C50B08DE3"
+			tasks: [
+				{
+					id: "015C95D3A642EAB2"
+					type: "item"
+					item: {
+						id: "buddycards:zylex_block"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "6BC39509ECCE5FA3"
+					type: "xp"
+					value: 10L
+					points: false
+				}
+			]
+			rewards: [{
+				id: "721A0AB2929948E9"
+				type: "questsadditions:repeat_choice"
+				table_id: 652336651965154404L
+			}]
+		}
+		{
+			icon: "twilightforest:ironwood_block"
+			disable_toast: true
+			x: -6.5d
+			y: 5.0d
+			id: "160D8FD210AA58C5"
+			tasks: [
+				{
+					id: "140D0C00EF8A39B3"
+					type: "item"
+					item: {
+						id: "twilightforest:ironwood_block"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "185FDF42E678A322"
+					type: "xp"
+					value: 5L
+					points: false
+				}
+			]
+			rewards: [{
+				id: "0656DCB7457024C0"
+				type: "questsadditions:repeat_choice"
+				table_id: 4707609894193240217L
+			}]
+		}
+		{
+			icon: "twilightforest:steeleaf_block"
+			disable_toast: true
+			x: -5.5d
+			y: 5.0d
+			id: "3097589142158865"
+			tasks: [
+				{
+					id: "102CE6C8BFAD9480"
+					type: "item"
+					item: {
+						id: "twilightforest:steeleaf_block"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "7B4934150EE8ADC3"
+					type: "xp"
+					value: 5L
+					points: false
+				}
+			]
+			rewards: [{
+				id: "551CF5C166F1BAEF"
+				type: "questsadditions:repeat_choice"
+				table_id: 4707609894193240217L
+			}]
+		}
+		{
+			icon: "twilightforest:fiery_block"
+			disable_toast: true
+			x: -2.5d
+			y: 7.0d
+			id: "125B7746F8C58CF4"
+			tasks: [
+				{
+					id: "4F4682AFD6D70B13"
+					type: "item"
+					item: {
+						id: "twilightforest:fiery_block"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "5E30F9FDC4EA3BBE"
+					type: "xp"
+					value: 10L
+					points: false
+				}
+			]
+			rewards: [{
+				id: "20B0410A5CCDC6BE"
+				type: "questsadditions:repeat_choice"
+				table_id: 5362484379163422117L
+			}]
+		}
+		{
+			icon: "betterendforge:terminite_block"
+			disable_toast: true
+			x: -2.5d
+			y: 6.0d
+			id: "54E41164D998A205"
+			tasks: [
+				{
+					id: "3F632F34C716C589"
+					type: "item"
+					item: {
+						id: "betterendforge:terminite_block"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "1539CFB111E63EF0"
+					type: "xp"
+					value: 10L
+					points: false
+				}
+			]
+			rewards: [{
+				id: "6BD305020CE31ED8"
+				type: "questsadditions:repeat_choice"
+				table_id: 5362484379163422117L
+			}]
+		}
+		{
+			icon: "betterendforge:aeternium_block"
+			disable_toast: true
+			x: 4.0d
+			y: 6.0d
+			id: "214F4118140ECEFE"
+			tasks: [
+				{
+					id: "7F1861A7E01639A8"
+					type: "item"
+					item: {
+						id: "betterendforge:aeternium_block"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "2F7AD4C84CC2F7F3"
+					type: "xp"
+					value: 10L
+					points: false
+				}
+			]
+			rewards: [{
+				id: "4FE3D0BD9F5DFA24"
+				type: "questsadditions:repeat_choice"
+				table_id: 4590487423188971105L
+			}]
+		}
+		{
+			icon: "betterendforge:ender_block"
+			disable_toast: true
+			x: -6.0d
+			y: 4.0d
+			id: "747467D2F1BE9D77"
+			tasks: [
+				{
+					id: "25097211BA3BB94F"
+					type: "item"
+					item: {
+						id: "betterendforge:ender_block"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "23E26B1306521BB4"
+					type: "xp"
+					value: 5L
+					points: false
+				}
+			]
+			rewards: [{
+				id: "03A9EA3AF085EBBC"
+				type: "questsadditions:repeat_choice"
+				table_id: 4707609894193240217L
+			}]
+		}
+		{
+			icon: "buddycards:perfect_buddysteel_block"
+			disable_toast: true
+			x: 4.0d
+			y: 7.0d
+			id: "49ADA812AFE768C1"
+			tasks: [
+				{
+					id: "6C1F6A9A1B6C0CC0"
+					type: "item"
+					item: {
+						id: "buddycards:perfect_buddysteel_block"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "6A02E708C21EAC84"
+					type: "xp"
+					value: 10L
+					points: false
+				}
+			]
+			rewards: [{
+				id: "359AA482367F98B7"
+				type: "questsadditions:repeat_choice"
+				table_id: 4590487423188971105L
+			}]
+		}
+		{
+			icon: "buddycards:deep_luminis_block"
+			disable_toast: true
+			x: 1.5d
+			y: 8.0d
+			id: "2F5234005843FB71"
+			tasks: [
+				{
+					id: "78CD422D02EC2DD0"
+					type: "item"
+					item: {
+						id: "buddycards:deep_luminis_block"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "19287BC89B9510BB"
+					type: "xp"
+					value: 10L
+					points: false
+				}
+			]
+			rewards: [{
+				id: "430D30543ABDB60A"
+				type: "questsadditions:repeat_choice"
+				table_id: 652336651965154404L
+			}]
+		}
+		{
+			icon: "tropicraft:zirconium_block"
+			disable_toast: true
+			x: -8.0d
+			y: 8.0d
+			id: "708C375E99C61E6B"
+			tasks: [
+				{
+					id: "07C4016799BF95CD"
+					type: "item"
+					item: {
+						id: "tropicraft:zirconium_block"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "0735B96D9F3CCCA5"
+					type: "xp"
+					value: 3L
+					points: false
+				}
+			]
+			rewards: [{
+				id: "3B7384B0F6E97AF2"
+				type: "questsadditions:repeat_choice"
+				table_id: 5718826963610781607L
+			}]
+		}
+		{
+			icon: "blue_skies:diopside_block"
+			disable_toast: true
+			x: -6.0d
+			y: 9.0d
+			id: "4D16613ADC013012"
+			tasks: [
+				{
+					id: "573A11467BF7294D"
+					type: "item"
+					item: {
+						id: "blue_skies:diopside_block"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "31A91DF3B42FCD13"
+					type: "xp"
+					value: 5L
+					points: false
+				}
+			]
+			rewards: [{
+				id: "6B95994A2F474397"
+				type: "questsadditions:repeat_choice"
+				table_id: 4707609894193240217L
+			}]
+		}
+		{
+			icon: "blue_skies:pyrope_block"
+			disable_toast: true
+			x: -6.5d
+			y: 8.0d
+			id: "3BDBA0D11C1C355B"
+			tasks: [
+				{
+					id: "6FFB92EC23DD7744"
+					type: "item"
+					item: {
+						id: "blue_skies:pyrope_block"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "72F5D573A7FD5A9B"
+					type: "xp"
+					value: 5L
+					points: false
+				}
+			]
+			rewards: [{
+				id: "4BA3F660541371DE"
+				type: "questsadditions:repeat_choice"
+				table_id: 4707609894193240217L
+			}]
+		}
+		{
+			icon: "blue_skies:aquite_block"
+			disable_toast: true
+			x: -5.5d
+			y: 8.0d
+			id: "01ABB11450AEB545"
+			tasks: [
+				{
+					id: "3A6057BC94B0AD36"
+					type: "item"
+					item: {
+						id: "blue_skies:aquite_block"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "23F7E9AAAC1E153F"
+					type: "xp"
+					value: 5L
+					points: false
+				}
+			]
+			rewards: [{
+				id: "2FD8C020522CA9AD"
+				type: "questsadditions:repeat_choice"
+				table_id: 4707609894193240217L
+			}]
+		}
+		{
+			icon: "blue_skies:falsite_block"
+			disable_toast: true
+			x: -6.5d
+			y: 6.0d
+			id: "2A32F0877F368BF3"
+			tasks: [
+				{
+					id: "70EA690C481C183B"
+					type: "item"
+					item: {
+						id: "blue_skies:falsite_block"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "7B13A8A83B052E4C"
+					type: "xp"
+					value: 5L
+					points: false
+				}
+			]
+			rewards: [{
+				id: "5C8B7F249E77FE0C"
+				type: "questsadditions:repeat_choice"
+				table_id: 4707609894193240217L
+			}]
+		}
+		{
+			icon: "blue_skies:ventium_block"
+			disable_toast: true
+			x: -5.5d
+			y: 6.0d
+			id: "318C1FAC429FAF49"
+			tasks: [
+				{
+					id: "3E6B271447166976"
+					type: "item"
+					item: {
+						id: "blue_skies:ventium_block"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "784FCF23A2EA2AB7"
+					type: "xp"
+					value: 5L
+					points: false
+				}
+			]
+			rewards: [{
+				id: "477AD63CFA164E3F"
+				type: "questsadditions:repeat_choice"
+				table_id: 4707609894193240217L
+			}]
+		}
+		{
+			icon: "blue_skies:horizonite_block"
+			disable_toast: true
+			x: -6.0d
+			y: 7.0d
+			id: "352F879701678EE8"
+			tasks: [
+				{
+					id: "05FF6B2F3E744D23"
+					type: "item"
+					item: {
+						id: "blue_skies:horizonite_block"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "18BA507FE755975E"
+					type: "xp"
+					value: 5L
+					points: false
+				}
+			]
+			rewards: [{
+				id: "73B589A969BF8F92"
+				type: "questsadditions:repeat_choice"
+				table_id: 4707609894193240217L
+			}]
+		}
+		{
+			icon: "iceandfire:dragonsteel_fire_block"
+			disable_toast: true
+			x: 2.5d
+			y: 5.5d
+			id: "00C8C2D90BE93914"
+			tasks: [
+				{
+					id: "54567850B255AF3E"
+					type: "item"
+					disable_toast: true
+					item: {
+						id: "iceandfire:dragonsteel_fire_block"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "2DFD3F0B8995A902"
+					type: "xp"
+					value: 10L
+					points: false
+				}
+			]
+			rewards: [{
+				id: "3C2075D785CB65ED"
+				type: "questsadditions:repeat_choice"
+				table_id: 652336651965154404L
+			}]
+		}
+		{
+			icon: "iceandfire:dragonsteel_ice_block"
+			disable_toast: true
+			x: 2.0d
+			y: 6.5d
+			id: "42101E2E807462D7"
+			tasks: [
+				{
+					id: "4E7589B8177CF7B7"
+					type: "item"
+					disable_toast: true
+					item: {
+						id: "iceandfire:dragonsteel_ice_block"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "0B9C8839997787B5"
+					type: "xp"
+					value: 10L
+					points: false
+				}
+			]
+			rewards: [{
+				id: "032267BC606C7F3D"
+				type: "questsadditions:repeat_choice"
+				table_id: 652336651965154404L
+			}]
+		}
+		{
+			title: "Gold Coin -> Dungeon's Mobs Gear"
+			icon: {
+				id: "dungeons_mobs:drowned_necromancer_chestplate"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			disable_toast: true
+			x: 2.0d
+			y: -0.5d
+			id: "58EA4AC53C08ADEE"
+			tasks: [{
+				id: "336F0B6E9D85A9AF"
+				type: "item"
+				disable_toast: true
+				item: {
+					id: "kubejs:gold_coin"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				consume_items: true
+			}]
+			rewards: [{
+				id: "6B35A137798BD60C"
+				type: "questsadditions:repeat_random"
+				table_id: 6428149481638189910L
+			}]
+		}
+		{
+			title: "Gold Coin -> Dungeon's Gear Crate"
+			icon: {
+				id: "dungeons_gear:full_metal_chestplate"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			disable_toast: true
+			x: 2.0d
+			y: 1.5d
+			id: "3E3B2EBE83D1F239"
+			tasks: [{
+				id: "19A895F9E4113D81"
+				type: "item"
+				disable_toast: true
+				item: {
+					id: "kubejs:gold_coin"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				consume_items: true
+			}]
+			rewards: [{
+				id: "0117728DD2B9D1DB"
+				type: "questsadditions:repeat_random"
+				table_id: 6869005870291592175L
+			}]
+		}
+		{
+			title: "Copper coin -> Money"
+			icon: "kubejs:coin_q_1"
+			disable_toast: true
+			x: -6.0d
+			y: 2.0d
+			id: "3459460308668951"
+			tasks: [{
+				id: "251D20F3E1232F71"
+				type: "item"
+				disable_toast: true
+				item: {
+					id: "kubejs:copper_coin"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				consume_items: true
+			}]
+			rewards: [{
+				id: "0F407E367C6CDD4E"
+				type: "questsadditions:repeat"
+				table_id: 5400957200627923109L
+			}]
+		}
+		{
+			title: "Diamond Coin -> Relics Crate"
+			icon: {
+				id: "relics:magma_walker"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			disable_toast: true
+			x: 6.0d
+			y: 1.5d
+			id: "03A1DDD2943E57B1"
+			tasks: [{
+				id: "41CC8E3C3158575B"
+				type: "item"
+				disable_toast: true
+				item: {
+					id: "kubejs:diamond_coin"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				consume_items: true
+			}]
+			rewards: [{
+				id: "6D6AB377906804B8"
+				type: "questsadditions:repeat_choice"
+				table_id: 5824378382408918036L
+			}]
+		}
+		{
+			title: "Gold Coind -> Relics Materials Crate"
+			icon: "relics:uncommon_scrap"
+			disable_toast: true
+			x: 2.0d
+			y: 0.5d
+			id: "2C7A4688A36C8D2F"
+			tasks: [{
+				id: "4F80337BC005F23B"
+				type: "item"
+				disable_toast: true
+				item: {
+					id: "kubejs:gold_coin"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				consume_items: true
+			}]
+			rewards: [{
+				id: "65E096992E840977"
+				type: "questsadditions:repeat_choice"
+				table_id: 5636559557933762132L
+			}]
+		}
+		{
+			title: "Diamond Coin -> Artifacts Crate"
+			icon: "artifacts:fire_gauntlet"
+			x: 6.0d
+			y: 2.5d
+			id: "079C8AA41B7C34E1"
+			tasks: [{
+				id: "069D5335840F51E0"
+				type: "item"
+				disable_toast: true
+				item: {
+					id: "kubejs:diamond_coin"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				consume_items: true
+			}]
+			rewards: [{
+				id: "57775EB9A4F2226A"
+				type: "questsadditions:repeat_choice"
+				table_id: 2742965285575870096L
+			}]
+		}
+		{
+			title: "Gold Coin -> Dungeon's Weapons Crate"
+			icon: {
+				id: "dungeons_gear:frost_scythe"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			disable_toast: true
+			x: 2.5d
+			y: 2.5d
+			id: "2699B3C8C2085097"
+			tasks: [{
+				id: "6DE7233A9AAFAE48"
+				type: "item"
+				disable_toast: true
+				item: {
+					id: "kubejs:gold_coin"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				consume_items: true
+			}]
+			rewards: [{
+				id: "0A1A04672A3633B6"
+				type: "questsadditions:repeat_choice"
+				team_reward: false
+				table_id: 6789086203719600389L
+			}]
+		}
+		{
+			title: "Gold Coin -> Dungeon's Artifacts Crate"
+			icon: {
+				id: "dungeons_gear:iron_hide_amulet"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			disable_toast: true
+			x: 1.5d
+			y: 2.5d
+			id: "6CA383590D6216C3"
+			tasks: [{
+				id: "10972A5696072450"
+				type: "item"
+				disable_toast: true
+				item: {
+					id: "kubejs:gold_coin"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				consume_items: true
+			}]
+			rewards: [{
+				id: "50BCBFD8E438B984"
+				type: "questsadditions:repeat_choice"
+				team_reward: false
+				table_id: 2564622546530286442L
+			}]
+		}
+		{
+			title: "Monster Coin -> Experience Levels"
+			icon: "minecraft:experience_bottle"
+			disable_toast: true
+			x: 11.0d
+			y: 0.5d
+			id: "5D0015C3AD22FE14"
+			tasks: [{
+				id: "6C626048FA76E683"
+				type: "item"
+				disable_toast: true
+				item: {
+					id: "kubejs:monster_coin"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				consume_items: true
+			}]
+			rewards: [{
+				id: "0DE7D508B0149942"
+				type: "questsadditions:repeat_random"
+				table_id: 748146749013531178L
+			}]
+		}
+		{
+			title: "Monster Coin -> Stats Experience"
+			icon: "kubejs:levelup"
+			disable_toast: true
+			x: 12.0d
+			y: 0.5d
+			id: "010CFB15EC0B128C"
+			tasks: [{
+				id: "7E4C5948A18859EE"
+				type: "item"
+				disable_toast: true
+				item: {
+					id: "kubejs:monster_coin"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				consume_items: true
+			}]
+			rewards: [{
+				id: "6E376D04631F868B"
+				type: "questsadditions:repeat_choice"
+				team_reward: false
+				table_id: 8545390299491237994L
+			}]
+		}
+		{
+			title: "10xMonster Coin -> Stats Experience x10"
+			icon: "kubejs:levelup"
+			disable_toast: true
+			x: 12.0d
+			y: 1.5d
+			id: "12A37D7C55316769"
+			tasks: [{
+				id: "2237EBE3DC20B80E"
+				type: "item"
+				disable_toast: true
+				item: {
+					id: "kubejs:monster_coin"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 10L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "74E87CA4950C741A"
+				type: "questsadditions:repeat_choice"
+				team_reward: false
+				table_id: 3680913278004027102L
+			}]
+		}
+		{
+			title: "10xMonster Coin -> Experience Levels"
+			icon: "minecraft:experience_bottle"
+			disable_toast: true
+			x: 11.0d
+			y: 1.5d
+			id: "35439ABCBB75E096"
+			tasks: [{
+				id: "0FCD692ABB48823A"
+				type: "item"
+				disable_toast: true
+				item: {
+					id: "kubejs:monster_coin"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 10L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "790056BC266C9E64"
+				type: "questsadditions:repeat_random"
+				table_id: 1115475731524830700L
+			}]
+		}
+		{
+			title: "Monster Coin -> Random Monster Material"
+			icon: "minecraft:bone"
+			disable_toast: true
+			x: 11.0d
+			y: 3.0d
+			id: "2BF225A3266C70D9"
+			tasks: [{
+				id: "4445DD2E276F6F57"
+				type: "item"
+				disable_toast: true
+				item: {
+					id: "kubejs:monster_coin"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				consume_items: true
+			}]
+			rewards: [{
+				id: "4381ADC4FB601295"
+				type: "questsadditions:repeat_random"
+				team_reward: false
+				table_id: 5655352712931457870L
+			}]
+		}
+		{
+			title: "Monster Coin -> Random Dust"
+			icon: "iceandfire:pixie_dust"
+			disable_toast: true
+			x: 12.0d
+			y: 3.0d
+			id: "59BCBB462EE8E2D9"
+			tasks: [{
+				id: "6B3001EB2AA853BF"
+				type: "item"
+				disable_toast: true
+				item: {
+					id: "kubejs:monster_coin"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				consume_items: true
+			}]
+			rewards: [{
+				id: "328C91EA9246715B"
+				type: "questsadditions:repeat_random"
+				team_reward: false
+				table_id: 2577464831680894938L
+			}]
+		}
+		{
+			title: "Monster Coin -> Random Artifacts Crate"
+			icon: { id: "artifacts:shock_pendant", Count: 5b }
+			disable_toast: true
+			x: 11.0d
+			y: 5.5d
+			id: "20EB4B6DD6683080"
+			tasks: [{
+				id: "1D4BC152A79421E3"
+				type: "item"
+				disable_toast: true
+				item: {
+					id: "kubejs:monster_coin"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 5L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "60D0776BF6A0E4DD"
+				type: "questsadditions:repeat_random"
+				table_id: 2742965285575870096L
+			}]
+		}
+		{
+			title: "Monster Coin -> Random Dungeon's Mobs Gear"
+			icon: {
+				id: "dungeons_gear:gilded_glory_chestplate"
+				Count: 5b
+				tag: {
+					Damage: 0
+				}
+			}
+			disable_toast: true
+			x: 12.0d
+			y: 5.5d
+			id: "49A2BBB41EA56759"
+			tasks: [{
+				id: "2439075D2600223D"
+				type: "item"
+				disable_toast: true
+				item: {
+					id: "kubejs:monster_coin"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 5L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "6A748A2D3CC0B0E4"
+				type: "questsadditions:repeat_random"
+				team_reward: false
+				table_id: 6869005870291592175L
+			}]
+		}
+		{
+			title: "Monster Coin -> Random Dungeon's Weapons Crate"
+			icon: {
+				id: "dungeons_gear:firebrand"
+				Count: 5b
+				tag: {
+					Damage: 0
+				}
+			}
+			disable_toast: true
+			x: 11.5d
+			y: 4.5d
+			id: "17E3076A186D4F5B"
+			tasks: [{
+				id: "4AD1E938D0F8A3C7"
+				type: "item"
+				disable_toast: true
+				item: {
+					id: "kubejs:monster_coin"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 3L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "10605C904A54FF31"
+				type: "questsadditions:repeat_random"
+				team_reward: false
+				table_id: 6789086203719600389L
+			}]
+		}
+	]
+}
