@@ -1345,10 +1345,10 @@
 			x: -2.0d
 			y: 8.55d
 			description: [
-				"Fishing skill is gained by going out and ... you will never guess ... fishing."
+				"釣魚技能可以透過外出與......您絕對猜不到的......釣魚來獲得。"
 				""
-				"While fishing you will be able to catch special items that have the possibility of being enchanted."
-				"Higher levels of fishing increase the probability of catching better items with better enchantments."
+				"釣魚時，您將能捕捉到有可能被附魔的特殊物品。"
+				"越高的釣魚等級將使您能夠捕捉到更好的物品，有附魔的機率也更高。"
 			]
 			dependencies: ["000000000000009D"]
 			size: 0.85d
@@ -1378,9 +1378,9 @@
 			x: -2.0d
 			y: 7.699999999999999d
 			description: [
-				"Magic skill is gained by mining magical ores, reading tomes from Enigmatic Legacy, and casting spells."
-				""
-				"Higher levels of this skill grant increased maximum mana, mana regeneration, and magic damage."
+				"魔法技能可透過採集魔法礦物"
+				"魔法技能可透過採集魔法礦、閱讀《Enigmatic Legacy》的書籍與施法來獲得。"
+				"越高的技能等級將增加最大魔力、魔力再生與魔法傷害。"
 			]
 			dependencies: ["000000000000009D"]
 			size: 0.85d
@@ -1402,14 +1402,14 @@
 			x: -1.575d
 			y: 9.4d
 			description: [
-				"Smithing skill is gained by a number of different methods:"
-				"-Repairing items"
-				"-Salvaging items (place the item in your off-hand, then crouch and right click on a smithing table)"
+				"鍛造技能可透過一些不同的方式獲得:"
+				"- 修理物品"
+				"- 回收物品（將物品放在您的手上，然後蹲下，在鍛造台上按下右鍵）"
 				""
-				"Higher levels of smithing give a number of good benefits:"
-				"-While smelting ore there is a possibility of getting extra products."
-				"-When salvaging items, a higher level increases the success rate of salvaging and increases the number of possible salvaging products."
-				"-Increases the amount repaired when using the anvil and anvils are less likely to break."
+				"越高的鍛造技能等級可以帶來以下效果："
+				"- 在冶煉礦物的同時，也可能獲得額外的產物。"
+				"- 在回收物品時，會增加回收的成功率與可回收的物品數量。"
+				"- 鐵砧更不容易損壞，亦即可以使用更多次"
 			]
 			dependencies: ["000000000000009D"]
 			size: 0.85d
