@@ -1307,9 +1307,9 @@
 			x: -1.575d
 			y: 6.0d
 			description: [
-				"Farming skill is gained by harvesting plants and by breeding animals."
+				"耕作技能可以透過收成植物與飼養動物獲得。"
 				""
-				"Higher levels of farming will allow you to harvest more crops from a single plant and to harvest them faster,"
+				"越高的耕作等級將使您從一株植物中收成更多的作物，並且生長速度更快速。"
 			]
 			dependencies: ["000000000000009D"]
 			size: 0.85d

@@ -1,5 +1,5 @@
 # Roguelike-Adventures-and-Dungeons-2-zh_TW
-Roguelike Adventures and Dungeons 2 - 1.16.5 模組包的翻譯
+Roguelike 冒險與地下城 2 模組包的翻譯
 
 支援版本：RAD2-1.16.5 0.95a
 
