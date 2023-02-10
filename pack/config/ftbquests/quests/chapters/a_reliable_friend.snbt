@@ -14,11 +14,11 @@
 			y: -2.5d
 			shape: "gear"
 			description: [
-				"Step 1:"
+				"第一步:"
 				"Find a wild wolf (the Vanilla Minecraft wolf)."
-				"Step 2:"
+				"第二步:"
 				"Feed it bones (right click with a bone in your hand) until hearts appear above its head. If a collar appears on its neck and it sits down, you've done it right!"
-				"Step 3:"
+				"第三步:"
 				"Feed the dog at least one Training Treat and the dog will disappear for a very brief second and a dog without a collar will take its place. At this point, you now have a Doggy Talents dog."
 			]
 			size: 1.5d

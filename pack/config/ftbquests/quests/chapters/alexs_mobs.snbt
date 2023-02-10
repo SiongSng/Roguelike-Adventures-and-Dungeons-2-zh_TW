@@ -3,7 +3,7 @@
 	group: "0FF98225FE921275"
 	order_index: 1
 	filename: "alexs_mobs"
-	title: "Hostile World"
+	title: "敵意的世界"
 	icon: "rats:rat_upgrade_warrior"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
