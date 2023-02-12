@@ -1,0 +1,27 @@
+name: Build the translation pack
+on:
+  push:
+    paths:
+      - "pack/**"
+      - ".github/workflows/build.yaml"
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Zip the translation pack
+        run: |
+          cd pack
+          zip -r ../RAD2-1.16.5-zh_TW.zip *
+      - name: Upload the translation pack
+        uses: actions/upload-artifact@v3
+        with:
+          name: RAD2-1.16.5-zh_TW
+          path: RAD2-1.16.5-zh_TW.zip
+      - name: Create a release
+        uses: ncipollo/release-action@v1
+        with:
+          artifacts: "RAD2-1.16.5-zh_TW.zip"
+          body: "Roguelike Adventures and Dungeons (Roguelike 冒險與地下城 2) 模組包的繁體中文（台灣）翻譯包 | 版本：${{ github.ref }}"
