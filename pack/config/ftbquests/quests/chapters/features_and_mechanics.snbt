@@ -963,7 +963,7 @@
 			x: 1.4d
 			y: 8.55d
 			description: [
-				"Agility skill is gained in a number of ways:"
+				"敏捷技能可以數種方式獲得:"
 				"-Sprinting: the faster you are going, the more xp you will gain (Potions can boost this)."
 				"-Jumping: the higher you jump the more xp you gain (Potions can boost this)."
 				"-Saving fall damage (a chance probability of occuring when taking fall damage)."
@@ -977,7 +977,7 @@
 			tasks: [{
 				id: "3C321FB0BBBB71CF"
 				type: "checkmark"
-				title: "Agility"
+				title: "敏捷"
 			}]
 			rewards: [{
 				id: "213C8DF50385C565"
