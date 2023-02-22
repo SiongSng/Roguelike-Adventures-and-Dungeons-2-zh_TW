@@ -4,6 +4,9 @@ Roguelike 冒險與地下城 2 模組包的翻譯
 
 ![image](https://user-images.githubusercontent.com/48402225/218318252-d583eb9b-dadf-4de8-8e10-9bc24248dcd0.png)
 
+RPMTW 官方網站：https://rpmtw.com  
+RPMTW Discord 社群伺服器：https://discord.gg/5xApZtgV2u 
+
 ## 使用教學
 1. 首先 [點我](https://github.com/SiongSng/Roguelike-Adventures-and-Dungeons-2-zh_TW/releases/latest/download/RAD2-1.16.5-zh_TW.zip) 下載翻譯包。
 2. 接著應該會看到一個檔案叫做 `RAD2-1.16.5-zh_TW.zip`，將其複製到您的模組包遊戲**主要資料夾**中。
