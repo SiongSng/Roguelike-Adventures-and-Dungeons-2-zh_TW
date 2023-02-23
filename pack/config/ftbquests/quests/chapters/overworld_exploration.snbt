@@ -39,7 +39,7 @@
 			x: 3.0d
 			y: 0.5d
 			description: [
-				"Spice of Life: Potato Edition will give you benefits for eating a variety of foods."
+				"生活中的香料：Potato Edition will give you benefits for eating a variety of foods."
 				""
 				"You will receive variable benefits depending on how diverse your current diet is, and has been in the recent past."
 				""
@@ -54,7 +54,7 @@
 			tasks: [{
 				id: "43036004E3C8DE83"
 				type: "checkmark"
-				title: "Food Variety and Bonuses"
+				title: "食物種類和效果"
 			}]
 			rewards: [{
 				id: "5592572112E7815D"
