@@ -15,7 +15,7 @@ jobs:
         run: |
           cd pack
           zip -r ../RAD2-1.16.5-client-zh_TW.zip *
-          rm -rf mods/**
+          rm -rf mods
           zip -r ../RAD2-1.16.5-server-zh_TW.zip *
       - name: Upload the translation pack (client)
         uses: actions/upload-artifact@v3
@@ -31,5 +31,6 @@ jobs:
         uses: ncipollo/release-action@v1
         with:
           artifacts: "RAD2-1.16.5-client-zh_TW.zip RAD2-1.16.5-server-zh_TW.zip"
-          tag: RAD2 翻譯包 v_${{ github.run_number }}
+          tag: v_${{ github.run_number }}
+          name: RAD2 翻譯包 v${{ github.run_number }}
           body: "Roguelike Adventures and Dungeons (Roguelike 冒險與地下城 2) 模組包的繁體中文（台灣）翻譯包 | 版本：${{ github.run_number }}"
