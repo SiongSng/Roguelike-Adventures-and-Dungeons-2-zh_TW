@@ -8,8 +8,8 @@ RPMTW 官方網站：https://rpmtw.com
 RPMTW Discord 社群伺服器：https://discord.gg/5xApZtgV2u 
 
 ## 使用教學
-1. 首先 [點我](https://github.com/SiongSng/Roguelike-Adventures-and-Dungeons-2-zh_TW/releases/latest/download/RAD2-1.16.5-zh_TW.zip) 下載翻譯包。
-2. 接著應該會看到一個檔案叫做 `RAD2-1.16.5-zh_TW.zip`，將其複製到您的模組包遊戲**主要資料夾**中。
+1. 首先 [點我](https://github.com/SiongSng/Roguelike-Adventures-and-Dungeons-2-zh_TW/releases/latest/download/RAD2-1.16.5-client-zh_TW.zip) 下載翻譯包。
+2. 接著應該會看到一個檔案叫做 `RAD2-1.16.5-client-zh_TW.zip`，將其複製到您的模組包遊戲**主要資料夾**中。
 3. 然後解壓縮這個檔案，正常情況下應該會出現是否要**覆蓋**相關資料夾與檔案的提示，請一律選擇**是**。
 4. 最後盡情享受您的遊戲吧！
 
