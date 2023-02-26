@@ -3,7 +3,7 @@
 	group: "0FF98225FE921275"
 	order_index: 4
 	filename: "meet_your_fight"
-	title: "Meet Your Fight!"
+	title: "迎接你的挑戰！"
 	icon: "meetyourfight:haunted_bell"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -13,7 +13,7 @@
 			y: 3.0d
 			shape: "hexagon"
 			description: [
-				"Bellringer is a boss added by Meet Your Fight. It can be summoned by using a Haunted Bell. When killed, it drops 1 Phantoplasm and 3-4 Gold Ingots."
+				"Bellringer 是一個由 Meet Your Fight 模組所新增的 Boss。It can be summoned by using a Haunted Bell. When killed, it drops 1 Phantoplasm and 3-4 Gold Ingots."
 				""
 				"Bellringer floats above the ground and can pass through walls, similarly to a Vex. When targeting a player, it tries to constantly stay a few blocks in front and above its target."
 				""
@@ -1129,23 +1129,26 @@
 		{
 			title: "Gateways"
 			x: 0.0d
-			y: 0.0d
+			y: -2.0d
 			shape: "hexagon"
 			description: [
+				"Gateways are a great way to farm mob drops after you have collected a few."
+				""
 				"Every gate opened contains a link to a world full of a certain type of mob.  Waves and waves of those mobs will progressively pour forth, and each wave completed will spawn additional loot from that mob at that portal."
 				""
 				"Completion of an entire portal will cause a massive amount of loot and experience to pour forth from the portal, and the portal will close."
 				""
-				"To open a gateway, you must first craft a Gate Opener.  A gate opener will be able to open a specific portal size, attuned to a specific mob.  Simply craft the gate opener you want, and use it on the nearest block."
+				"To open a gateway, you must first craft a Gate Pearl.  A gate pearl will be able to open a specific portal size, attuned to a specific mob.  Simply craft the gate opener you want, and use it on the nearest block."
 				""
 				"Once you've opened a gateway, your next goal is to close it.  You can close a gateway by completing each wave.  But be warned, failure to complete a wave on time will trigger a destabilization event, which will annihilate the gateway and may damage nearby things!"
 				""
 				"A gateway's max number of stages is indicated by its boss bar.  Every section on the bar represents a wave, and each section will tick down once it begins.  Clearing a wave will immediately end that wave's timer, and start the sequence for the next wave.  Every time a wave is completed, additional loot (as if more of the spawned mob had died) will spawn from the portal.  The more waves you clear, the more loot spawns at the center, but the stronger the spawned monsters become.  Each wave, the mobs that come forth will be exponentially stronger than their predecessors.  Upon completion of every wave, you will receive a large burst of experience and loot, and the portal will close with no adverse effects."
 			]
+			dependencies: ["636C994CC9BDE02A"]
 			size: 2.0d
 			id: "2859B5A6AAB94D7E"
 			tasks: [{
-				id: "1BAFB51E8556AA31"
+				id: "6B770A19DC00095E"
 				type: "checkmark"
 			}]
 			rewards: [{
@@ -1155,8 +1158,16 @@
 			}]
 		}
 		{
-			icon: "minecraft:zombie_head"
-			x: -9.5d
+			icon: {
+				id: "minecraft:zombie_head"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: -10.0d
 			y: 6.5d
 			id: "273BBE58DA6C6B5E"
 			tasks: [{
@@ -1185,7 +1196,7 @@
 		}
 		{
 			icon: "minecraft:zombie_head"
-			x: -9.5d
+			x: -10.0d
 			y: 7.5d
 			dependencies: ["273BBE58DA6C6B5E"]
 			id: "6D6F752283D9311E"
@@ -1215,7 +1226,7 @@
 		}
 		{
 			icon: "minecraft:zombie_head"
-			x: -9.5d
+			x: -10.0d
 			y: 9.5d
 			dependencies: ["0C2F14176C8B6233"]
 			id: "24D7205FF1E55192"
@@ -1240,7 +1251,7 @@
 		}
 		{
 			icon: "minecraft:zombie_head"
-			x: -9.5d
+			x: -10.0d
 			y: 10.5d
 			dependencies: ["24D7205FF1E55192"]
 			id: "36CB6AB1F16744C3"
@@ -1265,7 +1276,7 @@
 		}
 		{
 			icon: "minecraft:zombie_head"
-			x: -9.5d
+			x: -10.0d
 			y: 11.5d
 			dependencies: ["36CB6AB1F16744C3"]
 			id: "42B5C52B1EB2CF21"
@@ -1289,8 +1300,16 @@
 			]
 		}
 		{
-			icon: "minecraft:skeleton_skull"
-			x: -7.0d
+			icon: {
+				id: "minecraft:skeleton_skull"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: -7.5d
 			y: 6.5d
 			id: "3E1D08F6D98A914F"
 			tasks: [{
@@ -1318,8 +1337,16 @@
 			]
 		}
 		{
-			icon: "minecraft:skeleton_skull"
-			x: -7.0d
+			icon: {
+				id: "minecraft:skeleton_skull"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: -7.5d
 			y: 7.5d
 			dependencies: ["3E1D08F6D98A914F"]
 			id: "708C3073CDD71408"
@@ -1348,8 +1375,16 @@
 			]
 		}
 		{
-			icon: "minecraft:skeleton_skull"
-			x: -7.0d
+			icon: {
+				id: "minecraft:skeleton_skull"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: -7.5d
 			y: 8.5d
 			dependencies: ["708C3073CDD71408"]
 			id: "4A070C730B96D131"
@@ -1378,8 +1413,16 @@
 			]
 		}
 		{
-			icon: "minecraft:skeleton_skull"
-			x: -7.0d
+			icon: {
+				id: "minecraft:skeleton_skull"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: -7.5d
 			y: 9.5d
 			dependencies: ["4A070C730B96D131"]
 			id: "7C643C8DA7163F80"
@@ -1403,8 +1446,16 @@
 			]
 		}
 		{
-			icon: "minecraft:skeleton_skull"
-			x: -7.0d
+			icon: {
+				id: "minecraft:skeleton_skull"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: -7.5d
 			y: 10.5d
 			dependencies: ["7C643C8DA7163F80"]
 			id: "02CA897446FE0C16"
@@ -1428,8 +1479,16 @@
 			]
 		}
 		{
-			icon: "minecraft:zombie_head"
-			x: -9.5d
+			icon: {
+				id: "minecraft:zombie_head"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: -10.0d
 			y: 8.5d
 			dependencies: ["6D6F752283D9311E"]
 			id: "0C2F14176C8B6233"
@@ -1458,8 +1517,16 @@
 			]
 		}
 		{
-			icon: "minecraft:skeleton_skull"
-			x: -7.0d
+			icon: {
+				id: "minecraft:skeleton_skull"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: -7.5d
 			y: 11.5d
 			dependencies: ["02CA897446FE0C16"]
 			id: "7AA5044D18A2E23E"
@@ -1483,8 +1550,16 @@
 			]
 		}
 		{
-			icon: "minecraft:creeper_head"
-			x: -5.5d
+			icon: {
+				id: "minecraft:creeper_head"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: -6.0d
 			y: 6.5d
 			id: "36C063A88D708055"
 			tasks: [{
@@ -1512,8 +1587,16 @@
 			]
 		}
 		{
-			icon: "minecraft:creeper_head"
-			x: -5.5d
+			icon: {
+				id: "minecraft:creeper_head"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: -6.0d
 			y: 7.5d
 			dependencies: ["36C063A88D708055"]
 			id: "1D6BCC0FB9627EFB"
@@ -1542,8 +1625,16 @@
 			]
 		}
 		{
-			icon: "minecraft:creeper_head"
-			x: -5.5d
+			icon: {
+				id: "minecraft:creeper_head"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: -6.0d
 			y: 8.5d
 			dependencies: ["1D6BCC0FB9627EFB"]
 			id: "7DD33DBEE207DD46"
@@ -1572,7 +1663,15 @@
 			]
 		}
 		{
-			icon: "minecraft:wither_skeleton_skull"
+			icon: {
+				id: "minecraft:wither_skeleton_skull"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
 			x: 4.5d
 			y: 6.5d
 			id: "5C2C1E234FEA1C04"
@@ -1601,7 +1700,15 @@
 			]
 		}
 		{
-			icon: "minecraft:wither_skeleton_skull"
+			icon: {
+				id: "minecraft:wither_skeleton_skull"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
 			x: 4.5d
 			y: 7.5d
 			dependencies: ["5C2C1E234FEA1C04"]
@@ -1631,7 +1738,15 @@
 			]
 		}
 		{
-			icon: "minecraft:wither_skeleton_skull"
+			icon: {
+				id: "minecraft:wither_skeleton_skull"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
 			x: 4.5d
 			y: 8.5d
 			dependencies: ["682B081A32B48DDE"]
@@ -1649,8 +1764,16 @@
 			}]
 		}
 		{
-			icon: "minecraft:cobweb"
-			x: -4.0d
+			icon: {
+				id: "spartanweaponry:spider_head"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: -3.5d
 			y: 6.5d
 			id: "1D31E5ABED3743E7"
 			tasks: [{
@@ -1678,8 +1801,16 @@
 			]
 		}
 		{
-			icon: "minecraft:cobweb"
-			x: -4.0d
+			icon: {
+				id: "spartanweaponry:spider_head"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: -3.5d
 			y: 7.5d
 			dependencies: ["1D31E5ABED3743E7"]
 			id: "2A1CD461BF2F4A46"
@@ -1708,8 +1839,16 @@
 			]
 		}
 		{
-			icon: "minecraft:cobweb"
-			x: -4.0d
+			icon: {
+				id: "spartanweaponry:spider_head"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: -3.5d
 			y: 8.5d
 			dependencies: ["2A1CD461BF2F4A46"]
 			id: "16B7281F7910FF1E"
@@ -1738,7 +1877,7 @@
 			]
 		}
 		{
-			x: -4.0d
+			x: -3.5d
 			y: 10.5d
 			id: "0D9F089E98AADBA5"
 			tasks: [{
@@ -1766,7 +1905,7 @@
 			]
 		}
 		{
-			x: -4.0d
+			x: -3.5d
 			y: 11.5d
 			dependencies: ["0D9F089E98AADBA5"]
 			id: "33B1EEED95230156"
@@ -1795,7 +1934,7 @@
 			]
 		}
 		{
-			x: -4.0d
+			x: -3.5d
 			y: 12.5d
 			dependencies: ["33B1EEED95230156"]
 			id: "051B70EFF9CDE3D2"
@@ -1819,8 +1958,16 @@
 			]
 		}
 		{
-			icon: "minecraft:slime_ball"
-			x: -2.5d
+			icon: {
+				id: "minecraft:slime_ball"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: -1.5d
 			y: 6.5d
 			id: "43B77AFB99476020"
 			tasks: [{
@@ -1848,8 +1995,16 @@
 			]
 		}
 		{
-			icon: "minecraft:slime_ball"
-			x: -2.5d
+			icon: {
+				id: "minecraft:slime_ball"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: -1.5d
 			y: 7.5d
 			dependencies: ["43B77AFB99476020"]
 			id: "08F70564BCE33B34"
@@ -1878,8 +2033,16 @@
 			]
 		}
 		{
-			icon: "minecraft:slime_ball"
-			x: -2.5d
+			icon: {
+				id: "minecraft:slime_ball"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: -1.5d
 			y: 8.5d
 			dependencies: ["08F70564BCE33B34"]
 			id: "0A417DAC88234DED"
@@ -1908,7 +2071,7 @@
 			]
 		}
 		{
-			x: -2.5d
+			x: -1.5d
 			y: 9.5d
 			dependencies: ["0A417DAC88234DED"]
 			id: "5964A60436E9CAC5"
@@ -1933,7 +2096,7 @@
 			]
 		}
 		{
-			x: -2.5d
+			x: -1.5d
 			y: 10.5d
 			dependencies: ["5964A60436E9CAC5"]
 			id: "30CC1CE792CF948C"
@@ -1951,8 +2114,16 @@
 			}]
 		}
 		{
-			icon: "minecraft:slime_ball"
-			x: -2.5d
+			icon: {
+				id: "minecraft:slime_ball"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: -1.5d
 			y: 11.5d
 			dependencies: ["30CC1CE792CF948C"]
 			id: "3ABE874AEB3190FD"
@@ -2013,8 +2184,16 @@
 			]
 		}
 		{
-			icon: "spartanweaponry:illager_head"
-			x: 6.5d
+			icon: {
+				id: "spartanweaponry:illager_head"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: 7.5d
 			y: 6.5d
 			id: "3E4FABF49DF8A4A0"
 			tasks: [{
@@ -2042,8 +2221,16 @@
 			]
 		}
 		{
-			icon: "spartanweaponry:illager_head"
-			x: 6.5d
+			icon: {
+				id: "spartanweaponry:illager_head"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: 7.5d
 			y: 7.5d
 			description: [""]
 			dependencies: ["3E4FABF49DF8A4A0"]
@@ -2073,8 +2260,16 @@
 			]
 		}
 		{
-			icon: "spartanweaponry:illager_head"
-			x: 6.5d
+			icon: {
+				id: "spartanweaponry:illager_head"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: 7.5d
 			y: 8.5d
 			dependencies: ["4C0A01CEE6B9573F"]
 			id: "657547F95421C44F"
@@ -2091,7 +2286,7 @@
 			}]
 		}
 		{
-			x: 6.5d
+			x: 7.5d
 			y: 10.5d
 			id: "6D160C596B6D789D"
 			tasks: [{
@@ -2126,7 +2321,7 @@
 			]
 		}
 		{
-			x: 6.5d
+			x: 7.5d
 			y: 11.5d
 			dependencies: ["6D160C596B6D789D"]
 			id: "18023C5D8E985695"
@@ -2162,7 +2357,7 @@
 			]
 		}
 		{
-			x: 6.5d
+			x: 7.5d
 			y: 12.5d
 			dependencies: ["18023C5D8E985695"]
 			id: "7E06D127A3796ACD"
@@ -2174,6 +2369,11 @@
 					Count: 1b
 					tag: {
 						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
 					}
 				}
 				entity: "minecraft:vindicator"
@@ -2193,7 +2393,7 @@
 			]
 		}
 		{
-			x: 8.0d
+			x: 9.0d
 			y: 6.5d
 			id: "66E4D05FE4EB1B37"
 			tasks: [{
@@ -2228,7 +2428,7 @@
 			]
 		}
 		{
-			x: 8.0d
+			x: 9.0d
 			y: 7.5d
 			dependencies: ["66E4D05FE4EB1B37"]
 			id: "78BCB063DF450FEA"
@@ -2257,7 +2457,7 @@
 			]
 		}
 		{
-			x: 8.0d
+			x: 9.0d
 			y: 8.5d
 			dependencies: ["78BCB063DF450FEA"]
 			id: "3E37363F614DB7CF"
@@ -2286,7 +2486,7 @@
 			]
 		}
 		{
-			x: 8.0d
+			x: 9.0d
 			y: 9.5d
 			dependencies: ["3E37363F614DB7CF"]
 			id: "372F44A7635E5FB8"
@@ -2310,7 +2510,7 @@
 			]
 		}
 		{
-			x: 8.0d
+			x: 9.0d
 			y: 10.5d
 			dependencies: ["372F44A7635E5FB8"]
 			id: "3A90C6BB095363CF"
@@ -2334,7 +2534,7 @@
 			]
 		}
 		{
-			x: 8.0d
+			x: 9.0d
 			y: 11.5d
 			dependencies: ["3A90C6BB095363CF"]
 			id: "386E3605520B9CC4"
@@ -2358,7 +2558,7 @@
 			]
 		}
 		{
-			x: 9.5d
+			x: 10.5d
 			y: 6.5d
 			id: "6B835736FC7C4119"
 			tasks: [{
@@ -2381,7 +2581,7 @@
 			]
 		}
 		{
-			x: 9.5d
+			x: 10.5d
 			y: 7.5d
 			id: "2D8C58A0B2073AC4"
 			tasks: [{
@@ -2404,7 +2604,7 @@
 			]
 		}
 		{
-			x: 9.5d
+			x: 10.5d
 			y: 8.5d
 			id: "3B931FE5DA0EC3CE"
 			tasks: [{
@@ -2432,7 +2632,15 @@
 			]
 		}
 		{
-			icon: "minecraft:ghast_tear"
+			icon: {
+				id: "minecraft:ghast_tear"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
 			x: 4.5d
 			y: 9.5d
 			id: "3C7112CE44982D6D"
@@ -2461,7 +2669,15 @@
 			]
 		}
 		{
-			icon: "minecraft:ghast_tear"
+			icon: {
+				id: "minecraft:ghast_tear"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
 			x: 4.5d
 			y: 10.5d
 			dependencies: ["3C7112CE44982D6D"]
@@ -2491,7 +2707,15 @@
 			]
 		}
 		{
-			icon: "minecraft:ghast_tear"
+			icon: {
+				id: "minecraft:ghast_tear"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
 			x: 4.5d
 			y: 11.5d
 			dependencies: ["43A621B14FB554AC"]
@@ -2516,7 +2740,15 @@
 			]
 		}
 		{
-			icon: "spartanweaponry:piglin_head"
+			icon: {
+				id: "spartanweaponry:piglin_head"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
 			x: 3.0d
 			y: 6.5d
 			id: "04C9E8009D84B7A1"
@@ -2545,7 +2777,15 @@
 			]
 		}
 		{
-			icon: "spartanweaponry:piglin_head"
+			icon: {
+				id: "spartanweaponry:piglin_head"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
 			x: 3.0d
 			y: 7.5d
 			dependencies: ["04C9E8009D84B7A1"]
@@ -2648,10 +2888,32 @@
 					type: "ftbmoney:money"
 					ftb_money: 100L
 				}
+				{
+					id: "4D0EC0D42FA52F95"
+					type: "item"
+					item: {
+						id: "kubejs:nether_coin"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 3
+				}
 			]
 		}
 		{
-			icon: "spartanweaponry:blaze_head"
+			icon: {
+				id: "spartanweaponry:blaze_head"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
 			x: 1.5d
 			y: 6.5d
 			id: "4B68EB265B0E1129"
@@ -2680,8 +2942,16 @@
 			]
 		}
 		{
-			icon: "spartanweaponry:husk_head"
-			x: -0.5d
+			icon: {
+				id: "spartanweaponry:husk_head"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: 0.0d
 			y: 9.0d
 			id: "61CCF5EFBAC2D198"
 			tasks: [{
@@ -2704,8 +2974,16 @@
 			]
 		}
 		{
-			icon: "spartanweaponry:stray_skull"
-			x: -0.5d
+			icon: {
+				id: "spartanweaponry:stray_skull"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: 0.0d
 			y: 11.5d
 			id: "5927A8C2376D0588"
 			tasks: [{
@@ -2728,8 +3006,16 @@
 			]
 		}
 		{
-			icon: "spartanweaponry:drowned_head"
-			x: -0.5d
+			icon: {
+				id: "spartanweaponry:drowned_head"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: 0.0d
 			y: 6.5d
 			id: "32E4964F2AAA4E25"
 			tasks: [{
@@ -2752,27 +3038,25 @@
 			]
 		}
 		{
+			title: "Any Gate Pearl"
 			x: 0.0d
-			y: -1.5d
+			y: -3.5d
 			shape: "hexagon"
 			dependencies: ["2859B5A6AAB94D7E"]
 			id: "708556958CC998BE"
 			tasks: [{
-				id: "4E64AF068D7426AF"
+				id: "3F20ECAB58D7FF2C"
 				type: "item"
 				item: {
 					id: "gateways:gate_pearl"
 					Count: 1b
-					tag: {
-						gateway: "gateways:zombie_gate_small"
-					}
+					tag: { }
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]
 						}
 					}
 				}
-				only_from_crafting: true
 			}]
 			rewards: [
 				{
@@ -2809,8 +3093,16 @@
 			]
 		}
 		{
-			icon: "minecraft:skeleton_skull"
-			x: -7.0d
+			icon: {
+				id: "minecraft:skeleton_skull"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: -7.5d
 			y: 12.5d
 			dependencies: ["7AA5044D18A2E23E"]
 			id: "72ED70613E3B7E52"
@@ -2842,8 +3134,16 @@
 			]
 		}
 		{
-			icon: "minecraft:zombie_head"
-			x: -9.5d
+			icon: {
+				id: "minecraft:zombie_head"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: -10.0d
 			y: 12.5d
 			dependencies: ["42B5C52B1EB2CF21"]
 			id: "733169FE486DB8DD"
@@ -2875,7 +3175,7 @@
 			]
 		}
 		{
-			x: -8.0d
+			x: -8.5d
 			y: 9.5d
 			dependencies: ["7C643C8DA7163F80"]
 			id: "2FDED9C5C6011798"
@@ -2907,7 +3207,7 @@
 			]
 		}
 		{
-			x: -10.5d
+			x: -11.0d
 			y: 9.5d
 			dependencies: ["24D7205FF1E55192"]
 			id: "336930A0E23D9E2E"
@@ -2939,7 +3239,7 @@
 			]
 		}
 		{
-			x: -10.5d
+			x: -11.0d
 			y: 10.5d
 			dependencies: ["24D7205FF1E55192"]
 			id: "4AEA984BA064D20A"
@@ -2971,7 +3271,7 @@
 			]
 		}
 		{
-			x: -8.0d
+			x: -8.5d
 			y: 10.5d
 			dependencies: ["7C643C8DA7163F80"]
 			id: "7CE5BD5932677CA2"
@@ -3003,7 +3303,7 @@
 			]
 		}
 		{
-			x: -5.5d
+			x: -6.0d
 			y: 9.5d
 			dependencies: ["7DD33DBEE207DD46"]
 			id: "0674AD4EEDEEF4E4"
@@ -3035,8 +3335,8 @@
 			]
 		}
 		{
-			x: -5.5d
-			y: 10.5d
+			x: -5.0d
+			y: 9.5d
 			dependencies: ["0674AD4EEDEEF4E4"]
 			id: "625E8C6D6672AEFA"
 			tasks: [{
@@ -3067,9 +3367,9 @@
 			]
 		}
 		{
-			x: -5.5d
-			y: 11.5d
-			dependencies: ["625E8C6D6672AEFA"]
+			x: -6.0d
+			y: 10.5d
+			dependencies: ["0674AD4EEDEEF4E4"]
 			id: "781AA84E08C4367A"
 			tasks: [{
 				id: "2EC0D26EEE3E5288"
@@ -3099,8 +3399,8 @@
 			]
 		}
 		{
-			x: -5.5d
-			y: 12.5d
+			x: -6.0d
+			y: 11.5d
 			dependencies: ["781AA84E08C4367A"]
 			id: "552084F86F88D15C"
 			tasks: [{
@@ -3131,7 +3431,15 @@
 			]
 		}
 		{
-			icon: "spartanweaponry:blaze_head"
+			icon: {
+				id: "spartanweaponry:blaze_head"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
 			x: 1.5d
 			y: 7.5d
 			dependencies: ["4B68EB265B0E1129"]
@@ -3164,7 +3472,15 @@
 			]
 		}
 		{
-			icon: "spartanweaponry:blaze_head"
+			icon: {
+				id: "spartanweaponry:blaze_head"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
 			x: 1.5d
 			y: 8.5d
 			dependencies: ["67EE916849A729B1"]
@@ -3197,7 +3513,15 @@
 			]
 		}
 		{
-			icon: "spartanweaponry:blaze_head"
+			icon: {
+				id: "spartanweaponry:blaze_head"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
 			x: 1.5d
 			y: 9.5d
 			dependencies: ["5537F265CE8EBD3E"]
@@ -3230,8 +3554,16 @@
 			]
 		}
 		{
-			icon: "spartanweaponry:drowned_head"
-			x: -0.5d
+			icon: {
+				id: "spartanweaponry:drowned_head"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: 0.0d
 			y: 7.5d
 			dependencies: ["32E4964F2AAA4E25"]
 			id: "124CDF84B0FC4EF8"
@@ -3263,8 +3595,16 @@
 			]
 		}
 		{
-			icon: "spartanweaponry:husk_head"
-			x: -0.5d
+			icon: {
+				id: "spartanweaponry:husk_head"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: 0.0d
 			y: 10.0d
 			dependencies: ["61CCF5EFBAC2D198"]
 			id: "14C32922D8142F37"
@@ -3296,8 +3636,16 @@
 			]
 		}
 		{
-			icon: "spartanweaponry:stray_skull"
-			x: -0.5d
+			icon: {
+				id: "spartanweaponry:stray_skull"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: 0.0d
 			y: 12.5d
 			dependencies: ["5927A8C2376D0588"]
 			id: "2D7D534F253D0806"
@@ -3329,7 +3677,15 @@
 			]
 		}
 		{
-			icon: "spartanweaponry:piglin_head"
+			icon: {
+				id: "spartanweaponry:piglin_head"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
 			x: 3.0d
 			y: 8.5d
 			dependencies: ["686519D5266C6F27"]
@@ -3337,7 +3693,15 @@
 			tasks: [{
 				id: "2010972436B14537"
 				type: "kill"
-				icon: "spartanweaponry:zombified_piglin_head"
+				icon: {
+					id: "spartanweaponry:zombified_piglin_head"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
 				entity: "minecraft:piglin"
 				value: 300L
 			}]
@@ -3363,7 +3727,15 @@
 			]
 		}
 		{
-			icon: "minecraft:ghast_tear"
+			icon: {
+				id: "minecraft:ghast_tear"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
 			x: 4.5d
 			y: 12.5d
 			dependencies: ["3F4E0FB2177E7F52"]
@@ -3374,14 +3746,37 @@
 				entity: "minecraft:ghast"
 				value: 100L
 			}]
-			rewards: [{
-				id: "5A67EBF361AAA16F"
-				type: "ftbmoney:money"
-				ftb_money: 100L
-			}]
+			rewards: [
+				{
+					id: "5A67EBF361AAA16F"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+				{
+					id: "373607B19C58BA22"
+					type: "item"
+					item: {
+						id: "kubejs:gold_coin"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
 		}
 		{
-			icon: "infernalexp:magma_cube_bucket"
+			icon: {
+				id: "infernalexp:magma_cube_bucket"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
 			x: 1.5d
 			y: 11.5d
 			id: "02BF15564572F2BA"
@@ -3420,7 +3815,15 @@
 			tasks: [{
 				id: "631BA55EDE88F5B8"
 				type: "kill"
-				icon: "infernalexp:magma_cube_bucket"
+				icon: {
+					id: "infernalexp:magma_cube_bucket"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
 				entity: "minecraft:magma_cube"
 				value: 300L
 			}]
@@ -3447,7 +3850,7 @@
 		}
 		{
 			title: "Bad Reputation I"
-			x: 9.5d
+			x: 10.5d
 			y: 10.5d
 			id: "40F5EEC0C7474750"
 			tasks: [{
@@ -3479,7 +3882,7 @@
 		}
 		{
 			title: "Bad Reputation II"
-			x: 9.5d
+			x: 10.5d
 			y: 11.5d
 			dependencies: ["40F5EEC0C7474750"]
 			id: "234394677552B368"
@@ -3512,7 +3915,7 @@
 		}
 		{
 			title: "Bad Reputation III"
-			x: 9.5d
+			x: 10.5d
 			y: 12.5d
 			dependencies: ["234394677552B368"]
 			id: "0F58A03E48624EA5"
@@ -3540,6 +3943,540 @@
 							}
 						}
 					}
+				}
+				{
+					id: "2F2FDD238219EFFF"
+					type: "pmmo:xpreward"
+					auto: "invisible"
+					skill: "shadow"
+					amount: 100.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -0.5d
+			description: [
+				"Spirit Orbs can drop from spawners and other various structures."
+				"They can be used to craft gateways or upgrade your paraglider's stamina using a goddess statue."
+			]
+			id: "636C994CC9BDE02A"
+			tasks: [{
+				id: "5BDA5878F5F0AC4D"
+				type: "item"
+				item: {
+					id: "paraglider:spirit_orb"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "5843306522B75D9F"
+					type: "item"
+					item: {
+						id: "iceandfire:ectoplasm"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "31B8FC616B36110C"
+					type: "ftbmoney:money"
+					ftb_money: 1L
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: -1.5d
+			description: ["Upgraded version of spirit orb used to make bigger gateways."]
+			dependencies: ["636C994CC9BDE02A"]
+			id: "382CA6AE28A6316A"
+			tasks: [{
+				id: "48004E16F3D39B67"
+				type: "item"
+				item: {
+					id: "cofh_core:ectoplasm"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "735189302BDB1158"
+					type: "xp"
+					xp: 15
+				}
+				{
+					id: "51C9313795B5D69C"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "food_crate"
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "7C9A34C884DEDA7A"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+			]
+		}
+		{
+			title: "Break 25 Spawners"
+			x: -1.5d
+			y: -1.5d
+			description: ["Spawners are the easiest way to get spirit orbs"]
+			dependencies: ["636C994CC9BDE02A"]
+			id: "203172A2D2865B49"
+			tasks: [{
+				id: "2D4C7AB93F4CF1A6"
+				type: "questsadditions:break"
+				title: "Spawner Smasher"
+				block: "minecraft:spawner"
+				value: 25L
+				checkItem: false
+			}]
+			rewards: [
+				{
+					id: "2EA81AEDE743459B"
+					type: "item"
+					item: {
+						id: "paraglider:spirit_orb"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 5
+				}
+				{
+					id: "66636CCA5BFC19AA"
+					type: "choice"
+					table_id: 8545390299491237994L
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: -1.0d
+			description: ["Dropped during the Undead Army event."]
+			id: "7D48C1C4B70B99F8"
+			tasks: [{
+				id: "1839C0D23C028D73"
+				type: "item"
+				item: {
+					id: "majruszs_difficulty:tattered_cloth"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "61F61252F1E30FFE"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: -3.0d
+			y: -2.0d
+			description: ["Do it again! The mob spawners this event creates is a great way to get renewable spirit orbs"]
+			dependencies: ["7D48C1C4B70B99F8"]
+			id: "71296448B1C20014"
+			tasks: [{
+				id: "0F7C9427796636CB"
+				type: "item"
+				item: {
+					id: "majruszs_difficulty:undead_battle_standard"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "4D60E973316EBA29"
+					type: "ftbmoney:money"
+					ftb_money: 25L
+				}
+				{
+					id: "1B21D7D5F8170D09"
+					type: "choice"
+					table_id: 8545390299491237994L
+				}
+			]
+		}
+		{
+			x: -5.0d
+			y: 10.5d
+			id: "21E7D8572F331C73"
+			tasks: [{
+				id: "7415843D64333573"
+				type: "kill"
+				icon: {
+					id: "dungeons_mobs:icy_creeper_spawn_egg"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				entity: "dungeons_mobs:icy_creeper"
+				value: 100L
+			}]
+		}
+		{
+			x: -6.0d
+			y: 12.5d
+			dependencies: ["552084F86F88D15C"]
+			id: "3CF6376C2F15744D"
+			tasks: [{
+				id: "013A697F588F3CD4"
+				type: "kill"
+				entity: "minecraft:creeper"
+				value: 1000L
+			}]
+			rewards: [
+				{
+					id: "60E4B44B234C1258"
+					type: "ftbmoney:money"
+					ftb_money: 250L
+				}
+				{
+					id: "3498443ED1F82FB9"
+					type: "item"
+					item: {
+						id: "kubejs:gold_coin"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			icon: {
+				id: "spartanweaponry:enderman_head"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: 6.0d
+			y: 6.5d
+			id: "6EE8F9129E0A1D60"
+			tasks: [{
+				id: "2BFE36FBC380F7D3"
+				type: "kill"
+				entity: "minecraft:enderman"
+				value: 10L
+			}]
+			rewards: [
+				{
+					id: "5F0F7C92344A5CE2"
+					type: "choice"
+					table_id: 8545390299491237994L
+				}
+				{
+					id: "334797DAED97A549"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "6EA2ACE325DC9658"
+					type: "ftbmoney:money"
+					ftb_money: 25L
+				}
+			]
+		}
+		{
+			icon: {
+				id: "spartanweaponry:cave_spider_head"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: -2.5d
+			y: 8.0d
+			id: "189B48C7EE98B1EF"
+			tasks: [{
+				id: "7FCC20C2E6061313"
+				type: "kill"
+				entity: "minecraft:cave_spider"
+				value: 100L
+			}]
+			rewards: [
+				{
+					id: "34A07664347CB8CF"
+					type: "choice"
+					table_id: 8545390299491237994L
+				}
+				{
+					id: "7BFFABC1F04B191E"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "268E3A5997205D07"
+					type: "ftbmoney:money"
+					ftb_money: 25L
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: 7.5d
+			dependencies: ["6EE8F9129E0A1D60"]
+			id: "2B0920822CAF3FEB"
+			tasks: [{
+				id: "11B9CB4AE304B4F2"
+				type: "kill"
+				icon: {
+					id: "spartanweaponry:enderman_head"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				entity: "minecraft:enderman"
+				value: 25L
+			}]
+			rewards: [
+				{
+					id: "682E8EA71FEDF99D"
+					type: "choice"
+					table_id: 8545390299491237994L
+				}
+				{
+					id: "7D7BC37F07600B81"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "79585ED1161C746D"
+					type: "ftbmoney:money"
+					ftb_money: 45L
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: 8.5d
+			dependencies: ["2B0920822CAF3FEB"]
+			id: "0AB325E800C9C5B9"
+			tasks: [{
+				id: "700BF6C0744020B5"
+				type: "kill"
+				icon: {
+					id: "spartanweaponry:enderman_head"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				entity: "minecraft:enderman"
+				value: 50L
+			}]
+			rewards: [
+				{
+					id: "16D2FAB8FFC907EB"
+					type: "choice"
+					table_id: 768393147870328736L
+				}
+				{
+					id: "2FABB3383482475F"
+					type: "ftbmoney:money"
+					ftb_money: 60L
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: 9.5d
+			dependencies: ["0AB325E800C9C5B9"]
+			id: "3109A29AC8E8F676"
+			tasks: [{
+				id: "6CCE994B58DE96E7"
+				type: "kill"
+				icon: {
+					id: "spartanweaponry:enderman_head"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				entity: "minecraft:enderman"
+				value: 100L
+			}]
+			rewards: [
+				{
+					id: "7845A2CBDF7D15FA"
+					type: "choice"
+					table_id: 3680913278004027102L
+				}
+				{
+					id: "16307893889A443C"
+					type: "ftbmoney:money"
+					ftb_money: 75L
+				}
+				{
+					id: "4D0AA9EF0DE9AFA8"
+					type: "xp"
+					xp: 150
+				}
+			]
+		}
+		{
+			x: 9.0d
+			y: 12.5d
+			description: ["Illusioners start to spawn naturally in Expert Mode (after wither is defeated), but can also spawn in raids."]
+			id: "4F18B88B2A7608F8"
+			tasks: [{
+				id: "46494CE179A84D35"
+				type: "kill"
+				entity: "minecraft:illusioner"
+				value: 100L
+			}]
+			rewards: [
+				{
+					id: "2A6FADEAE69F64B5"
+					type: "choice"
+					table_id: 8545390299491237994L
+				}
+				{
+					id: "132A8493462A541D"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
+		}
+		{
+			x: 5.5d
+			y: 12.0d
+			id: "4F565EBA69E9725A"
+			tasks: [{
+				id: "7B5EBD45A8D05025"
+				type: "kill"
+				entity: "twilightforest:tower_ghast"
+				value: 10L
+			}]
+			rewards: [
+				{
+					id: "4DA9D3E728B2C2C4"
+					type: "choice"
+					table_id: 8545390299491237994L
+				}
+				{
+					id: "25A2698D7196177F"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			x: -3.5d
+			y: 9.5d
+			dependencies: ["16B7281F7910FF1E"]
+			id: "7500D3E11DFC4CAA"
+			tasks: [{
+				id: "59BF32BD54F5D46D"
+				type: "kill"
+				icon: {
+					id: "spartanweaponry:spider_head"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				entity: "minecraft:spider"
+				value: 500L
+			}]
+			rewards: [
+				{
+					id: "5E0E858CBB4A9038"
+					type: "choice"
+					table_id: 8545390299491237994L
+				}
+				{
+					id: "573369C602352F82"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "65F57E434BC91E34"
+					type: "ftbmoney:money"
+					ftb_money: 80L
+				}
+			]
+		}
+		{
+			x: 5.5d
+			y: 11.0d
+			id: "014B8B99CC212F9F"
+			tasks: [{
+				id: "2954F0A08418711C"
+				type: "kill"
+				entity: "twilightforest:mini_ghast"
+				value: 100L
+			}]
+			rewards: [
+				{
+					id: "333470F6999381C3"
+					type: "choice"
+					table_id: 8545390299491237994L
+				}
+				{
+					id: "76DC9C61DC21B1DD"
+					type: "ftbmoney:money"
+					ftb_money: 10L
 				}
 			]
 		}

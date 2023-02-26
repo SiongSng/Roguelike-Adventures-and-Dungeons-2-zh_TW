@@ -34,7 +34,7 @@ RPMTW Discord 社群伺服器：https://discord.gg/5xApZtgV2u
 ![image](https://user-images.githubusercontent.com/48402225/218318748-14b49b63-e5ec-42b9-80f8-546c5d9e0396.png)
 
 ## 翻譯狀態
-目前支援版本：RAD2-1.16.5 0.95a
+目前支援版本：RAD2-1.16.5 1.0a
 
 模組翻譯率：約 85%  
 手冊翻譯率：約 50%  

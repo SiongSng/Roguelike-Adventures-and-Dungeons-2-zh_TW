@@ -11,21 +11,12 @@
 		{ item: "minecraft:nether_bricks", count: 32 }
 		{ item: "minecraft:quartz", count: 16 }
 		{ item: "minecraft:soul_sand", count: 32 }
-		{ item: "minecraft:netherite_scrap" }
+		{ item: "iceandfire:witherbone", count: 2 }
 		{ item: "minecraft:nether_wart" }
 		{ item: "quark:blue_nether_bricks", count: 32 }
 		{ item: "quark:netherrack_bricks", count: 64 }
 		{ item: "minecraft:soul_soil", count: 32 }
 		{ item: "quark:soul_sandstone", count: 32 }
-		{
-			item: {
-				id: "minecraft:potion"
-				Count: 1b
-				tag: {
-					Potion: "alexsmobs:strong_soulsteal"
-				}
-			}
-		}
 		{ item: "minecraft:crimson_stem", count: 32 }
 		{ item: "minecraft:warped_stem", count: 32 }
 		{ item: "minecraft:red_nether_bricks", count: 32 }

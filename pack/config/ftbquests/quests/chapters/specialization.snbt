@@ -51,6 +51,11 @@
 				tag: {
 					Damage: 0
 				}
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
 			}
 			x: -7.5d
 			y: 1.0d
@@ -226,7 +231,15 @@
 			]
 		}
 		{
-			icon: "minecraft:wheat"
+			icon: {
+				id: "minecraft:wheat"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
 			x: -6.0d
 			y: 1.0d
 			id: "4124F9EEBAA895F0"
@@ -454,6 +467,11 @@
 				tag: {
 					Damage: 0
 				}
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
 			}
 			x: -4.5d
 			y: 1.0d
@@ -590,6 +608,17 @@
 				Count: 1b
 				tag: {
 					Damage: 0
+				}
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+					"dungeons_gear:bow": {
+						lastFiredTime: 0L
+						fuseShotCounter: 0
+						crossbowChargeTime: 0
+						bowChargeTime: 0.0f
+					}
 				}
 			}
 			x: -3.0d
@@ -766,6 +795,11 @@
 				tag: {
 					Damage: 0
 				}
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
 			}
 			x: -1.5d
 			y: 1.0d
@@ -919,7 +953,15 @@
 			]
 		}
 		{
-			icon: "pirate_hat:pirate_helmet"
+			icon: {
+				id: "pirate_hat:pirate_helmet"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
 			x: 0.0d
 			y: 1.0d
 			id: "5ABCBE93E9B7A41E"
@@ -1091,6 +1133,11 @@
 				tag: {
 					Damage: 0
 				}
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
 			}
 			x: 1.5d
 			y: 1.0d
@@ -1183,29 +1230,17 @@
 					type: "item"
 					team_reward: false
 					item: {
-						id: "dungeons_gear:moon_dagger"
-						Count: 1b
+						id: "dungeons_gear:dagger"
+						Count: 2b
 						tag: {
 							Damage: 0
 						}
 						ForgeCaps: {
-							"dungeons_gear:dualwield": {
-								fake: 0b
-								wrapped: {
-									ForgeCaps: {
-										"dungeons_libraries:built_in_enchantments": {
-											BuiltInEnchantments: [ ]
-										}
-									}
-									id: "minecraft:air"
-									Count: 0b
-								}
-							}
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [{
 									data: [{
 										lvl: 1s
-										id: "dungeons_gear:enigma_resonator"
+										id: "farmersdelight:backstabbing"
 									}]
 									source: "dungeons_libraries:gear_config"
 								}]
@@ -1279,7 +1314,15 @@
 			]
 		}
 		{
-			icon: "minecraft:leather"
+			icon: {
+				id: "minecraft:leather"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
 			x: 3.0d
 			y: 1.0d
 			id: "04399280EC946CB6"
@@ -1477,6 +1520,11 @@
 				tag: {
 					Damage: 0
 				}
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
 			}
 			x: 4.5d
 			y: 1.0d
@@ -1638,6 +1686,29 @@
 				tag: {
 					Damage: 0
 				}
+				ForgeCaps: {
+					"dungeons_gear:dualwield": {
+						fake: 0b
+						wrapped: {
+							ForgeCaps: {
+								"dungeons_libraries:built_in_enchantments": {
+									BuiltInEnchantments: [ ]
+								}
+							}
+							id: "minecraft:air"
+							Count: 1b
+						}
+					}
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [{
+							data: [{
+								lvl: 1s
+								id: "dungeons_gear:rampaging"
+							}]
+							source: "dungeons_libraries:gear_config"
+						}]
+					}
+				}
 			}
 			x: 6.0d
 			y: 1.0d
@@ -1793,8 +1864,8 @@
 					type: "item"
 					team_reward: false
 					item: {
-						id: "dungeons_gear:fighters_binding"
-						Count: 1b
+						id: "dungeons_gear:gauntlet"
+						Count: 2b
 						tag: {
 							Damage: 0
 						}
@@ -1823,7 +1894,15 @@
 			]
 		}
 		{
-			icon: "ars_nouveau:glyph_summon_wolves"
+			icon: {
+				id: "ars_nouveau:glyph_summon_wolves"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
 			x: 7.5d
 			y: 1.0d
 			id: "75434610CC4789B4"
@@ -3470,7 +3549,15 @@
 			]
 		}
 		{
-			icon: "kubejs:arrow_down"
+			icon: {
+				id: "kubejs:arrow_down"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
 			x: -7.5d
 			y: 2.5d
 			shape: "diamond"
@@ -3505,7 +3592,15 @@
 			}]
 		}
 		{
-			icon: "kubejs:arrow_down"
+			icon: {
+				id: "kubejs:arrow_down"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
 			x: -6.0d
 			y: 2.5d
 			shape: "diamond"
@@ -3540,7 +3635,15 @@
 			}]
 		}
 		{
-			icon: "kubejs:arrow_down"
+			icon: {
+				id: "kubejs:arrow_down"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
 			x: -4.5d
 			y: 2.5d
 			shape: "diamond"
@@ -3575,7 +3678,15 @@
 			}]
 		}
 		{
-			icon: "kubejs:arrow_down"
+			icon: {
+				id: "kubejs:arrow_down"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
 			x: -3.0d
 			y: 2.5d
 			shape: "diamond"
@@ -3610,7 +3721,15 @@
 			}]
 		}
 		{
-			icon: "kubejs:arrow_down"
+			icon: {
+				id: "kubejs:arrow_down"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
 			x: -1.5d
 			y: 2.5d
 			shape: "diamond"
@@ -3645,7 +3764,15 @@
 			}]
 		}
 		{
-			icon: "kubejs:arrow_down"
+			icon: {
+				id: "kubejs:arrow_down"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
 			x: 0.0d
 			y: 2.5d
 			shape: "diamond"
@@ -3680,7 +3807,15 @@
 			}]
 		}
 		{
-			icon: "kubejs:arrow_down"
+			icon: {
+				id: "kubejs:arrow_down"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
 			x: 1.5d
 			y: 2.5d
 			shape: "diamond"
@@ -3715,7 +3850,15 @@
 			}]
 		}
 		{
-			icon: "kubejs:arrow_down"
+			icon: {
+				id: "kubejs:arrow_down"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
 			x: 3.0d
 			y: 2.5d
 			shape: "diamond"
@@ -3756,7 +3899,15 @@
 			}]
 		}
 		{
-			icon: "kubejs:arrow_down"
+			icon: {
+				id: "kubejs:arrow_down"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
 			x: 4.5d
 			y: 2.5d
 			shape: "diamond"
@@ -3797,7 +3948,15 @@
 			}]
 		}
 		{
-			icon: "kubejs:arrow_down"
+			icon: {
+				id: "kubejs:arrow_down"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
 			x: 6.0d
 			y: 2.5d
 			shape: "diamond"
@@ -3832,7 +3991,15 @@
 			}]
 		}
 		{
-			icon: "kubejs:arrow_down"
+			icon: {
+				id: "kubejs:arrow_down"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
 			x: 7.5d
 			y: 2.5d
 			shape: "diamond"
@@ -3873,7 +4040,15 @@
 			}]
 		}
 		{
-			icon: "kubejs:arrow_down_yellow"
+			icon: {
+				id: "kubejs:arrow_down_yellow"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
 			x: -7.5d
 			y: 5.5d
 			shape: "diamond"
@@ -3909,7 +4084,15 @@
 			}]
 		}
 		{
-			icon: "kubejs:arrow_down_yellow"
+			icon: {
+				id: "kubejs:arrow_down_yellow"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
 			x: -6.0d
 			y: 5.5d
 			shape: "diamond"
@@ -3958,7 +4141,15 @@
 			}]
 		}
 		{
-			icon: "kubejs:arrow_down_yellow"
+			icon: {
+				id: "kubejs:arrow_down_yellow"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
 			x: -4.5d
 			y: 5.5d
 			shape: "diamond"
@@ -3993,7 +4184,15 @@
 			}]
 		}
 		{
-			icon: "kubejs:arrow_down_yellow"
+			icon: {
+				id: "kubejs:arrow_down_yellow"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
 			x: -3.0d
 			y: 5.5d
 			shape: "diamond"
@@ -4028,7 +4227,15 @@
 			}]
 		}
 		{
-			icon: "kubejs:arrow_down_yellow"
+			icon: {
+				id: "kubejs:arrow_down_yellow"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
 			x: -1.5d
 			y: 5.5d
 			shape: "diamond"
@@ -4069,7 +4276,15 @@
 			}]
 		}
 		{
-			icon: "kubejs:arrow_down_yellow"
+			icon: {
+				id: "kubejs:arrow_down_yellow"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
 			x: 0.0d
 			y: 5.5d
 			shape: "diamond"
@@ -4110,7 +4325,15 @@
 			}]
 		}
 		{
-			icon: "kubejs:arrow_down_yellow"
+			icon: {
+				id: "kubejs:arrow_down_yellow"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
 			x: 1.5d
 			y: 5.5d
 			shape: "diamond"
@@ -4159,7 +4382,15 @@
 			}]
 		}
 		{
-			icon: "kubejs:arrow_down_yellow"
+			icon: {
+				id: "kubejs:arrow_down_yellow"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
 			x: 3.0d
 			y: 5.5d
 			shape: "diamond"
@@ -4208,7 +4439,15 @@
 			}]
 		}
 		{
-			icon: "kubejs:arrow_down_yellow"
+			icon: {
+				id: "kubejs:arrow_down_yellow"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
 			x: 4.5d
 			y: 5.5d
 			shape: "diamond"
@@ -4243,7 +4482,15 @@
 			}]
 		}
 		{
-			icon: "kubejs:arrow_down_yellow"
+			icon: {
+				id: "kubejs:arrow_down_yellow"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
 			x: 6.0d
 			y: 5.5d
 			shape: "diamond"
@@ -4284,7 +4531,15 @@
 			}]
 		}
 		{
-			icon: "kubejs:arrow_down_yellow"
+			icon: {
+				id: "kubejs:arrow_down_yellow"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
 			x: 7.5d
 			y: 5.5d
 			shape: "diamond"
