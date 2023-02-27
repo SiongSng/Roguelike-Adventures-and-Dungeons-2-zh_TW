@@ -54,7 +54,7 @@
 			tasks: [{
 				id: "43036004E3C8DE83"
 				type: "checkmark"
-				title: "Food Variety and Bonuses"
+				title: "食物多樣性與效果"
 			}]
 			rewards: [{
 				id: "5592572112E7815D"
@@ -158,7 +158,7 @@
 			tasks: [{
 				id: "4665A7B467B41395"
 				type: "checkmark"
-				title: "JEI(recipe browser)"
+				title: "JEI(配方瀏覽器)"
 			}]
 			rewards: [
 				{
@@ -194,7 +194,7 @@
 			tasks: [{
 				id: "6BF0D787CC57A597"
 				type: "checkmark"
-				title: "Quest Types and Rewards"
+				title: "任務種類與獎勵"
 			}]
 			rewards: [{
 				id: "2C9FAD1B34763B10"
@@ -294,7 +294,7 @@
 			tasks: [{
 				id: "01EA018DC5205DBA"
 				type: "item"
-				title: "Any #forge:workbench"
+				title: "任何一種的工作台"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b
@@ -324,7 +324,7 @@
 			tasks: [{
 				id: "4A2AD7B3B078CCFD"
 				type: "item"
-				title: "Any #minecraft:logs"
+				title: "隨便一種木頭"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b
@@ -910,7 +910,7 @@
 				{
 					id: "3CD99AD47F5C8882"
 					type: "item"
-					title: "Any #forge:ingots/copper"
+					title: "任何一種銅"
 					item: {
 						id: "itemfilters:tag"
 						Count: 1b
@@ -946,7 +946,7 @@
 				{
 					id: "761E68267A9E38B3"
 					type: "item"
-					title: "Any #forge:ingots/silver"
+					title: "任何一種銀"
 					item: {
 						id: "itemfilters:tag"
 						Count: 1b
@@ -1056,7 +1056,7 @@
 				{
 					id: "116BFD5CD970A68F"
 					type: "item"
-					title: "Any #forge:ingots/lead"
+					title: "任何一種鉛"
 					item: {
 						id: "itemfilters:tag"
 						Count: 1b
@@ -1108,7 +1108,7 @@
 			tasks: [{
 				id: "1CE86177C64AD58B"
 				type: "item"
-				title: "Any #minecraft:beds"
+				title: "任何一種床"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b
@@ -1177,7 +1177,7 @@
 			tasks: [{
 				id: "0995187A5468E252"
 				type: "item"
-				title: "Any #forge:obsidian"
+				title: "任何一種黑曜石"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b
@@ -1218,7 +1218,7 @@
 			tasks: [{
 				id: "26CFFADD8427EB7A"
 				type: "item"
-				title: "Any #forge:bookshelves"
+				title: "任何一種書櫃"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b
@@ -1322,7 +1322,7 @@
 			tasks: [{
 				id: "5455CD298723186E"
 				type: "item"
-				title: "Any #storagedrawers:drawers"
+				title: "任何一種抽屜"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b
@@ -1599,7 +1599,7 @@
 			tasks: [{
 				id: "092A1CD36EC4FE13"
 				type: "item"
-				title: "Any #questtag:sleepingbag"
+				title: "任何一種睡袋"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b
@@ -1845,7 +1845,7 @@
 			tasks: [{
 				id: "41D775B7EEAA6AEF"
 				type: "item"
-				title: "Any #forge:shulker_boxes"
+				title: "任何一種界伏盒"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b
@@ -4859,7 +4859,7 @@
 				{
 					id: "476032839F26BC6D"
 					type: "item"
-					title: "Any #tombstone:decorative_graves"
+					title: "任何一種裝飾礫石"
 					item: {
 						id: "itemfilters:tag"
 						Count: 1b
