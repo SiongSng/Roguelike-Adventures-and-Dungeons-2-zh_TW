@@ -3,7 +3,7 @@
 	group: "241F1DC7B6D6E9D6"
 	order_index: 13
 	filename: "sweet_dreams"
-	title: "Sweet Dreams"
+	title: "做個好夢"
 	icon: {
 		id: "good_nights_sleep:lolipop_bush"
 		Count: 1b
@@ -17,7 +17,7 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "Sweet Dreams"
+			title: "做個好夢"
 			icon: {
 				id: "good_nights_sleep:strange_bed"
 				Count: 1b
@@ -30,7 +30,7 @@
 			x: -1.0d
 			y: 1.0d
 			shape: "rsquare"
-			subtitle: "Listen to the sandman's lullaby"
+			subtitle: "來聽聽沙人的搖籃曲"
 			description: [
 				"Tired of those boring old beds at your base."
 				""
