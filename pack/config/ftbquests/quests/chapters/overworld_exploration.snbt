@@ -39,22 +39,22 @@
 			x: 3.0d
 			y: 0.5d
 			description: [
-				"Spice of Life: Potato Edition will give you benefits for eating a variety of foods."
+				"Spice of Life: Potato Edition 是一個鼓勵你吃各種不同食物的模組。"
 				""
-				"You will receive variable benefits depending on how diverse your current diet is, and has been in the recent past."
+				"該模組會根據你現在和最近的飲食多樣性，獲得不同的獎勵效果。"
 				""
-				"You will have to maintain that level of diversity to keep those benefits. This should encourage automation of a variety of foods, rather than just encouraging you to eat each food once (SoL: Carrot Edition)."
+				"你必須保持這種多樣性才能保有這些好處，這會促使你自動化生產各式各樣的食物，而不是只讓你吃過每一種食物（SoL: Carrot Edition）。"
 				""
-				"*Note: This means your diversity score is constantly and dynamically changing depending on what your current and past diet. "
-				"Thus, you can have many benefits after eating a diverse set of foods for a time, but falling back to eating only bread will gradually result in a loss/weakening of gained benefits."
-				"To get a higher diversity score, you need to keep including more and more diverse types of foods in your diet."
+				"*注意：這表示你的多樣性分數會隨著現在和過去的飲食而不斷變化。"
+				"所以，如果你一段時間內吃了很多種類的食物，你可以得到很多好處，但是如果你回到只吃麵包的習慣，你就會逐漸失去或減弱之前獲得的好處。"
+				"因此要提高多樣性分數，你需要持續增加你飲食中的食物種類。"
 			]
 			dependencies: ["45367EFC307FBA67"]
 			id: "006F7F9BE37E4FA7"
 			tasks: [{
 				id: "43036004E3C8DE83"
 				type: "checkmark"
-				title: "食物多樣性與效果"
+				title: "饕客的天堂"
 			}]
 			rewards: [{
 				id: "5592572112E7815D"
