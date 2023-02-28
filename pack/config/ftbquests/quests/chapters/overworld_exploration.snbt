@@ -148,11 +148,11 @@
 			x: 1.0d
 			y: 0.0d
 			description: [
-				"• Hovering over an item and pressing the \"R\" key (for Recipe) will display that item\\s recipe."
-				"• Pressing the \"U\" key (for Use) shows what that item can be used to create through crafting grids."
-				"• To search by mod name use the \"@\" key before search in search box. (e.g. @Quark)"
-				"• To select the search box without clicking on it, the player can press Ctrl + F."
-				"• To bookmark a recipe (for easier crafting later, will also save in a menu on the left side of the inventory screen): Hover over the item + A."
+				"• 把滑鼠移到物品上並按下「R」鍵（代表 Recipe），就會顯示該物品的配方。"
+				"• 按下 「U」 鍵（代表 Use）會顯示該物品可以用來合成什麼。"
+				"• 要用模組名稱搜尋，請在搜尋框中輸入前加上「@」。（例如 @Quark）"
+				"• 你可以按 Ctrl+F 就不必移動滑鼠就能開始搜尋。"
+				"• 要把配方加入書籤（方便之後合成，也會儲存在物品欄畫面左側的選單中）：把滑鼠移到物品上 + A。"
 				""
 			]
 			dependencies: ["2DDD649416AA95EC"]
