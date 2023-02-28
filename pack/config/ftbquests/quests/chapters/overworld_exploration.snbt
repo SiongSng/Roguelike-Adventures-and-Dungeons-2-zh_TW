@@ -208,13 +208,13 @@
 			x: 2.0d
 			y: 4.0d
 			description: [
-				"The Food Book gives you information about your diet diversity score."
+				"饕客指南書可以讓你知道你的飲食多樣性有多高。"
 				""
-				"-Lists all the foods that you have eaten in the past that are currently contributing to your diversity."
-				"-Gives your current diversity score."
-				"-Describes the benefits you are currently experiencing."
+				"- 列出所有你之前吃過的美味佳餚，它們都能提升你的飲食多樣性。"
+				"- 顯示你現在的飲食多樣性分數，越高越好。"
+				"- 說明你現在因為吃得好而得到的種種好處。"
 				""
-				"Can be bound to a key in keybinds so you do not need to carry the book."
+				"可以設定一個快捷鍵，這樣就不用老是拿著書了。"
 				""
 			]
 			dependencies: ["53854D9D9E2AB2E3"]
