@@ -75,20 +75,22 @@
 			x: 7.5d
 			y: 3.0d
 			description: [
-				"Lost Trinkets adds more than 70+ unlockable trinkets with different abilities and rarities."
+				"你知道嗎？這個世界上有超過 70 種小飾品，它們都有不同的能力和稀有度，你可以在做各種事情的時候隨機解鎖它們。"
 				""
-				"Trinkets are randomly unlocked when you doing some activities like fighting enemies and bosses, trading, mining ores, cutting trees, and farming.Each activity has a rarity of unlocking trinkets eg: killing bosses has a better chance than normal enemies"
+				"比如說，你打敵人和頭目、和村民交易、挖礦、砍樹和種田，都有可能讓你發現新的小飾品。"
 				""
-				"You can access the trinket GUI by pressing the R key on your keyboard. "
+				"當然，不是每件事都一樣容易解鎖小飾品，打頭目的機率比打普通敵人高多了。"
+				""
+				"如果你想看看你已經解鎖了哪些小飾品，只要按一下 R 鍵就可以了。"
 				"========================"
-				"There are also countless amount of curious(baubles) which have their own slot in your inventory. Each with unique different ability or property. "
+				"還有哦，這個世界上還有很多奇特的寶物（baubles），它們不佔用你背包的空間，而是有自己的欄位。每種寶物都有獨特的能力或特性，讓你在冒險中更加強大。"
 			]
 			dependencies: ["5F7DCF112F9F6C1C"]
 			id: "46999E88BCF5B1BD"
 			tasks: [{
 				id: "62A65DFCEE9F4AA5"
 				type: "checkmark"
-				title: "Trinkets"
+				title: "小飾品"
 			}]
 			rewards: [
 				{
