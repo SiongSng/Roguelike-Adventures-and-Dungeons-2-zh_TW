@@ -181,22 +181,22 @@
 			x: 1.0d
 			y: -2.0d
 			description: [
-				"Quests come in a number of different types in this pack."
+				"這個模組包中的任務有許多不同的類型。"
 				""
-				"You can have quests for simply traveling to a destination or by traveling a certain number of blocks."
+				"有到達目的地或者走過一定距離的任務。"
 				""
-				"A majority of the quests in this pack will be completed by gaining the required item in your inventory. You will automatically get a pop up message in the top corner when this happens."
+				"這個模組包中大多數的任務都是透過在物品欄中獲得所需物品來完成。當這種情況發生時，在螢幕右上角會跳出一則訊息通知你。"
 				""
-				"The final quest type, such as this one, simply requires you to click the checkbox in the Tasks box to complete the quest (as a confirmation of reading :])."
+				"最後一種任務類型，比如這一個，只需要你點擊任務框中的複選框來完成任務（確認你已經閱讀了 :]）。"
 				""
-				"Finally to collect any reward simply click on in it in the above Rewards box, as you can above, to get a torch for some light as you get going."
+				"最後，要收集任何獎勵，只需在上面的獎勵框中點擊它，就像你上面看到的那樣，以獲得火把作為你開始時的光源。"
 			]
 			dependencies: ["2DDD649416AA95EC"]
 			id: "5AD3CAD77014FECC"
 			tasks: [{
 				id: "6BF0D787CC57A597"
 				type: "checkmark"
-				title: "任務種類與獎勵"
+				title: "任務類型與獎勵"
 			}]
 			rewards: [{
 				id: "2C9FAD1B34763B10"
