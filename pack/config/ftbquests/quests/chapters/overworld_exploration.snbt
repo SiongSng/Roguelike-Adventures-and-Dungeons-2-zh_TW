@@ -109,27 +109,27 @@
 			icon: "itemfilters:not"
 			x: 7.0d
 			y: 2.0d
-			subtitle: "Veinminer/OreExcavation alternative"
+			subtitle: "Veinminer/OreExcavation 的替代品"
 			description: [
-				"- Renders white lines around blocks that will be mined."
-				"- You can also use hoe on grass in similar way to till multiple blocks at once."
-				"- Harvest crops by right-clicking on them"
+				"- 這個模組很厲害，它會在你要挖的方塊周圍畫出白色的線，讓你一目了然。"
+				"- 你也可以用鋤頭在草地上用同樣的方式一次耕多個方塊，省時又省力。"
+				"- 右鍵點擊作物就可以採收它們，不用再用剪刀或者手拔了。"
 				""
-				"Select a shape by holding shift and the grave key while scrolling the mouse scroll wheel."
-				"- Shapeless: No shape applied."
-				"- Small Tunnel: A 1x1 deep tunnel."
-				"- Small Square: A 3x3x1. (Depth of one. If you want a long 3x3 tunnel, you are probably better off digging 9 separate small tunnels.)"
-				"- Mining Tunnel: A 1x1 tunnel angled down. (You will need at least 3 of these to form stairs you can walk down.)"
-				"- Escape Tunnel: Same as the mining tunnel, but upward."
+				"按住 Shift 和 Grave 鍵（～/`），然後滾動滑鼠滾輪，就可以選擇不同的形狀，讓你挖掘更有彈性。"
+				"- 無形狀：沒有套用任何形狀，就是最原始的挖法。"
+				"- 小隧道：一個 1x1 的深隧道，適合挖直的洞。"
+				"- 小方塊：一個 3x3x1 的方塊。 (深度只有一層。如果你想要挖一個長的 3x3 隧道，你可能還是分別挖九個小隧道比較好。)"
+				"- 採礦隧道：一個向下傾斜的 1x1 隧道。(你至少需要三個這樣的隧道才能形成你可以走下去的樓梯。)"
+				"- 逃生隧道：和採礦隧道一樣，但是向上。"
 				""
-				"Tip: Just remember to reset your shape to shapeless for clearing ore deposits or you will only mine the ores in the selected shape."
+				"提示：記得在清理很多礦物時把形狀設回無形狀，不然你只會挖到選定形狀裡的礦物。"
 			]
 			dependencies: ["518DF4A178673014"]
 			id: "143E7EB383FC8A60"
 			tasks: [{
 				id: "0EEDD89EE27ED37B"
 				type: "checkmark"
-				title: "Ultimine"
+				title: "進階版的連鎖挖礦"
 			}]
 			rewards: [{
 				id: "65B246D328EEEA52"
