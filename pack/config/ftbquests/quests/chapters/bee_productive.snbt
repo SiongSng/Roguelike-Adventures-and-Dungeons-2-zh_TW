@@ -23,7 +23,7 @@
 		{
 			x: -4.0d
 			y: 2.0d
-			description: ["Will help you with all the info about the Productive Bees mod."]
+			description: ["這些東西可以幫助你了解生產蜜蜂（Productive Bees）模組的相關資訊。"]
 			dependencies: ["000000000000078F"]
 			id: "0000000000000779"
 			tasks: [{
@@ -53,7 +53,7 @@
 		{
 			x: 3.5d
 			y: -4.5d
-			description: ["Your own fresh bottled honey!"]
+			description: ["這是你自己採的新鮮瓶裝蜂蜜！"]
 			dependencies: ["0000000000000781"]
 			id: "000000000000077B"
 			tasks: [{

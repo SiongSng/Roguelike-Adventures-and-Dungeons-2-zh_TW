@@ -104,10 +104,10 @@ onEvent("item.registry", (event) => {
     .displayName("III. Mark of the Beastmaster")
     .glow(true);
 
-  event.create("arrow_down").displayName("Green Arrow Down Icon");
-  event.create("arrow_down_yellow").displayName("Yellow Arrow Down Icon");
-  event.create("arrow_up").displayName("Arrow Up Icon");
-  event.create("arrow_left").displayName("Arrow Left Icon");
+  event.create("arrow_down").displayName("綠色的下箭頭圖示");
+  event.create("arrow_down_yellow").displayName("黃色的下箭頭圖示");
+  event.create("arrow_up").displayName("上箭頭圖示");
+  event.create("arrow_left").displayName("左箭頭圖示");
 
   event
     .create("copper_coin")
