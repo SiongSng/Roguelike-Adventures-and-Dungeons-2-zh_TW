@@ -11,7 +11,7 @@
 		{
 			x: -2.0d
 			y: -8.5d
-			description: ["Grizzly Bears will randomly drop some of their hair with time."]
+			description: ["棕熊會隨時間隨機掉落一些牠們的毛。"]
 			dependencies: ["4E20E64264B2AA55"]
 			id: "11AD9C3E6F7ED206"
 			tasks: [{
@@ -28,7 +28,7 @@
 		{
 			x: -8.5d
 			y: 1.5d
-			description: ["Roadrunners will drop these if they lose battles against Rattlesnakes.... or you."]
+			description: ["當雨燕在與響尾蛇戰鬥失敗後... 或是被你擊敗時，牠們會掉落這些物品。"]
 			dependencies: ["32F7D28F7B29709C"]
 			id: "7462427AC1D865C7"
 			tasks: [{
@@ -45,7 +45,7 @@
 		{
 			x: -8.5d
 			y: 3.0d
-			description: ["These boots, which are fitted with Roadrunner feathers, will allow users to run faster on sand."]
+			description: ["這雙靴子用路跑鳥的羽毛製成，穿著它可以在沙子上奔跑地更快。"]
 			dependencies: ["7462427AC1D865C7"]
 			id: "12976ADEDD3B9090"
 			tasks: [{
@@ -68,7 +68,7 @@
 		{
 			x: -9.5d
 			y: 14.0d
-			description: ["A drop from Bone Serpents when they leap out of lava and are killed."]
+			description: ["一種從骨蛇身上獲得的掉落物，當它們從熔岩中跳出並被殺死時掉落。"]
 			dependencies: ["6C2B0968097E6A03"]
 			id: "15132115F40EF4EA"
 			tasks: [{
@@ -91,7 +91,7 @@
 		{
 			x: -8.0d
 			y: 15.0d
-			description: ["This special potion will allow you to look through lava like it was water."]
+			description: ["這瓶特殊藥水能讓你像看水一樣透過熔岩。"]
 			dependencies: ["15132115F40EF4EA"]
 			id: "2092B6A1EE21D018"
 			tasks: [{
@@ -114,7 +114,7 @@
 		{
 			x: -6.0d
 			y: -7.0d
-			description: ["A drop from Gazelle's when they are unfortunately killed, but they also may drop some mutton."]
+			description: ["當瞪羚被不幸殺死時，它們會掉落這個物品，有時也會掉落一些羊肉。"]
 			dependencies: ["617FBFA90048602D"]
 			id: "1561DE019D318A18"
 			tasks: [{
@@ -132,7 +132,7 @@
 		{
 			x: 1.5d
 			y: 1.5d
-			description: ["This Crocodile item is dropped when baby crocodiles age up or are killed."]
+			description: ["這個鱷魚物品會在幼鱷魚長大或被殺死時掉落。"]
 			dependencies: ["4B89A8800535AB16"]
 			id: "2FBC1196F9B59DF7"
 			tasks: [{
@@ -150,7 +150,7 @@
 		{
 			x: 2.0d
 			y: 3.0d
-			description: ["This crocodile armor will give you some protection but also increase your swim speed."]
+			description: ["這件鱷魚盔甲會提供一定的保護，同時增加你的游泳速度。"]
 			dependencies: ["2FBC1196F9B59DF7"]
 			id: "7B74EDBD46057811"
 			tasks: [{
@@ -180,7 +180,7 @@
 		{
 			x: -8.5d
 			y: -1.5d
-			description: ["A maggot will drop when a Fly is killed."]
+			description: ["蒼蠅被殺死時會掉落蛆。"]
 			dependencies: ["49AB71E75762D0B9"]
 			id: "042E30144F9A1D2A"
 			tasks: [{
@@ -198,7 +198,7 @@
 		{
 			x: -3.0d
 			y: -2.0d
-			description: ["A rare drop from jungle leaves. Can be used to make a Simple Farming tree whose bananas will work in the same way."]
+			description: ["這是從叢林樹葉上掉落的稀有物品，可以用來製作一個簡單的農場樹，其產出的香蕉具有相同的效果。"]
 			id: "2CF3F2F094B0D3B1"
 			tasks: [{
 				id: "2F2509E78CBF66D8"
@@ -233,7 +233,7 @@
 		{
 			x: -4.0d
 			y: 13.0d
-			description: ["A Crimson Mosquito drop when killed while inflated with blood from a mob."]
+			description: ["當蚊子吸取某個生物的血液，並被玩家殺死時，就會掉落一個赤紅蚊子。"]
 			dependencies: ["3EF3C919FDC60E1B"]
 			id: "3B5F5AF7209A9221"
 			tasks: [{
@@ -250,7 +250,7 @@
 		{
 			x: -6.0d
 			y: 13.0d
-			description: ["A random drop when killing a Crimson Mosquito."]
+			description: ["一個從殺死赤紅蚊子時隨機獲得的掉落物。"]
 			dependencies: ["3EF3C919FDC60E1B"]
 			id: "3EC4C7FDCDB42C8D"
 			tasks: [{
@@ -268,7 +268,7 @@
 		{
 			x: -5.0d
 			y: 15.0d
-			description: ["A custom weapon that fires mosquito spit as a weapon. Blood sacks can be used as ammunition."]
+			description: ["一種自訂武器，可以將蚊子的唾液射出作為武器，而血囊可以用作彈藥。"]
 			dependencies: [
 				"3B5F5AF7209A9221"
 				"3EC4C7FDCDB42C8D"
@@ -302,7 +302,7 @@
 		{
 			x: -13.0d
 			y: 1.5d
-			description: ["A Rattlesnake drop when killed, usually when protecting other creatures from its venomous bite."]
+			description: ["響尾蛇在被殺死時會掉落，通常是為了保護其他生物免受其毒咬。"]
 			dependencies: ["295FFF98AC0C3FB2"]
 			id: "1670F799696648EA"
 			tasks: [{
@@ -319,7 +319,7 @@
 		{
 			x: 9.5d
 			y: 10.0d
-			description: ["Once you lead a Endergrade down to you with a Chorus fruit you can saddle them much like a pig in the overworld. By crafting a Chorus Fruit on a Stick you can lead an Endergrade around in any direction you want."]
+			description: ["使用終界果引導終界企鵝走到你身邊後，你可以像騎豬一樣給牠裝上鞍。製作終界果鞍可用來引導終界企鵝向任何方向移動。"]
 			dependencies: ["3CD714A755372F99"]
 			id: "60286A30B5BF3EBF"
 			tasks: [{
@@ -343,7 +343,7 @@
 		{
 			x: 10.0d
 			y: 4.5d
-			description: ["A random Hammerhead Shark item that may drop when it attacks."]
+			description: ["當錘頭鯊魚攻擊時有機會掉落隨機的物品。"]
 			dependencies: ["2C2D57D238A96C47"]
 			id: "12903E07FD2AA25B"
 			tasks: [{
@@ -361,7 +361,7 @@
 		{
 			x: 12.0d
 			y: 4.5d
-			description: ["These arrows travel better underwater where they deal extra damage to sea creatures."]
+			description: ["這些箭在水下不會受阻，會對海洋生物造成額外傷害。"]
 			dependencies: ["12903E07FD2AA25B"]
 			id: "77213B3F102D54FC"
 			tasks: [{
@@ -379,7 +379,7 @@
 		{
 			x: 6.0d
 			y: 3.0d
-			description: ["Just in case you want to move some lobsters around."]
+			description: ["萬一你想搬運一些龍蝦。"]
 			dependencies: ["493146EF96766BF4"]
 			id: "0A695B938C047241"
 			tasks: [{
@@ -396,7 +396,7 @@
 		{
 			x: 4.0d
 			y: 3.0d
-			description: ["A Lobster item that drops when they are killed."]
+			description: ["當龍蝦被殺死時會掉落龍蝦物品。"]
 			dependencies: ["493146EF96766BF4"]
 			id: "5B599C2BB40A43DD"
 			tasks: [{
@@ -413,7 +413,7 @@
 		{
 			x: 5.0d
 			y: 4.0d
-			description: ["Would go nice with some butter."]
+			description: ["搭配奶油會更美味。"]
 			dependencies: ["5B599C2BB40A43DD"]
 			id: "3B65899892E55F6F"
 			tasks: [{
@@ -430,7 +430,7 @@
 		{
 			x: -18.0d
 			y: 1.5d
-			description: ["An occasional drop from live Komodo Dragons."]
+			description: ["活的科莫多龍偶爾會掉落此物品。"]
 			dependencies: ["6BC74F4BAEA808FF"]
 			id: "08F33774046B54FC"
 			tasks: [{
@@ -448,7 +448,7 @@
 		{
 			x: -17.29761904761905d
 			y: 2.6071428571428186d
-			description: ["Taking a few drops of saliva and putting it into a bottle could be pretty potent."]
+			description: ["從口水中取幾滴，放入瓶子中，可能相當有效。"]
 			dependencies: ["08F33774046B54FC"]
 			id: "7EBEA1931702D1E5"
 			tasks: [{
@@ -465,7 +465,7 @@
 		{
 			x: -16.583333333333343d
 			y: 3.678571428571395d
-			description: ["The very definition of poison."]
+			description: ["字典中的毒藥"]
 			dependencies: [
 				"7EBEA1931702D1E5"
 				"154772C9462DDCC4"
@@ -485,7 +485,7 @@
 		{
 			x: -15.5d
 			y: 5.0d
-			description: ["A very potent poison resistance potion made from poison essence and a Rattlesnake tail."]
+			description: ["由毒液精華和響尾蛇尾巴製作的非常有效的毒素抵抗藥水。"]
 			dependencies: [
 				"598345B0F9427722"
 				"1670F799696648EA"
@@ -511,7 +511,7 @@
 		{
 			x: -3.0d
 			y: -5.0d
-			description: ["A random drop from Capuchin Monkeys when fed bananas. "]
+			description: ["當餵食香蕉時，捲尾猴有機會掉落隨機物品。"]
 			dependencies: ["76291B63F0ED9022"]
 			id: "05B3DE276E40F772"
 			tasks: [{
@@ -529,8 +529,8 @@
 			x: -3.0d
 			y: -6.5d
 			description: [
-				"A very \"unique\" soup......"
-				"Maybe try some of this better soup."
+				"非常「特別」的湯......"
+				"或許試試這個更美味的湯吧。"
 			]
 			dependencies: ["05B3DE276E40F772"]
 			id: "5FE4BCE33C614980"
@@ -548,7 +548,7 @@
 		{
 			x: -17.5d
 			y: 5.0d
-			description: ["This item is a Cave Centipede drop when they are killed, where multiple can be dropped."]
+			description: ["這個物品是在殺死洞穴蜈蚣時掉落的，可能會掉落多個。"]
 			dependencies: ["3231E98238491AF0"]
 			id: "154772C9462DDCC4"
 			tasks: [{
@@ -566,7 +566,7 @@
 		{
 			x: -16.5d
 			y: 6.5d
-			description: ["Grants the wearer the ability to climb walls."]
+			description: ["使佩戴者擁有能夠爬上牆壁的能力。"]
 			dependencies: ["154772C9462DDCC4"]
 			id: "673635AB75E98296"
 			tasks: [{
@@ -596,7 +596,7 @@
 		{
 			x: -7.5d
 			y: 13.0d
-			description: ["The larva for a Crimson Mosquito, made from a maggot and proboscis. Is the favorite treat of the Warped Toad, and will allow you to tame it with a few of these."]
+			description: ["由蚊子幼蟲和吸血管製成的綠色蠓蟲幼蟲。是扭曲蟾蜍的最愛，使用幾個可以馴服它。"]
 			dependencies: ["3EC4C7FDCDB42C8D"]
 			id: "6D5AA599D202F0AF"
 			tasks: [{
@@ -614,7 +614,7 @@
 		{
 			x: -5.0d
 			y: -5.0d
-			description: ["Every 7-10 days a moose can drop one of their antlers."]
+			description: ["每7-10天，麋鹿會掉落一根鹿角。"]
 			dependencies: ["3705153037F1DDEE"]
 			id: "2DFC032306822F4E"
 			tasks: [{
@@ -631,7 +631,7 @@
 		{
 			x: -5.0d
 			y: -6.5d
-			description: ["By mounting some antlers to this hat it will give the player a knockback ability."]
+			description: ["將一些鹿角裝在帽子上，它會給玩家帶來擊退敵人的能力。"]
 			dependencies: ["2DFC032306822F4E"]
 			id: "27F0DB0AF1386C6D"
 			tasks: [{
@@ -654,7 +654,7 @@
 		{
 			x: -5.0d
 			y: -2.0d
-			description: ["These are some big ribs that are dropped when a moose is killed."]
+			description: ["這是當麋鹿被殺死時掉落的一些大肋骨。"]
 			dependencies: ["3705153037F1DDEE"]
 			id: "61C774465250F5E2"
 			tasks: [{
@@ -671,7 +671,7 @@
 		{
 			x: -5.0d
 			y: -0.5d
-			description: ["It is Barbeque time!"]
+			description: ["是燒烤的時候了！"]
 			dependencies: ["61C774465250F5E2"]
 			id: "11AFA0A04E10DF94"
 			tasks: [{
@@ -683,7 +683,7 @@
 		{
 			x: 5.5d
 			y: 10.0d
-			description: ["A drop from Mimicubes that can be used to duplicate enchanted tools, result is broken but duplicate tool."]
+			description: ["在殺死模仿方塊時掉落，可以用來複製附魔工具，結果會損壞，但是會得到複製的工具。"]
 			dependencies: ["54A887A01A32BB84"]
 			id: "0B0040DAC5D0E2C8"
 			tasks: [{
@@ -701,7 +701,7 @@
 		{
 			x: -2.0d
 			y: -7.0d
-			description: ["A drop when a Raccoon is killed."]
+			description: ["在殺死浣熊時掉落。"]
 			dependencies: ["5AF05B20BB414210"]
 			id: "43A6451E42293BAC"
 			tasks: [{
@@ -713,7 +713,7 @@
 		{
 			x: -0.5d
 			y: -6.5d
-			description: ["This fun hat will give the wearer a speed boost while sneaking."]
+			description: ["這頂有趣的帽子可以在佩戴者蹲下時給予加速。"]
 			dependencies: ["43A6451E42293BAC"]
 			id: "5E067D93C8018428"
 			tasks: [{
@@ -736,7 +736,7 @@
 		{
 			x: 8.0d
 			y: 2.5d
-			description: ["When you want a slimey little buddy of your own."]
+			description: ["當你想要一個黏糊糊的小夥伴時。"]
 			dependencies: ["2142DDB9A0AF6B94"]
 			id: "759CC2ED6720614D"
 			tasks: [{
@@ -753,7 +753,7 @@
 		{
 			x: 7.0d
 			y: 3.0d
-			description: ["The sad little body of a blobfish when it is killed."]
+			description: ["當 Blobfish 被殺死時，它的悲傷小身體就會掉落。"]
 			dependencies: ["2142DDB9A0AF6B94"]
 			id: "235A8DAEDFF467D7"
 			tasks: [{
@@ -770,7 +770,7 @@
 		{
 			x: 8.0d
 			y: 4.0d
-			description: ["By compressing blobfish down into a bottle, Fish Oil can be made that can have some interesting properties in the rain."]
+			description: ["透過將 Blobfish 壓縮成一瓶，可以製成在雨天具有一些有趣特性的魚油。"]
 			dependencies: ["235A8DAEDFF467D7"]
 			id: "005E68B4C5271269"
 			tasks: [{
@@ -788,7 +788,7 @@
 		{
 			x: -12.5d
 			y: 3.0d
-			description: ["This Rattle is made with Rattlesnake tail. It will catch the attention of Cockroaches."]
+			description: ["這個響尾蛇尾巴製成的鈴鐺會吸引蟑螂的注意。"]
 			dependencies: ["1670F799696648EA"]
 			id: "679FB7E7C654385F"
 			tasks: [{
@@ -805,7 +805,7 @@
 		{
 			x: -10.5d
 			y: 4.5d
-			description: ["A random drop when killing Cockroaches."]
+			description: ["殺死蟑螂時的隨機掉落物。"]
 			dependencies: ["3B5935EFBF9C27D7"]
 			id: "147F7EA3E650C141"
 			tasks: [{
@@ -823,7 +823,7 @@
 		{
 			x: -9.0d
 			y: 4.5d
-			description: ["A rebuilt wing of a Cockroach."]
+			description: ["重建的蟑螂翅膀"]
 			dependencies: ["147F7EA3E650C141"]
 			id: "4DC3338C71A2086D"
 			tasks: [{
@@ -840,7 +840,7 @@
 		{
 			x: -7.5d
 			y: 4.5d
-			description: ["This potion will allow a person to go almost invisible to hostile bugs."]
+			description: ["這種藥水可以讓人在敵對的昆蟲面前幾乎隱形。"]
 			dependencies: ["4DC3338C71A2086D"]
 			id: "3B1E5DEBB7BE02F1"
 			tasks: [{
@@ -870,7 +870,7 @@
 		{
 			x: -4.5d
 			y: -9.0d
-			description: ["A rare drop from acacia trees."]
+			description: ["相思樹的一種稀有掉落物"]
 			id: "568B1FDB06169851"
 			tasks: [{
 				id: "79126CD9D0AD4237"
@@ -887,7 +887,7 @@
 		{
 			x: -6.0d
 			y: 7.0d
-			description: ["After Soul Vulture has become filled from its health drain attack it may drop this infused heart."]
+			description: ["當靈魂禿鷲從其吸血攻擊後，可能會掉落這顆融合的心臟。"]
 			dependencies: ["292B32B34CD5094A"]
 			id: "3E83CFACFBDFDEB2"
 			tasks: [{
@@ -917,7 +917,7 @@
 		{
 			x: -4.5d
 			y: 8.5d
-			description: ["This potion will give the drinker the Soul Vultures health sapping power."]
+			description: ["這種藥水會賦予使用者靈魂禿鷲的吸血能力。"]
 			dependencies: ["3E83CFACFBDFDEB2"]
 			id: "6A1A2DA7A8CF7DFC"
 			tasks: [{
@@ -940,7 +940,7 @@
 		{
 			x: 1.0d
 			y: 3.5d
-			description: ["Shearing mossy Alligator Snapping Turtles has a chance to drop this."]
+			description: ["剪下苔蘚鱷龜的毛皮時有機會掉落這個物品。"]
 			dependencies: ["6964B640BF90A11C"]
 			id: "76AAFE97A27F9401"
 			tasks: [{
@@ -958,7 +958,7 @@
 		{
 			x: 2.5d
 			y: 4.5d
-			description: ["This modified turtle helmet provides knockback resistance and allows the wearer to breathe underwater for 15 more seconds. Also has a chance to return melee attacks."]
+			description: ["這款修改過的龜甲可以提供擊退抵抗力，使佩戴者在水下多出 15 秒呼吸時間。還有機會反擊近戰攻擊。"]
 			dependencies: ["76AAFE97A27F9401"]
 			id: "7C7C37A9744A5749"
 			tasks: [{
