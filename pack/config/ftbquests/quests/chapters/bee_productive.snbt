@@ -70,7 +70,7 @@
 		{
 			x: 2.0d
 			y: -4.0d
-			description: ["Catches bees that fly over it. Load it with cages to load the bees into. Can have a flower placed on top to attract bees to it (if they like that kind of thing)."]
+			description: ["可以裝入籠子捕捉經過它上空的蜜蜂。在頂部放置花朵可以吸引蜜蜂靠近（如果它們喜歡這種東西）。"]
 			dependencies: ["0000000000000795"]
 			id: "000000000000077D"
 			tasks: [{
@@ -94,7 +94,7 @@
 		{
 			x: 0.5d
 			y: -4.5d
-			description: ["Incubates BaBees (in a cage) until they are adults by using honey treats. Can also incubate new bees from genes and eggs."]
+			description: ["使用蜂蜜點心將籠中的小蜜蜂孵化成成年蜜蜂。也可以用基因和雞蛋孵化出新的蜜蜂。"]
 			dependencies: ["0000000000000795"]
 			id: "000000000000077F"
 			tasks: [{
@@ -118,7 +118,7 @@
 		{
 			x: 2.5d
 			y: -2.5d
-			description: ["Will bottle honey into glass bottles when honey is pumped into into the machine."]
+			description: ["當蜜蜂被抽到機器裡時，會將蜂蜜裝進玻璃瓶中。"]
 			dependencies: ["0000000000000795"]
 			id: "0000000000000781"
 			tasks: [{
@@ -135,7 +135,7 @@
 		{
 			x: -1.0d
 			y: -4.0d
-			description: ["Processes combs from hives into honey and resources. Is powered by FE."]
+			description: ["將蜂巢中的蜂窩處理成蜂蜜和資源。需要 FE 電力來驅動。"]
 			dependencies: ["0000000000000795"]
 			id: "0000000000000783"
 			tasks: [{
@@ -171,9 +171,9 @@
 			x: -4.0d
 			y: -2.0d
 			description: [
-				"Allows you to locate a nest of the block type you right click on."
+				"讓你可以找到你點擊的方塊類型的巢穴。"
 				""
-				"i.e. Right click on a oak log block to locate a oak nest."
+				"例如，右擊橡木原木方塊可以找到橡木巢。"
 			]
 			dependencies: ["000000000000078F"]
 			id: "0000000000000785"
@@ -203,15 +203,15 @@
 			x: 2.5d
 			y: 0.0d
 			description: [
-				"A more advanced bee hive that will keep your bees happier, allows them to be moved peacefully, and allows expansion hives."
-				"The best part is though that you wont need a campfire under the hive to harvest it peacefully."
+				"這是一種更進階的蜂箱，可以讓你的蜜蜂更快樂、安全地被搬移，並且可以擴展蜂房。"
+				"最棒的部分是，你不需要在蜂箱下方放置營火就能夠安全地收穫蜜蜂產品。"
 			]
 			dependencies: ["0000000000000791"]
 			id: "0000000000000787"
 			tasks: [{
 				id: "3D43AED01828F90C"
 				type: "item"
-				title: "Advanced Beehive"
+				title: "高級蜂箱"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b
@@ -242,13 +242,13 @@
 		{
 			x: 4.5d
 			y: 0.0d
-			description: ["Can be attached to the top of Advanced Bee Hives to expand their housing from 3 to 5 bees."]
+			description: ["可以安裝在高級蜂箱的頂部，將蜂房的容納量從 3 隻擴展到 5 隻蜜蜂。"]
 			dependencies: ["0000000000000787"]
 			id: "0000000000000789"
 			tasks: [{
 				id: "63D31D44E13AD23F"
 				type: "item"
-				title: "Expansion Box"
+				title: "擴展盒"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b
@@ -273,7 +273,7 @@
 		{
 			x: -3.0d
 			y: -2.5d
-			description: ["A decorative container to show off a bee."]
+			description: ["一個可以展示蜜蜂的裝飾性容器。"]
 			dependencies: ["000000000000078F"]
 			id: "000000000000078B"
 			tasks: [{
@@ -294,7 +294,7 @@
 		{
 			x: 0.5d
 			y: 2.5d
-			description: ["Can hold up to 3 items which can be used for feeding your bees."]
+			description: ["可以放置不多於三種用於餵養蜜蜂的物品。"]
 			dependencies: ["0000000000000791"]
 			id: "000000000000078D"
 			tasks: [{
@@ -321,9 +321,9 @@
 			y: 0.0d
 			shape: "gear"
 			description: [
-				"Will allow you to capture/release bees with a right click of the cage. "
+				"通過右鍵點擊籠子來捕捉或釋放蜜蜂。"
 				""
-				"*One time use per cage*"
+				"“每個籠子只能使用一次。”"
 				""
 			]
 			size: 2.0d
@@ -353,7 +353,7 @@
 		{
 			x: 0.5d
 			y: 0.0d
-			description: ["A custom made home for your bees to keep them closer to your base."]
+			description: ["一個定制的家，可以讓你的蜜蜂更靠近你的基地。"]
 			dependencies: ["000000000000078F"]
 			id: "0000000000000791"
 			tasks: [{
@@ -371,7 +371,7 @@
 		{
 			x: 4.5d
 			y: 2.5d
-			description: ["A home for Draconic Bees."]
+			description: ["一個龍族蜜蜂的家。"]
 			dependencies: ["0000000000000789"]
 			id: "0000000000000793"
 			tasks: [{
@@ -408,9 +408,9 @@
 			y: -2.5d
 			shape: "hexagon"
 			description: [
-				"The first harvest from your bees!"
+				"蜜蜂的首次收成！"
 				""
-				"Use a pair of shears on a level 5 honey beehive to harvest honeycomb."
+				"使用剪刀在等級 5 的蜂箱上剪下蜂巢。"
 			]
 			dependencies: ["0000000000000791"]
 			id: "0000000000000795"
@@ -421,10 +421,10 @@
 			}]
 		}
 		{
-			title: "Hive Upgrades"
+			title: "蜂箱升級"
 			x: 2.5d
 			y: 2.5d
-			description: ["A variety of upgrades to your hives and bee focused machines."]
+			description: ["升級各種蜂箱和蜜蜂相關機器。"]
 			dependencies: ["0000000000000787"]
 			id: "0000000000000797"
 			tasks: [
@@ -475,7 +475,7 @@
 		{
 			x: -1.5d
 			y: -2.5d
-			description: ["This generator will generate FE when fed with honey. For example, a single bottle of honey will generate 1500 FE."]
+			description: ["這個發電機可以在加入蜂蜜後生成FE。例如，一瓶蜂蜜可以生成1500 FE。"]
 			dependencies: ["0000000000000795"]
 			id: "00000000000007A0"
 			tasks: [{
@@ -500,9 +500,9 @@
 			x: 5.5d
 			y: -4.5d
 			description: [
-				"A nice combo of liquid honey and some honey comb."
+				"蜂蜜液和一些蜂巢的美味組合。"
 				""
-				"Will calm angry bees and make baby bees grow faster."
+				"能夠讓憤怒的蜜蜂冷靜並且加速幼蜂的成長。"
 			]
 			dependencies: ["000000000000077B"]
 			id: "00000000000007A2"
@@ -527,7 +527,7 @@
 		{
 			x: 7.0d
 			y: -5.5d
-			description: ["A nice and tasty treat for yourself after all that bee work."]
+			description: ["這是在忙碌的養蜂工作後，給自己的美味獎勵。"]
 			dependencies: ["00000000000007A2"]
 			id: "1EF6661253EDAE23"
 			tasks: [{
@@ -556,20 +556,20 @@
 			]
 		}
 		{
-			title: "BumbleBee Rodeo"
+			title: "大黃蜂騎士"
 			x: 7.0d
 			y: -3.5d
 			description: [
-				"The optimal form of transportation."
+				"這是最理想的交通方式。"
 				""
-				"Works like riding a pig or strider and lust be lead with a Treat on a Stick (which so kindly has been provided to you)."
+				"用起來跟騎豬一樣，必須要拿著糖漿棒引導（已經很貼心地提供給你了）。"
 			]
 			dependencies: ["00000000000007A2"]
 			id: "3F2196582D1EF27A"
 			tasks: [{
 				id: "49AF7B7240A3C205"
 				type: "advancement"
-				title: "BumbleBee Rodeo"
+				title: "大黃蜂騎士"
 				icon: "minecraft:saddle"
 				advancement: "productivebees:husbandry/bee_cage/overworld_nest/treat_on_nest/bumblebee_rider"
 				criterion: ""
@@ -589,7 +589,7 @@
 		{
 			x: -3.0d
 			y: 2.5d
-			description: ["Sturdy bee cages are unlimited use versions of the bee cage. You aren't specialized enough in the art of bees to make one though, so these must be found in villages."]
+			description: ["堅固的蜂箱是有無限使用次數的蜂箱。不過你還沒有足夠的養蜂技術來製作，只能在村落裡找到。"]
 			dependencies: ["000000000000078F"]
 			id: "199CBDA1EBA33D57"
 			tasks: [{
@@ -622,10 +622,10 @@
 			x: 4.5d
 			y: -2.5d
 			description: [
-				"Squashed bee material is gained by crushing bees into bottler loaded with empty glass bottles. This bee material can then be put into a centrifuge to get vials of gene samples."
+				"把蜜蜂壓碎並裝到裝滿空玻璃瓶的瓶子中可以得到被壓碎的蜜蜂物質。然後，這個蜜蜂物質可以放進離心機中來得到基因樣本瓶。"
 				""
-				"Gene samples can be combined to raise their viability then can be crafted with a honey treat to give bees that specific trait."
-				"A honey treat infused with a specific bee type gene can be used to infuse a egg (chicken egg) with that gene to get a spawn egg for the bee type."
+				"基因樣本可以組合起來提高其活性，然後可以與蜂蜜食品合成，以賦予蜜蜂特定的特性。"
+				"將特定蜜蜂類型的基因注入的蜂蜜糖果，可以將這種基因注入雞蛋中，獲得特定蜜蜂類型的生成蛋。"
 			]
 			dependencies: ["0000000000000781"]
 			id: "5CD554DBDB7A9C6D"
