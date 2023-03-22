@@ -29,7 +29,7 @@
 			tasks: [{
 				id: "7812EF8C47EC8A5F"
 				type: "item"
-				title: "Any #buddycards:cards"
+				title: "任何 #buddycards:cards"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b
