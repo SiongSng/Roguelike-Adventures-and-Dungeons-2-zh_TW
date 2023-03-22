@@ -15,11 +15,11 @@
 			shape: "gear"
 			description: [
 				"第一步:"
-				"Find a wild wolf (the Vanilla Minecraft wolf)."
-				"第二步:"
-				"Feed it bones (right click with a bone in your hand) until hearts appear above its head. If a collar appears on its neck and it sits down, you've done it right!"
-				"第三步:"
-				"Feed the dog at least one Training Treat and the dog will disappear for a very brief second and a dog without a collar will take its place. At this point, you now have a Doggy Talents dog."
+				"找到一隻野生狼（原版 Minecraft 的狼）。",
+				"第二步：",
+				"用骨頭餵食狼（手持骨頭右鍵點擊狼），直到狼頭上出現愛心。如果狼頸上出現了項圈，且坐下了，代表你做對了！",
+				"第三步：",
+				"餵食狗至少一個 Training Treat（訓練犬糖果），狗會消失一瞬間，然後一隻沒有項圈的狗會取代它。此時，你現在擁有一隻 Doggy Talents 的狗。"
 			]
 			size: 1.5d
 			id: "000000000000062D"
@@ -51,7 +51,7 @@
 		{
 			x: -0.5d
 			y: -2.5d
-			description: ["The first treat you will need to level up your dog. It can only level the dog to 20. After that, you will require the next tier treat, the Super Treat."]
+			description: ["你需要的第一個糖果，可以讓你的狗升級。它只能把狗升級到 20 級。之後，你將需要下一級糖果 —— 超級糖果。"]
 			dependencies: ["000000000000062D"]
 			id: "000000000000062F"
 			tasks: [{
@@ -69,12 +69,11 @@
 			x: -0.5d
 			y: -0.5d
 			description: [
-				"Once you have a Doggy Talents dog, you will be able to right click on it with a stick in hand (main or secondary) to open the dog information/talents menu."
+				"一旦你擁有了一隻 Doggy Talents 的狗，你就可以用手持木棍（主手或副手）右鍵點擊它，打開狗的資訊/技能選單。"
 				""
-				"This menu allows you to change the name of your dog, toggle its behavior, add talents, and toggle whether to obey other players. In the menu, your dog's basic level, dire level, and level spending points will be displayed just under the name box."
+				"這個選單允許你更改狗狗的名字、切換其行為、新增技能，以及切換是否聽從其他玩家的指令。在選單中，你的狗狗的基本等級、凶猛等級和等級點數將顯示在名字框下方。"
 				""
-				"The more you level up your dog using the Treats in this order: Training Treat, Super Treat, Master Treat, and Dire Treat; the more points you have available to spend on your talents. Eventually, the dog will hit its maximum level, which will not"
-				"allow you to get anymore points once it hits this level cap."
+				"使用以下順序的獎勵物品：訓練獎勵、超級獎勵、大師獎勵和凶猛獎勵，你的狗狗越升級，你可以用於技能的點數也就越多。最終，當狗狗達到最高等級時，你無法再獲得更多點數。"
 			]
 			dependencies: ["000000000000062F"]
 			id: "0000000000000631"
@@ -92,7 +91,7 @@
 		{
 			x: 1.5d
 			y: -4.5d
-			description: ["The second treat you will need to level up your dog. It can only level the dog to 40. After that, you will require the next tier treat, the Master Treat."]
+			description: ["升級狗狗所需的第二個獎勵物品。它只能將狗狗升級到 40 級。之後，你需要下一級的獎勵物品，即大師獎勵"]
 			dependencies: ["000000000000062F"]
 			id: "0000000000000633"
 			tasks: [{
@@ -121,7 +120,7 @@
 		{
 			x: 3.5d
 			y: -4.5d
-			description: ["The third treat you will need to level up your dog. It can only level the dog to 60. After that, you will require the final tier treat, the Dire Treat."]
+			description: ["升級狗狗所需的第三個獎勵物品。它只能將狗狗升級到 60 級。之後，你需要最後一級的獎勵物品，即凶猛獎勵。"]
 			dependencies: ["0000000000000633"]
 			id: "0000000000000635"
 			tasks: [{
@@ -156,8 +155,8 @@
 			x: 5.5d
 			y: -4.5d
 			description: [
-				"The forth and final treat you will need to level up your dog. It adds dire levels, which is maxed at 30. After that, you will no longer have the ability to level up the dog, hence the dog has reached the ultimate level. Also, at the maximum dire"
-				"level, end-like particles will begin to emit from your dog."
+				"第四個也是最後一個升級狗狗所需的獎勵物品。它增加了凶猛等級，最高可達30級。之後，你將不再能夠升級狗狗，狗狗已經達到了最終等級。"
+				"此外，在達到最高凶猛等級時，狗狗將開始散發出類似終界的粒子。"
 			]
 			dependencies: ["0000000000000635"]
 			id: "0000000000000637"
@@ -223,8 +222,8 @@
 			x: 5.0d
 			y: -1.5d
 			description: [
-				"This item is like a map, but for locating your dog when it has the Radio Collar equipped. To locate your dog, right click with the item in your main hand and it will give your dog's distance away from you and in which direction it is in. However,"
-				"this item only works if the dog is in the same dimension."
+				"這個物品就像一張地圖，但是它是用來定位裝備了收音機項圈的狗狗。要找到你的狗狗，請在主手中拿著物品，右鍵點擊。它會顯示你的狗離你多遠，以及在哪個方向上。"
+				"但是，這個物品只能在狗狗與你在同一維度時使用。"
 			]
 			dependencies: ["0000000000000639"]
 			id: "000000000000063B"
@@ -263,8 +262,8 @@
 			x: -2.0d
 			y: -0.5d
 			description: [
-				"This item allows you to carry food items for your dog. You can feed your dog the items inside by right clicking on your dog with the bag in hand."
-				"You can also place the items from inside the bag into a Food Bowl by right clicking on the bowl with the bag in your hand."
+				"這個物品讓你可以攜帶食物給你的狗狗。你可以右鍵點擊狗狗，讓它吃進袋子裡的物品。"
+				"你也可以用手上的袋子，右鍵點擊食物盆，把袋子裡的物品放進去。"
 			]
 			dependencies: ["0000000000000631"]
 			id: "000000000000063D"
@@ -293,7 +292,7 @@
 			]
 		}
 		{
-			title: "Dog Decorations"
+			title: "狗狗裝飾"
 			x: 2.0d
 			y: -1.5d
 			dependencies: ["0000000000000639"]
@@ -353,8 +352,8 @@
 			x: 3.0d
 			y: -0.5d
 			description: [
-				"This gives your dog a collar! To equip the collar, right click on your dog with the collar in your main hand. You can customize the color of the collars in a similar fashion as in the Wearable Backpacks mod!"
-				"To do so, just add it and dyes in a crafting table or applying it directly to your dog. You can take them off by using the Collar Sheers"
+				"這會給你的狗狗一個項圈！要裝備項圈，你需要用主手點擊你的狗狗，並將項圈放在主手。你可以像 Wearable Backpacks 模組中一樣自訂項圈的顏色！"
+				"只需將項圈和染料放入合成格中或直接應用於你的狗狗即可。你可以使用項圈剪刀將其取下。"
 			]
 			dependencies: ["0000000000000639"]
 			id: "0000000000000644"
@@ -403,7 +402,7 @@
 		{
 			x: 0.5d
 			y: 1.0d
-			description: ["This special stick gives your dog the Glowing Level 1 effect for 100 ticks (5 seconds), the Speed Level 6 effect for 200 ticks (10 seconds), and the regeneration Level 1 effect for 100 ticks (5 seconds)."]
+			description: ["這根特殊的棒子可以讓你的狗狗在 100 個刻（5 秒）、200 個刻（10 秒）和 100 個刻（5 秒）的時間內分別獲得發光 1 級、速度 6 級和回復 1 級的效果。"]
 			dependencies: ["0000000000000631"]
 			id: "0000000000000649"
 			tasks: [{
@@ -429,8 +428,8 @@
 			x: 0.0d
 			y: 2.5d
 			description: [
-				"You can play with your dog with this item! First, set your dog into docile mode, then right click to throw the bone. The dog to take off after the bone, grab it, and give it back to you as a Drool Throw Bone"
-				"To throw the bone again, you must clean the bone off first by right clicking it or adding it to a crafting table in order to get a Throw Bone."
+				"你可以用這個物品和你的狗狗玩耍！首先，把你的狗狗設置為溫順模式，然後右鍵點擊扔骨頭。狗狗會去追骨頭，撿起來，然後把它作為口水扔骨頭還給你。"
+				"要再次扔骨頭，你必須先用右鍵點擊骨頭或將其新增到工作台中以清潔骨頭，才能獲得扔骨頭。"
 			]
 			dependencies: ["0000000000000649"]
 			id: "000000000000064B"
@@ -461,7 +460,7 @@
 		{
 			x: 1.0d
 			y: 2.5d
-			description: ["This functions the same way as the Throw Bone."]
+			description: ["這個物品的使用方式與扔骨頭相同。"]
 			dependencies: ["0000000000000649"]
 			id: "000000000000064D"
 			tasks: [{
@@ -496,7 +495,7 @@
 		{
 			x: -3.0d
 			y: 1.0d
-			description: ["This special bone is required to breed your dogs."]
+			description: ["這個特殊的骨頭是繁殖你的狗狗所必需的。"]
 			dependencies: ["0000000000000651"]
 			id: "000000000000064F"
 			tasks: [{
@@ -628,7 +627,7 @@
 		{
 			x: 4.0d
 			y: -0.5d
-			description: ["These special sheers can cut off the wool collars off your dog. Also, the sheers can untame your dog."]
+			description: ["這些特殊的剪刀可以剪下你的狗狗的羊毛項圈。此外，剪刀還可以使你的狗狗失去馴服狀態。"]
 			dependencies: ["0000000000000639"]
 			id: "0000000000000658"
 			tasks: [{
@@ -664,36 +663,36 @@
 			x: -0.5d
 			y: -4.5d
 			description: [
-				"Modes"
+				"模式"
 				""
-				"These control how the dog reacts to other entities and interacts with you The tips of each mode appear above the dog as in the following image"
+				"這些模式控制狗對其他實體的反應和與你的互動。每個模式的提示都會出現在狗的上方，就像以下圖像一樣。"
 				""
-				"Docile (D)"
-				"In this mode, your dog will follow you but not attack anything. They will also play fetch with you when you throw the Throw Bone or Throw Stick. This mode will show up as the tip,\"(D)\" just above the dogs name."
+				"溫馴模式（D）"
+				"在這個模式下，你的狗會跟著你走，但不會攻擊任何東西。當你投擲 Throw Bone 或 Throw Stick 時，它們也會和你一起玩接球。這個模式會顯示為「(D)」，出現在狗的名字上方。"
 				""
-				"Wandering (W)"
-				"In this mode, your dog will stay near its bowl and wait for your next command. To set your dog's bowl, simply place one and bring your dog within 1 block of it. This mode will show up as the tip,\"(W)\" just above the dog's name."
+				"徘徊模式（W）"
+				"在這個模式下，你的狗會留在它的碗附近等待下一個命令。要設定狗的碗，只需放置一個碗並將你的狗帶到它的 1 個方塊範圍內。這個模式會顯示為「(W)」，並出現在狗的名字上方。"
 				""
-				"Aggressive (A)"
-				"In this mode, your dog will follow you and attack anything that either attacks you or that you attack. This mode will show up as the tip,\"(A)\" just above the dogs name."
+				"攻擊模式（A）"
+				"在這個模式下，你的狗會跟著你，攻擊任何攻擊你或被你攻擊的東西。這個模式會顯示為「(A)」，出現在狗的名字上方。"
 				""
-				"Berserker (B)"
-				"In this mode, your dog will follow you and will attack any mob that draws near. This mode will show up as the tip,\"(B)\" just above the dogs name."
+				"狂暴模式（B）"
+				"在這個模式下，你的狗會跟著你，並攻擊任何靠近的生物。這個模式會顯示為「(B)」，出現在狗的名字上方。"
 				""
-				"Tactical (T)"
-				"In this mode, your dog will follow you but will not attack anything unless you use the command beam to attack the entity you right click on (with the item in hand). This mode will show up as the tip,\"(T)\" just above the dogs name."
+				"戰術模式（T）"
+				"在這個模式下，你的狗會跟著你，但不會攻擊任何東西，除非你使用指令束來攻擊你右鍵點擊的實體（手持物品）。這個模式會顯示為「(T)」，出現在狗的名字上方。"
 				""
-				"Incapacitated (I)"
-				"In this mode, your dog will be covered in blood and it will not attack nor will let you interact with it (except to let you make it sit down). The dog will enter this mode only when its health is 1/2 of a heart (1 HP) and its health will not reach 0,"
-				"preventing the dog from dying. The dog will eventually exit this mode once its health reaches above 1 HP, however, it will not be at full health after exiting this mode. To force the dog to exit the mode at full health, feed it a cake."
-				"This mode can be turned off in the configuration settings. This mode will show up as the tip,\"(I)\" just above the dogs name."
+				"無力模式（I）"
+				"在這個模式下，你的狗會被血液覆蓋，它不會攻擊，你也不能與它互動（除了讓它坐下）。當狗的生命值為 1/2 顆心（1 HP）時，狗會進入此模式，但其生命值不會降至 0，"
+				"從而防止狗死亡。狗的生命值一旦恢復到 1 HP 以上，它就會自動退出此模式，但是退出後它的生命值不會恢復到滿值。如果你想讓狗在完全恢復生命值的情況下強制退出此模式，請餵牠蛋糕。"
+				"此模式可以在配置設置中關閉。此模式將顯示為提示「(I)」，出現在狗的名字上方。"
 			]
 			dependencies: ["000000000000062F"]
 			id: "000000000000065A"
 			tasks: [{
 				id: "000000000000065B"
 				type: "checkmark"
-				title: "Dog Modes"
+				title: "狗的模式"
 				icon: "itemfilters:tag"
 			}]
 			rewards: [{
