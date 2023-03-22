@@ -38,9 +38,9 @@
 			x: -2.5d
 			y: 0.0d
 			description: [
-				"In order to protect one's lively hood from rat attacks and infestations, they can craft a rat trap"
+				"為了保護生活免受老鼠攻擊和入侵，人們可以製作老鼠陷阱。"
 				""
-				"These and traditional defenses against rats, like stone houses and Ocelots can help protect against rodent infestations."
+				"這些傳統的防禦措施，像是石屋和豹貓，可以防止老鼠入侵。"
 			]
 			dependencies: ["60A98B1357B81D11"]
 			id: "03A59DE3E3891061"
@@ -59,9 +59,9 @@
 			x: -1.5d
 			y: -1.0d
 			description: [
-				"Important aspect of Rats is cheese. Cheese is made by pouring milk into a cauldron"
+				"老鼠的重要特徵是奶酪。將牛奶倒入煲釜中即可製作奶酪。"
 				""
-				"Asides from being a good food source, cheese is also used to tame wild rats, and for a plethora of rat-related crafting recipes."
+				"除了是一個不錯的食物來源，奶酪也可以用來馴服野生的老鼠，以及用於製作許多與老鼠相關的配方。"
 				""
 				""
 			]
@@ -103,7 +103,7 @@
 		{
 			x: -3.5d
 			y: -1.0d
-			description: ["Rats are small creatures that spawn at night in the overworld, just like monsters. They are usually afraid of players and will run from them on sight. They can become quite a nuisance as rats are able to dig through wooden walls, steal food and seeds from chests, and destroy crops. Additionally, rats can sneak through fences and navigate through doors."]
+			description: ["老鼠是和怪物一樣在主世界晚上生成的小動物。它們會害怕玩家並在看到玩家時逃跑。它們可能會造成麻煩，因為老鼠能夠挖穿木牆，從箱子中偷取食物和種子，破壞作物。此外，老鼠還可以偷偷地穿過柵欄和門。"]
 			id: "60A98B1357B81D11"
 			tasks: [{
 				id: "3F6B4DE3B6DF35E5"
@@ -142,13 +142,13 @@
 			x: 2.5d
 			y: -1.0d
 			description: [
-				"Rat Cages are blocks crafted with iron bars, iron ingots, and wheat. They are used to contain and breed rats. Any rats that are riding the player's shoulders or head can be deposited in the cage by interacting with it. Rats in cages can be released by clicking on the cage again. There is no set limit to how many rats can be in a cage, but vanilla's entity cramming rules still apply. Rat cages can be decorated through the use of several items known as Rat Cage Decorations. Rat Tubes can also be connected to cages. Rat Cages connect to adjacent cage blocks to form one large cage."
+				"老鼠籠是由鐵欄杆、鐵錠和小麥製作的方塊。它們用於困住和繁殖老鼠。任何坐在玩家肩膀或頭上的老鼠都可以通過與籠子互動放進籠子裡。籠子裡的老鼠可以通過再次點擊籠子釋放出來。籠子沒有容納限制，但原版遊戲中實體擁擠規則仍然適用。老鼠籠可以通過使用一些稱為老鼠籠裝飾的物品來裝飾。老鼠管道也可以連接到籠子上。相鄰的籠子方塊會連接成一個大型籠子。"
 				""
-				"Rats of opposing genders in the same cage will breed as long as a Rat Breeding Lantern is placed in the cage. Their pups have a chance of having new color mutations not present in their parents."
+				"在同一籠中的雌雄老鼠只要放置老鼠繁殖燈，就會進行繁殖。它們的幼崽有機會產生新的顏色變異"
 				""
-				"Tamed Rats can be made to do a variety of things, but one of the most important of these is auto-crafting."
+				"馴服後的老鼠可以幫忙很多事情，其中最重要的之一就是自動合成。"
 				""
-				"One can start the autocrafting process by giving a tamed rat the Crafting Upgrade, and placing the rat on top of a Rat Crafting Table"
+				"可以透過給予馴服的老鼠裝備「製作升級」來開始自動製作，再將老鼠放在老鼠合成台的上方即可。"
 			]
 			dependencies: ["0FBC75A8226C78D8"]
 			id: "356CFEE6C2861E73"
@@ -166,7 +166,7 @@
 		{
 			x: 3.5d
 			y: -1.0d
-			description: ["There are over 30 unique decorations for rat cages including rat hammocks and rat igloos. These can be applied to a rat cage by clicking on the cage with the respective item. They can be removed by trying to replace the decoration or by breaking the Rat Cage Block."]
+			description: ["有超過 30 種獨特的裝飾物可以懸掛在老鼠籠子上，包括老鼠吊床和老鼠冰屋。可以通過點擊老鼠籠與相應的物品來使用這些裝飾物。它們可以透過替換裝飾物或破壞老鼠籠來移除。"]
 			dependencies: ["356CFEE6C2861E73"]
 			dependency_requirement: "one_completed"
 			id: "57D050BC4C4F0844"
@@ -191,7 +191,7 @@
 		{
 			x: 2.5d
 			y: 0.0d
-			description: ["Rat tubes are plastic tubes that can be attached to cages and blocks. Right clicking a rat tube will create an opening for rats to enter."]
+			description: ["老鼠通道是可以連接到籠子和方塊的塑膠管。右鍵點擊一個老鼠通道會創造一個讓老鼠進入的開口。"]
 			dependencies: ["356CFEE6C2861E73"]
 			id: "586CD4AFCDAAB1BE"
 			tasks: [{
@@ -227,11 +227,11 @@
 			x: 2.5d
 			y: 2.0d
 			description: [
-				"In order to use the Cheese Staff, it must be \"bound\" to a rat. This is done by Right-Clicking the rat with the cheese staff in hand. Once bound to a rat, the cheese staff can then be clicked on any block."
+				"要使用起司法杖，必須先把它「綁定」到一隻老鼠身上。這是用手裡拿著起司法杖右鍵點擊老鼠來完成的。一旦綁定了一隻老鼠，起司法杖就可以在任何方塊上點擊。"
 				""
-				"Click on a chest or container block with the bound staff in hand to open up the Cheese Staff Menu. Here the player can mark the container as either a pick-up or drop off a container for the rat's various commands."
+				"用綁定的法杖在一個箱子或容器方塊上點擊，就可以打開起司法杖選單。在這裡，玩家可以把容器標記為拿取或放置的容器，供老鼠執行各種指令。"
 				""
-				"The Staff can also be used to set a home point for the rat. The home point is the block that the rat will wander around when set to \"Wander\" command."
+				"法杖也可以用來設置老鼠的家點。家點是老鼠被設置為「閒逛」指令時會在附近遊走的方塊。"
 			]
 			dependencies: ["50C9FF36FEDAC1F0"]
 			id: "2A06481BD57E5A8E"
@@ -253,7 +253,7 @@
 		{
 			x: 3.5d
 			y: 2.0d
-			description: ["Rat Upgrade: Platter will allow a rat to transfer an entire stack of an items at a time. Typically, a rat without this upgrade will only transfer a single item at a time."]
+			description: ["老鼠升級：盤子會讓一隻老鼠每次能夠傳送一整組物品。通常沒有這個升級的老鼠每次只能傳送一個物品。"]
 			dependencies: ["2A06481BD57E5A8E"]
 			id: "4067608F0749CF58"
 			tasks: [{
@@ -280,13 +280,13 @@
 			]
 		}
 		{
-			title: "Specialization"
+			title: "專精"
 			x: 0.5d
 			y: -4.0d
 			description: [
-				"There are a multitude of upgrades that can be crafted for rats, ranging from simple health and speed boosts, to massive strength and armor gains, along with new abilities, like cooking food and carrying entire stacks of items."
+				"有許多可以為老鼠製作的升級，從簡單的生命和速度提升，到巨大的力量和護甲增加，以及新的能力，像是烹飪食物和攜帶整組物品。"
 				""
-				"Most specialization of rats comes from Rat Upgrades. These give rats specific stats or abilities, and there are currently 50 rat upgrades available."
+				"老鼠的大部分專精來自老鼠升級。這些給予老鼠特定的屬性或能力，目前有 50 種老鼠升級可用。"
 			]
 			dependencies: ["5287FD38B69C71B9"]
 			id: "32DD2DCE063BFE76"
@@ -349,7 +349,7 @@
 			x: 0.5d
 			y: -1.0d
 			description: [
-				"Taming a rat is considered difficult as they actively try and avoid players. It is impossible to tame a Plague Rat, but a normal Rat is tamed using Cheese. Like other food items, rats will eat cheese items that are thrown on the floor. However, wild rats have a trust variable that increases with each feeding of cheese. As the rat slowly trusts the player it will not flee as fast or far, and by the time it has had 10 cheese, it will trust the player enough not to flee. Once the rat has been fed cheese 10 times, each additional feeding will have a 33% chance of taming the rat. It can take up to 15 times to tame a rat. Rats are tamed when they make heart particles and can be interacted with."
+				"馴服一隻老鼠不太容易，因為它們會主動地避開玩家。不可能馴服一隻瘟疫老鼠，但是一隻普通的老鼠可以用起司來馴服。像其他食物一樣，老鼠會吃掉丟在地上的起司物品。然而，野生的老鼠有一個信任變數，每次餵食起司都會增加。當老鼠慢慢地信任玩家時，它就不會跑得那麼快或那麼遠，當它吃了 10 個起司時，它就會足夠信任玩家而不逃跑。當老鼠被餵食了 10 次起司後，每次額外的餵食都有 33% 的機率馴服老鼠。可能需要多達 15 次才能馴服一隻老鼠。當老鼠發出愛心粒子並且可以與之互動時，就表示已經被馴服了。"
 				""
 			]
 			dependencies: ["5287FD38B69C71B9"]
@@ -376,9 +376,9 @@
 			x: 1.5d
 			y: 0.0d
 			description: [
-				"Tamed rats have a menu that can be accessed by interacting on them with most items or an empty hand."
+				"可以透過與馴服的老鼠互動來打開它們的選單。"
 				""
-				"In this menu, the player can change the helmet and banner the rat is wearing, change the rat's 3 equipped upgrades, and the item held in the rat's hands or mouth. More importantly, the player can cycle through rat commands by pressing the arrows to the right. The current status of the rat and its gender are also displayed."
+				"在這個選單中，玩家可以更換老鼠戴的頭盔和旗幟，更換老鼠裝備的 3 個升級，以及在老鼠手裡或嘴裡拿著的物品。更重要的是，玩家可以通過按右邊的箭頭來切換老鼠指令。也會顯示出老鼠目前的狀態和性別。"
 			]
 			dependencies: ["0FBC75A8226C78D8"]
 			id: "317360572C8BEEA6"
