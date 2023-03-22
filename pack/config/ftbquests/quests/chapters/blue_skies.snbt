@@ -254,9 +254,9 @@
 			x: 0.0d
 			y: 0.5d
 			description: [
-				"Find the Gatekeeper and trade a book in exchange for his journal. You can find the houses spawning in either plains, mountains, and most snowy biomes."
+				"尋找看門人，以書換取他的日誌。這些房屋可以在草原、山地和大多數雪地生物群系中找到。"
 				""
-				"The Blue Journal, a book written by the Gatekeeper that’s filled with information discovered from his experiences in these dimensions. The more you progress through Blue Skies, the more pages you will unlock in the journal. You only need to obtain the blue journal item once. Afterwards, you can always find access to it by opening your inventory and clicking the tab on the right with the blue journal icon."
+				"「藍色日誌」是看門人寫的一本書，充滿了他在這些維度中的經驗所發現的資訊。在藍天進展得越多，你就會解鎖更多日誌頁面。你只需要獲得藍色日誌物品一次，之後就可透過打開背包並點擊右側帶有藍色日誌圖標的選項卡來隨時訪問它。"
 			]
 			size: 1.5d
 			id: "2B1333F88EBD6BA9"
@@ -279,12 +279,12 @@
 			]
 		}
 		{
-			title: "Visit Dimension: Everbright"
+			title: "參觀維度：永光之地"
 			x: 1.5d
 			y: -2.5d
 			shape: "octagon"
-			subtitle: "Find an Everbright portal and enter it"
-			description: ["The Everbright is a realm of eternal day and frigid cold. Home to large beasts and ethereal mobs, you’ll need to keep an eye on your back as you traverse through this world. Be sure to watch out for snow storms that bring thick fog and more enemies than usual. As you explore, you’ll encounter the Summoner’s Blinding Dungeon and the new Nature Dungeon, home of the Starlit Crusher."]
+			subtitle: "找到永光傳送門並進入"
+			description: ["永光是一個永恆白晝和嚴寒的世界。這裡棲息著巨大的野獸和虛幻的怪物，你在穿越這個世界時需要時刻注意身後。請務必小心雪暴帶來濃厚的霧和比平常更多的敵人。在探索的過程中，你會遇到召喚師的致盲地牢和全新的自然地牢，那裡是星光粉碎者的家。"]
 			dependencies: ["2B1333F88EBD6BA9"]
 			size: 1.5d
 			id: "72F9931405BEFE11"
@@ -308,12 +308,12 @@
 			]
 		}
 		{
-			title: "Visit Dimension: Everdawn"
+			title: "前往世界：永曦"
 			x: 1.5d
 			y: 3.5d
 			shape: "octagon"
-			subtitle: "Find an Everdawn portal and enter it"
-			description: ["The Everdawn has its sun forever rising. With this being a much more humid and warm world, insects and reptiles flourish. Before entering, it’s worth preparing for poison and fire as many parts of this world may inflict those on you. Venture across this diverse landscape to uncover the Alchemist’s Blinding Dungeon and then the new Poison Dungeon, lair of the Arachnarch."]
+			subtitle: "找到永曦傳送門並進入"
+			description: ["永曦的太陽永遠升起。由於這是一個更潮濕和溫暖的世界，昆蟲和爬行動物繁盛，在進入之前，最好準備可以抵禦毒素和火焰的裝備，因為這個世界的許多地方可能會對你造成傷害。冒險穿越這個多樣化的景觀，發現煉金術師的盲目地牢，然後探索全新的毒素地牢，那裡是蜘蛛女王的巢穴。"]
 			dependencies: ["2B1333F88EBD6BA9"]
 			size: 1.5d
 			id: "26A94FF0B70C2076"
@@ -1619,7 +1619,7 @@
 		{
 			x: 14.5d
 			y: -2.5d
-			subtitle: "Enter a Nature dungeon"
+			subtitle: "進入天然地牢"
 			dependencies: ["3EBFB973D7E9DF7D"]
 			id: "0DF7112340FB8A00"
 			tasks: [{
@@ -1666,7 +1666,7 @@
 		{
 			x: 14.5d
 			y: 3.5d
-			subtitle: "Enter a Poison dungeon"
+			subtitle: "進入毒素地牢"
 			dependencies: ["00A6F781F98D8F25"]
 			id: "1A14F33889B103A2"
 			tasks: [{
@@ -1713,7 +1713,7 @@
 		{
 			x: 12.0d
 			y: 5.5d
-			subtitle: "Use an Alchemy table"
+			subtitle: "使用煉金桌"
 			dependencies: ["00A6F781F98D8F25"]
 			id: "0F57C6A3764FAEA3"
 			tasks: [{
@@ -1778,7 +1778,7 @@
 		{
 			x: 12.0d
 			y: -5.0d
-			subtitle: "Use a summoning table to summon artificial golem"
+			subtitle: "使用召喚桌召喚人工魔像"
 			dependencies: ["3EBFB973D7E9DF7D"]
 			id: "4AC62C9E31D53CFA"
 			tasks: [{
