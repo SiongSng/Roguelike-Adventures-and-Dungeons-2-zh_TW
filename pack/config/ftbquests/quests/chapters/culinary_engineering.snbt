@@ -12,8 +12,8 @@
 			x: -10.0d
 			y: 13.0d
 			shape: "gear"
-			subtitle: "(Connection from \"Farmer's Delight\" chapter)"
-			description: ["With this book you will be able to make food specifically from in your inventory."]
+			subtitle: "(來自 “農夫的喜悅” 章節的連結)"
+			description: ["有了這本書，你就可以從你的物品欄裡製作出特定的食物了。"]
 			size: 1.5d
 			id: "0000000000000FF0"
 			tasks: [{
@@ -26,7 +26,7 @@
 			x: -6.0d
 			y: 13.0d
 			shape: "rsquare"
-			description: ["This cooking table is the first step in having a entire functioning and linked kitchen. It will be where you craft your food. "]
+			description: ["這個烹飪桌是打造一個完整、連結式廚房的第一步。這裡將是你烹飪食物的地方。"]
 			dependencies: ["0000000000000FF0"]
 			id: "0000000000000FF2"
 			tasks: [{
@@ -52,7 +52,7 @@
 			x: -4.0d
 			y: 13.0d
 			shape: "rsquare"
-			description: ["By having a sink linked into your kitchen (touching other counter blocks and equipment) you will have water supplied freely to all your recipes."]
+			description: ["當你的廚房中連接了一個水槽（與其他櫥櫃和設備接觸），你就可以方便地獲得所需的水源。"]
 			id: "0000000000000FF4"
 			tasks: [{
 				id: "0000000000000FF5"
@@ -69,7 +69,7 @@
 			x: -3.0d
 			y: 12.0d
 			shape: "rsquare"
-			description: ["The oven will allow you to cook any food needed in your recipes, when connected in your kitchen. Without upgrades the oven will require a fuel source to cook food."]
+			description: ["烤箱只要與你的廚房連接，就可以煮食譜上任何的食物。沒有升級的話，烤箱將需要燃料來烹飪食物。"]
 			id: "0000000000000FF6"
 			tasks: [{
 				id: "0000000000000FF7"
@@ -85,7 +85,7 @@
 		{
 			x: -5.0d
 			y: 12.0d
-			description: ["The toaster will convert bread to toast for any recipe needing it."]
+			description: ["烤麵包機會將麵包烤成需要它的食譜的吐司。"]
 			id: "0000000000000FF8"
 			tasks: [{
 				id: "0000000000000FF9"
@@ -110,9 +110,9 @@
 			x: -1.0d
 			y: 14.0d
 			description: [
-				"Provides a constant supply of milk for recipes without manually having to be filled. "
+				"為食譜提供牛奶供應而無需手動放入"
 				""
-				"May want to drop an anvil on a cow over a milk jar to see if one actually fits."
+				"也許可以試試在牛奶罐上放一個鐵砧，看看是否真的能夠裝得下。"
 			]
 			dependencies: ["0000000000000FFC"]
 			id: "0000000000000FFA"
@@ -137,7 +137,7 @@
 		{
 			x: -1.0d
 			y: 12.0d
-			description: ["Holds milk to be used in recipes. Must be filled with milk manually."]
+			description: ["可儲存用於食譜的牛奶。必須手動放入牛奶。"]
 			id: "0000000000000FFC"
 			tasks: [{
 				id: "0000000000000FFD"
@@ -161,8 +161,8 @@
 			x: -7.0d
 			y: 12.0d
 			description: [
-				"The fridge is a decorative storage block that will allow you to store ingredients for recipes."
-				"Can be double stacked to expand storage space."
+				"冰箱是一個裝飾性的儲物方塊，可以讓你儲存用於食譜的食材。"
+				"可以蓋第二層以擴大儲存空間。"
 			]
 			id: "0000000000000FFE"
 			tasks: [{
@@ -179,7 +179,7 @@
 		{
 			x: -5.0d
 			y: 14.0d
-			description: ["Holds tools that will be able to be used in recipes in attached kitchens."]
+			description: ["可存放並使用附屬廚房裡的工具來製作食物。"]
 			id: "0000000000001000"
 			tasks: [{
 				id: "0000000000001001"
@@ -201,7 +201,7 @@
 		{
 			x: -7.0d
 			y: 14.0d
-			description: ["Holds and displays spices to be used in the kitchen."]
+			description: ["可存放並展示用於製作食物的香料。"]
 			id: "0000000000001002"
 			tasks: [{
 				id: "0000000000001003"
@@ -217,7 +217,7 @@
 		{
 			x: -3.0d
 			y: 14.0d
-			description: ["Stores and displays fruit for recipes that can be used by the kitchen."]
+			description: ["可存放並展示用於製作食物的水果。"]
 			id: "0000000000001004"
 			tasks: [{
 				id: "0000000000001005"
@@ -247,7 +247,7 @@
 		{
 			x: -7.5d
 			y: 11.0d
-			description: ["A fridge upgrade that will provide all the snow and ice you need for recipes. "]
+			description: ["升級冰箱，提供食譜所需的所有雪和冰。"]
 			dependencies: ["0000000000000FFE"]
 			id: "0000000000001006"
 			tasks: [{
@@ -271,7 +271,7 @@
 		{
 			x: -6.5d
 			y: 11.0d
-			description: ["A fridge upgrade that saves the last item in a slot so that item spaces are saved from being replaced."]
+			description: ["升級冰箱，可以保存每個格子裡的最後一個物品，避免被其他物品取代。"]
 			dependencies: ["0000000000000FFE"]
 			id: "0000000000001008"
 			tasks: [{
@@ -295,7 +295,7 @@
 		{
 			x: -3.0d
 			y: 11.0d
-			description: ["By applying this upgrade to your oven it will be able to accept RF to cook food, no longer requiring fuel."]
+			description: ["將此升級應用於你的烤箱，它能夠接受 RF 來烹飪食物，不再需要燃料。"]
 			dependencies: ["0000000000000FF6"]
 			id: "000000000000100A"
 			tasks: [{
@@ -320,9 +320,9 @@
 			x: 2.5d
 			y: 12.5d
 			description: [
-				"A hanging kitchen cabinet to decorate your kitchen and provide some extra storage."
+				"一個掛式廚房櫥櫃，裝飾你的廚房並提供額外的儲物空間。"
 				""
-				"Can be dyed to change their color."
+				"可被染色。"
 			]
 			id: "000000000000100C"
 			tasks: [{
@@ -340,9 +340,9 @@
 			x: 4.0d
 			y: 12.5d
 			description: [
-				"A simple hanging cabinet corner to help around bends while maintaining connection."
+				"一個簡單的掛式櫥櫃角，可幫助繞過彎曲，同時保持連接。"
 				""
-				"Can be dyed to change their color."
+				"可被染色。"
 			]
 			id: "000000000000100E"
 			tasks: [{
@@ -360,9 +360,9 @@
 			x: 2.5d
 			y: 14.0d
 			description: [
-				"Kitchen counter allows you to connect multiple pieces of kitchen equipment together as well as provide some storage for ingredients."
+				"廚房櫃台可讓你連接多個廚房設備，同時提供一些食材儲存空間。"
 				""
-				"Can be dyed to change their color."
+				"可被染色。"
 			]
 			id: "0000000000001010"
 			tasks: [{
@@ -380,9 +380,9 @@
 			x: 4.0d
 			y: 14.0d
 			description: [
-				"A simple corner to help counters around bends, maintaining their connection."
+				"一個簡單的角落，可幫助櫃台在彎道處保持連接。"
 				""
-				"Can be dyed to change their color."
+				"可被染色。"
 			]
 			id: "0000000000001012"
 			tasks: [{
@@ -399,7 +399,7 @@
 		{
 			x: 3.285714285714292d
 			y: 13.267857142857153d
-			description: ["The \"classic\" kitchen flooring. Can be converted to a number of other colors, check the recipes in JEI. "]
+			description: ["「經典」的廚房地板。可以轉換成其他顏色，請查看 JEI 中的配方。"]
 			id: "0000000000001014"
 			tasks: [{
 				id: "0000000000001015"
@@ -424,12 +424,12 @@
 			y: 16.25d
 			shape: "octagon"
 			description: [
-				"Surrounding the above Kitchen item quests are a number of recipes that you can try to make. These may be complex but their benefits and boost may be appealing if you give them a try. Trying out a good number of these food will help you get benefits from SOL: Potato Edition."
-				"*You may need to zoom out quite a bit to see all the quests*"
+				"在上述的廚房物品任務周圍有許多你可以嘗試製作的食譜。這些食譜可能很複雜，但它們的好處和增益可能會吸引你去嘗試。嘗試製作這些食品將有助於你從 SOL: Potato Edition 中獲得好處。"
+				"*你可能需要縮小一點才能看到所有的任務。*"
 				""
-				"Feel no need to complete a lot of these quests as they do not provide rewards, but are here to give you ideas on what to cook to keep your diet diverse."
+				"不需要完成所有任務，因為它們不提供獎勵，只是提供一些保持飲食多樣化的想法。"
 				""
-				"May this be your veritable recipe book."
+				"希望這本書成為你真正的食譜書。"
 			]
 			size: 2.5d
 			id: "000000000000107A"
