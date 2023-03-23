@@ -38,9 +38,9 @@
 			x: -2.5d
 			y: 0.0d
 			description: [
-				"為了保護生活免受老鼠攻擊和入侵，人們可以製作老鼠陷阱。"
+				"為了防止老鼠侵襲和繁殖破壞自己的生計，玩家可以製作老鼠陷阱。"
 				""
-				"這些傳統的防禦措施，像是石屋和豹貓，可以防止老鼠入侵。"
+				"這些以及傳統的防鼠措施，如石頭房屋和豹貓，可以幫助防止老鼠入侵。"
 			]
 			dependencies: ["60A98B1357B81D11"]
 			id: "03A59DE3E3891061"
@@ -59,7 +59,7 @@
 			x: -1.5d
 			y: -1.0d
 			description: [
-				"老鼠的重要特徵是奶酪。將牛奶倒入煲釜中即可製作奶酪。"
+				"老鼠模組的重要元素之一是奶酪。將牛奶倒入煲釜中即可製作奶酪。"
 				""
 				"除了是一個不錯的食物來源，奶酪也可以用來馴服野生的老鼠，以及用於製作許多與老鼠相關的配方。"
 				""
@@ -103,7 +103,7 @@
 		{
 			x: -3.5d
 			y: -1.0d
-			description: ["老鼠是和怪物一樣在主世界晚上生成的小動物。它們會害怕玩家並在看到玩家時逃跑。它們可能會造成麻煩，因為老鼠能夠挖穿木牆，從箱子中偷取食物和種子，破壞作物。此外，老鼠還可以偷偷地穿過柵欄和門。"]
+			description: ["老鼠是和怪物一樣在主世界晚上生成的小動物。它們會害怕玩家並在看到玩家時逃跑。老鼠會挖穿木牆，從箱子中偷取食物和種子，並摧毀作物，因此可能會帶來很多麻煩。此外，老鼠還可以穿過柵欄和門。"]
 			id: "60A98B1357B81D11"
 			tasks: [{
 				id: "3F6B4DE3B6DF35E5"
@@ -142,11 +142,11 @@
 			x: 2.5d
 			y: -1.0d
 			description: [
-				"老鼠籠是由鐵欄杆、鐵錠和小麥製作的方塊。它們用於困住和繁殖老鼠。任何坐在玩家肩膀或頭上的老鼠都可以通過與籠子互動放進籠子裡。籠子裡的老鼠可以通過再次點擊籠子釋放出來。籠子沒有容納限制，但原版遊戲中實體擁擠規則仍然適用。老鼠籠可以通過使用一些稱為老鼠籠裝飾的物品來裝飾。老鼠管道也可以連接到籠子上。相鄰的籠子方塊會連接成一個大型籠子。"
+				"老鼠籠是由鐵柵欄、鐵錠和小麥製作的方塊。用於囚禁和繁殖老鼠。任何坐在玩家肩膀或頭上的老鼠都可以透過與籠子互動放進籠子裡。籠子裡的老鼠可以通過再次點擊籠子釋放出來。籠子沒有容納限制，但原版遊戲中實體擁擠規則仍然適用。老鼠籠可以用許多老鼠籠裝飾物來裝飾。老鼠管道也可以與籠子連接。相鄰的老鼠籠可以連接在一起形成一個大的老鼠籠。"
 				""
-				"在同一籠中的雌雄老鼠只要放置老鼠繁殖燈，就會進行繁殖。它們的幼崽有機會產生新的顏色變異"
+				"只要放置了配對燈籠，在同一個籠子裡的不同性別的老鼠就會進行繁殖。他們的後代有機會出現新的顏色變異。"
 				""
-				"馴服後的老鼠可以幫忙很多事情，其中最重要的之一就是自動合成。"
+				"被馴服的老鼠可以被指派做很多事情，其中最重要的一件事就是自動製作。"
 				""
 				"可以透過給予馴服的老鼠裝備「製作升級」來開始自動製作，再將老鼠放在老鼠合成台的上方即可。"
 			]
@@ -227,11 +227,11 @@
 			x: 2.5d
 			y: 2.0d
 			description: [
-				"要使用起司法杖，必須先把它「綁定」到一隻老鼠身上。這是用手裡拿著起司法杖右鍵點擊老鼠來完成的。一旦綁定了一隻老鼠，起司法杖就可以在任何方塊上點擊。"
+				"要使用起司法杖，必須先手持起司法杖右鍵點擊老鼠，來「綁定」一隻老鼠。一旦綁定成功，法杖就可以在任何方塊上使用。"
 				""
-				"用綁定的法杖在一個箱子或容器方塊上點擊，就可以打開起司法杖選單。在這裡，玩家可以把容器標記為拿取或放置的容器，供老鼠執行各種指令。"
+				"手持綁定的法杖點擊木箱或容器方塊，即可打開起司法杖選單。玩家可以把容器標記為拿取或放置，供老鼠執行各種指令。"
 				""
-				"法杖也可以用來設置老鼠的家點。家點是老鼠被設置為「閒逛」指令時會在附近遊走的方塊。"
+				"法杖還可以用來設置老鼠的家點。家點是當老鼠被設置為「閒逛」指令時，牠會在附近漫遊的方塊。"
 			]
 			dependencies: ["50C9FF36FEDAC1F0"]
 			id: "2A06481BD57E5A8E"
@@ -253,7 +253,7 @@
 		{
 			x: 3.5d
 			y: 2.0d
-			description: ["老鼠升級：盤子會讓一隻老鼠每次能夠傳送一整組物品。通常沒有這個升級的老鼠每次只能傳送一個物品。"]
+			description: ["老鼠升級：托盤可以讓老鼠一次轉移一組物品。通常沒有這個升級的老鼠每次只能轉移一個物品。"]
 			dependencies: ["2A06481BD57E5A8E"]
 			id: "4067608F0749CF58"
 			tasks: [{
@@ -357,7 +357,7 @@
 			tasks: [{
 				id: "38EF53E23CD9D0E4"
 				type: "checkmark"
-				title: "Taming"
+				title: "馴服"
 			}]
 			rewards: [
 				{
@@ -385,7 +385,7 @@
 			tasks: [{
 				id: "12B75969C53BE39C"
 				type: "checkmark"
-				title: "Rat Menu"
+				title: "老鼠選單"
 			}]
 			rewards: [
 				{
@@ -404,23 +404,23 @@
 			x: 0.5d
 			y: 2.0d
 			description: [
-				"Rats have a variety of commands that can be changed in their menu, or through the use of a Rat Flute. They are as follows:"
-				"- Wander - The rat will mill around aimlessly like most vanilla creatures. Note that the rat will still defend its owner while under this command."
-				"- Stay Here - The rat will slouch upwards and sit, not moving at all and not following any other tasks."
-				"- Follow Me - The rat will follow the owner like a Wolf, and defend the owner from attacks."
-				"- Hunt Prey - The rat will target any animals and monsters in the area and attack them. Rats will not attack baby mobs."
-				"- Gather Items - The rat will pick up any items on the floor."
-				"- Harvest - The rat will break grass blocks and crops and pick up the drops. Some upgrades, like the Rat Upgrade: Miner, Rat Upgrade: Planter and Rat Upgrade: Fisherman override this command."
-				"- Transport Items - The rat will carry items from a pickup container (like a chest) and move them to a deposit container."
+				"老鼠有多種指令，可以在選單中或使用老鼠笛進行更改。指令如下所示："
+				"- 閒逛 - 老鼠會像大多數生物一樣漫遊。請注意，老鼠在這種指令下仍會保護你。"
+				"- 停留 - 老鼠會坐下來不動，不遵循任何其他任務。"
+				"- 跟隨 - 老鼠會像狼一樣跟隨你，並保護你免受攻擊。"
+				"- 狩獵 - 老鼠會攻擊附近的任何動物和怪物。老鼠不會攻擊幼年生物。"
+				"- 拾取 - 老鼠會撿起地上的任何物品。"
+				"- 採集 - 老鼠會破壞草地和農作物，並撿起掉落物。一些升級如 老鼠升級：礦工、老鼠升級：種植者和老鼠升級：漁夫 會覆蓋此指令。"
+				"- 運輸物品 - 老鼠會從一個取物容器（例如箱子）裡拿走物品，然後放到一個存物容器裡"
 				""
-				"Note: For the Hunt Prey, Gather Items, Harvest and Transport Items commands, players can use a Cheese Staff on containers to designate them as pick up and drop off locations."
+				"注意：對於狩獵、拾取、收穫和運輸物品的指令，玩家可以使用起司法杖對容器進行標記，以指定它們為取物或存物的位置。"
 			]
 			dependencies: ["5287FD38B69C71B9"]
 			id: "50C9FF36FEDAC1F0"
 			tasks: [{
 				id: "734AB6500F825E78"
 				type: "checkmark"
-				title: "Rat Commands"
+				title: "老鼠指令"
 			}]
 		}
 		{
@@ -502,7 +502,7 @@
 		{
 			x: 0.5d
 			y: 4.0d
-			description: ["Clicking with the Rat flute will make a flute noise and command all rats within the local area. Sneak+Clicking will cycle through and change the command the flute gives."]
+			description: ["使用老鼠笛點擊會發出笛聲，並指揮附近的所有老鼠。按住 Shift + 點擊 會循環切換並改變老鼠笛所發出的指令。"]
 			dependencies: ["50C9FF36FEDAC1F0"]
 			id: "4799C026D3216A0F"
 			tasks: [{
