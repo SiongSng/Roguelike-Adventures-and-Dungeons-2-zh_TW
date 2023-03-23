@@ -50,6 +50,7 @@ RPMTW Discord 社群伺服器：https://discord.gg/5xApZtgV2u
 圖示與圖檔翻譯率：約 70%
 ## 銘謝
 - [菘菘](https://github.com/SiongSng) - 翻譯模組包手冊與特殊物品以及教學
+- [MAGd_](https://github.com/MAG10d) - 翻譯部份模組包手冊內容
 - [RPMTW 與其翻譯包的全體譯者](https://rpmtw.com) - 翻譯模組包內的各式各樣的模組
 
 原模組包的原始碼：https://github.com/dr3ams/Roguelike-Adventures-and-Dungeons-2  
