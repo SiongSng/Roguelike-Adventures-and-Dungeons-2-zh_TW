@@ -1778,7 +1778,7 @@
 		{
 			x: 12.0d
 			y: -5.0d
-			subtitle: "使用召喚桌召喚人工魔像"
+			subtitle: "使用召喚台召喚人造魔像"
 			dependencies: ["3EBFB973D7E9DF7D"]
 			id: "4AC62C9E31D53CFA"
 			tasks: [{
