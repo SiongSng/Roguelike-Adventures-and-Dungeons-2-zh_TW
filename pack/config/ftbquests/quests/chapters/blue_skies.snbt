@@ -1666,7 +1666,7 @@
 		{
 			x: 14.5d
 			y: 3.5d
-			subtitle: "進入毒素地牢"
+			subtitle: "進入猛毒地牢"
 			dependencies: ["00A6F781F98D8F25"]
 			id: "1A14F33889B103A2"
 			tasks: [{
