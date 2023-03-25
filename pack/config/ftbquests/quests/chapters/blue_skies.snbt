@@ -1713,7 +1713,7 @@
 		{
 			x: 12.0d
 			y: 5.5d
-			subtitle: "使用煉金桌"
+			subtitle: "使用煉金台"
 			dependencies: ["00A6F781F98D8F25"]
 			id: "0F57C6A3764FAEA3"
 			tasks: [{
