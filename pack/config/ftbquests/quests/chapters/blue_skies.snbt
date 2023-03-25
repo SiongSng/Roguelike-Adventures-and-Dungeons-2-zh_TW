@@ -1619,7 +1619,7 @@
 		{
 			x: 14.5d
 			y: -2.5d
-			subtitle: "進入天然地牢"
+			subtitle: "進入自然城堡"
 			dependencies: ["3EBFB973D7E9DF7D"]
 			id: "0DF7112340FB8A00"
 			tasks: [{
