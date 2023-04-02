@@ -492,13 +492,13 @@
 			x: 2.5d
 			y: -0.5d
 			description: [
-				"The game progress is divided into three parts: Normal Mode, Expert Mode, and Master Mode."
-				""
-				"- Normal Mode starts at the beginning of the game."
-				""
-				"- Expert Mode starts when the first player kills the Wither. (or enters the End)"
-				""
-				"- Master Mode starts when you defeat the Ender Dragon."
+				"漸進式難度共分為三種模式：普通模式、專家模式與大師模式。",
+				"",
+				"- 普通模式從遊戲一開啟時就開始了，讓你可以輕鬆地體驗遊戲。",
+				"",
+				"- 當第一位玩家殺死凋零（或進入終界）時，專家模式就會開始，帶來更多挑戰。",
+				"",
+				"- 當你擊敗終界龍時，大師模式開始。準備好迎接最終的挑戰了嗎？"
 			]
 			dependencies: ["0F19628AC9F04F38"]
 			id: "577182F7C0C5B85B"
