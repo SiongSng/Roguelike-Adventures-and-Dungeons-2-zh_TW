@@ -917,7 +917,7 @@
 		{
 			x: -4.5d
 			y: 8.5d
-			description: ["這種藥水會賦予使用者靈魂禿鷲的吸血能力。"]
+			description: ["這種藥水會賦予使用者靈魂鷲的吸血能力。"]
 			dependencies: ["3E83CFACFBDFDEB2"]
 			id: "6A1A2DA7A8CF7DFC"
 			tasks: [{
