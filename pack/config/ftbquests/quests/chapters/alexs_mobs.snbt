@@ -940,7 +940,7 @@
 		{
 			x: 1.0d
 			y: 3.5d
-			description: ["剪下苔蘚鱷龜的毛皮時有機會掉落這個物品。"]
+			description: ["剪下大鱷龜的毛皮時有機會掉落這個物品。"]
 			dependencies: ["6964B640BF90A11C"]
 			id: "76AAFE97A27F9401"
 			tasks: [{
