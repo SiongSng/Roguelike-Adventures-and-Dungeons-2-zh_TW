@@ -753,7 +753,7 @@
 		{
 			x: 7.0d
 			y: 3.0d
-			description: ["當 Blobfish 被殺死時，它的悲傷小身體就會掉落。"]
+			description: ["當水滴魚被殺死時，它的悲傷小身體就會掉落。"]
 			dependencies: ["2142DDB9A0AF6B94"]
 			id: "235A8DAEDFF467D7"
 			tasks: [{
