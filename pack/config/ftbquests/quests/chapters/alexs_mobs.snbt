@@ -887,7 +887,7 @@
 		{
 			x: -6.0d
 			y: 7.0d
-			description: ["當靈魂禿鷲從其吸血攻擊後，可能會掉落這顆融合的心臟。"]
+			description: ["當靈魂鷲從其吸血攻擊後，可能會掉落這顆融合的心臟。"]
 			dependencies: ["292B32B34CD5094A"]
 			id: "3E83CFACFBDFDEB2"
 			tasks: [{
