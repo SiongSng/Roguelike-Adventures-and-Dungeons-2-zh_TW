@@ -430,7 +430,7 @@
 		{
 			x: -18.0d
 			y: 1.5d
-			description: ["活的科莫多龍偶爾會掉落此物品。"]
+			description: ["活的科莫多巨蜥偶爾會掉落此物品。"]
 			dependencies: ["6BC74F4BAEA808FF"]
 			id: "08F33774046B54FC"
 			tasks: [{
