@@ -343,7 +343,7 @@
 		{
 			x: 10.0d
 			y: 4.5d
-			description: ["當錘頭鯊魚攻擊時有機會掉落隨機的物品。"]
+			description: ["當錘頭鯊攻擊時有機會掉落隨機的物品。"]
 			dependencies: ["2C2D57D238A96C47"]
 			id: "12903E07FD2AA25B"
 			tasks: [{
