@@ -770,7 +770,7 @@
 		{
 			x: 8.0d
 			y: 4.0d
-			description: ["透過將 Blobfish 壓縮成一瓶，可以製成在雨天具有一些有趣特性的魚油。"]
+			description: ["透過將水滴魚壓縮成一瓶，可以製成在雨天具有一些有趣特性的魚油。"]
 			dependencies: ["235A8DAEDFF467D7"]
 			id: "005E68B4C5271269"
 			tasks: [{
