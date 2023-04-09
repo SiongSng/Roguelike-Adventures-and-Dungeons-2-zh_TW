@@ -250,7 +250,7 @@
 		{
 			x: -6.0d
 			y: 13.0d
-			description: ["一個從殺死赤紅蚊子時隨機獲得的掉落物。"]
+			description: ["一個從殺死緋紅蚊時隨機獲得的掉落物。"]
 			dependencies: ["3EF3C919FDC60E1B"]
 			id: "3EC4C7FDCDB42C8D"
 			tasks: [{
