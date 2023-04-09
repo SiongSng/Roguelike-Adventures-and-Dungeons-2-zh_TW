@@ -233,7 +233,7 @@
 		{
 			x: -4.0d
 			y: 13.0d
-			description: ["當蚊子吸取某個生物的血液，並被玩家殺死時，就會掉落一個赤紅蚊子。"]
+			description: ["當蚊子吸取某個生物的血液，並被玩家殺死時，就會掉落一個緋紅蚊。"]
 			dependencies: ["3EF3C919FDC60E1B"]
 			id: "3B5F5AF7209A9221"
 			tasks: [{
