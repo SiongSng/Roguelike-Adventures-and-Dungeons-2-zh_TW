@@ -654,7 +654,7 @@
 		{
 			x: -5.0d
 			y: -2.0d
-			description: ["這是當麋鹿被殺死時掉落的一些大肋骨。"]
+			description: ["這是當駝鹿被殺死時掉落的一些大肋骨。"]
 			dependencies: ["3705153037F1DDEE"]
 			id: "61C774465250F5E2"
 			tasks: [{
