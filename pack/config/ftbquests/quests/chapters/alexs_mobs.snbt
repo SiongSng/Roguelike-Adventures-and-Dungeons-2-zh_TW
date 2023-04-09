@@ -11,7 +11,7 @@
 		{
 			x: -2.0d
 			y: -8.5d
-			description: ["棕熊會隨時間隨機掉落一些牠們的毛。"]
+			description: ["灰熊會隨時間隨機掉落一些牠們的毛。"]
 			dependencies: ["4E20E64264B2AA55"]
 			id: "11AD9C3E6F7ED206"
 			tasks: [{
