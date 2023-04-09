@@ -45,7 +45,7 @@
 		{
 			x: -8.5d
 			y: 3.0d
-			description: ["這雙靴子用路跑鳥的羽毛製成，穿著它可以在沙子上奔跑地更快。"]
+			description: ["這雙靴子用走鵑的羽毛製成，穿著它在沙子上時奔跑速度更快。"]
 			dependencies: ["7462427AC1D865C7"]
 			id: "12976ADEDD3B9090"
 			tasks: [{
