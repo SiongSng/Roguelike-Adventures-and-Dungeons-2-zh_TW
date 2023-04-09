@@ -614,7 +614,7 @@
 		{
 			x: -5.0d
 			y: -5.0d
-			description: ["每7-10天，麋鹿會掉落一根鹿角。"]
+			description: ["每 7-10 天，駝鹿會掉落一根鹿角。"]
 			dependencies: ["3705153037F1DDEE"]
 			id: "2DFC032306822F4E"
 			tasks: [{
