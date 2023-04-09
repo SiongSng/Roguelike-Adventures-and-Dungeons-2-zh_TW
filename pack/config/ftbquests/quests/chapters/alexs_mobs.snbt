@@ -596,7 +596,7 @@
 		{
 			x: -7.5d
 			y: 13.0d
-			description: ["由蚊子幼蟲和吸血管製成的綠色蠓蟲幼蟲。是扭曲蟾蜍的最愛，使用幾個可以馴服它。"]
+			description: ["由蛆和特殊的口器製成的緋紅蚊幼蟲。是扭曲蟾蜍的最愛，使用幾個可以馴服它。"]
 			dependencies: ["3EC4C7FDCDB42C8D"]
 			id: "6D5AA599D202F0AF"
 			tasks: [{
