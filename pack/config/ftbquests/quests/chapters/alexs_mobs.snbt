@@ -91,7 +91,7 @@
 		{
 			x: -8.0d
 			y: 15.0d
-			description: ["這瓶特殊藥水能讓你像看水一樣透過熔岩。"]
+			description: ["這瓶特殊藥水能讓你像看水一樣看穿溶岩內的東西。"]
 			dependencies: ["15132115F40EF4EA"]
 			id: "2092B6A1EE21D018"
 			tasks: [{
