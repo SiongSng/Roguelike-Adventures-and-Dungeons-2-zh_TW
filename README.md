@@ -10,7 +10,7 @@ RPMTW Discord 社群伺服器：https://discord.gg/5xApZtgV2u
 ## 使用教學
 1. 首先 [點我](https://github.com/SiongSng/Roguelike-Adventures-and-Dungeons-2-zh_TW/releases/latest/download/RAD2-1.16.5-client-zh_TW.zip) 下載翻譯包。
 2. 接著應該會看到一個檔案叫做 `RAD2-1.16.5-client-zh_TW.zip`，將其複製到您的模組包遊戲**主要資料夾**中。
-   - 找不到您的遊戲主要資料夾嗎？請 點我 來尋找您的資料夾。
+   - 找不到您的遊戲主要資料夾嗎？請 [點我](https://github.com/YutaYamamoto212/Roguelike-Adventures-and-Dungeons-2-zh_TW/blob/YutaYamamoto212-patch-2/FindGameFolder.md) 來尋找您的資料夾。
 3. 然後解壓縮這個檔案（按下滑鼠右鍵，選擇「解壓縮全部」），將出現以下的提示視窗，請按「解壓縮」：  
    ![image](https://github.com/YutaYamamoto212/Roguelike-Adventures-and-Dungeons-2-zh_TW/assets/91775602/a42d4248-de75-4d1c-960f-3e466e23563f)
 4. 解壓縮之後，將出現一個叫做 `RAD2-1.16.5-client-zh_TW` 的資料夾，請把裡面的檔案及資料夾複製出來，接著會出現以下的提示視窗，請按「取代目的地中的檔案」：  
